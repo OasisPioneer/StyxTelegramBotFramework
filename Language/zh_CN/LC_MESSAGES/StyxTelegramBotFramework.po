@@ -1,0 +1,33 @@
+# Chinese translations for PACKAGE package.
+# Copyright (C) 2025 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Oasis Pioneer <oasis-pioneer@lenovo-ubuntu>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-23 20:50+0800\n"
+"PO-Revision-Date: 2025-09-23 20:51+0800\n"
+"Last-Translator: Oasis Pioneer <oasis-pioneer@lenovo-ubuntu>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Src/Main.CPP:31
+msgid "Startup Failure"
+msgstr "启动失败"
+
+#: Src/Main.CPP:32
+msgid "Do Not Run This Application Repeatedly"
+msgstr "请勿重复运行此应用程序"
+
+#: Src/Core/System/SingletonInstanceControl.CPP:22
+msgid "Application Already Running"
+msgstr "应用程序已在运行"
+
+#: Src/Core/System/SingletonInstanceControl.CPP:25
+msgid "Unable to Create or Open Instance Lock: "
+msgstr "无法创建或打开实例锁: "
