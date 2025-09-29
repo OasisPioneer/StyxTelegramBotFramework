@@ -2,16 +2,18 @@
 #define STYXTELEGRAMBOTFRAMEWORK_APPLICATION_HPP
 
 #include <atomic>
-#include <string>
-#include <vector>
+#include <memory>
+#include <thread>
 
-class SystemStructure;
+class TUIManage;
+class NetworkManage;
+class PluginsManage;
 
 class Application {
     public:
 
-        Application() = default;
-        ~Application() = default;
+        Application();
+        ~Application();
 
         Application(const Application&) = delete;
         Application& operator=(const Application&) = delete;
@@ -19,13 +21,8 @@ class Application {
         Application& operator=(Application&&) = delete;
 
         bool Initialize();
-        int Run();
-        void Stop();
-
-        bool RunningStatus() const {return Running_Status;}
     private:
-        std::atomic<bool> Running_Status{false};
-        std::vector<std::string> RequiredDirectories;
+        std::atomic<bool> RunningStatus;
 };
 
 #endif //STYXTELEGRAMBOTFRAMEWORK_APPLICATION_HPP
