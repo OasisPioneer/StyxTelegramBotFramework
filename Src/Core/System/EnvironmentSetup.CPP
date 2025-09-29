@@ -3,10 +3,8 @@
 #include <boost/dll/runtime_symbol_info.hpp>
 
 bool EnvironmentSetup::EnsureDirectoryExist(const std::vector<std::string> &Subdirectory) {
-
     try {
         boost::filesystem::path BasicPath = boost::dll::program_location().parent_path();
-
         for (const std::string& Directory : Subdirectory) {
             if (Directory.empty()) {
                 continue;
