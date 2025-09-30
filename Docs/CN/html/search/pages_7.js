@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zh_20cn_0',['zh cn',['../md_Docs_2README_8zh-CN.html',1,'README.zh-CN'],['../md_README_8zh-CN.html',1,'README.zh-CN']]]
+  ['tips_20tricks_0',['Tips &amp; Tricks',['../md_Doxygen_2Theme_2Awesome_2docs_2tricks.html',1,'']]],
+  ['tricks_1',['Tips &amp; Tricks',['../md_Doxygen_2Theme_2Awesome_2docs_2tricks.html',1,'']]]
 ];

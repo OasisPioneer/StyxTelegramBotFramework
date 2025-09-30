@@ -1,30 +1,39 @@
 var indexSectionsWithContent =
 {
-  0: "abcdefghimoqrstuz~✨❤代使功如安快报描提目行贡赞💡🔧🚀🤝",
+  0: "abcdefghilmnopqrstuvwxyz~✨❤代使列功如安弃待快报描提目行贡赞💡🔧🚀🤝",
   1: "aes",
-  2: "acemrs",
-  3: "aeimos~",
-  4: "am",
-  5: "cgrz贡"
+  2: "m",
+  3: "acemrst",
+  4: "aefgilmostv~",
+  5: "am",
+  6: "c",
+  7: "bgr",
+  8: "abcdegrtz列弃待贡"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "files",
-  3: "functions",
-  4: "variables",
-  5: "pages"
+  2: "namespaces",
+  3: "files",
+  4: "functions",
+  5: "variables",
+  6: "enums",
+  7: "enumvalues",
+  8: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "全部",
   1: "类",
-  2: "文件",
-  3: "函数",
-  4: "变量",
-  5: "页"
+  2: "命名空间",
+  3: "文件",
+  4: "函数",
+  5: "变量",
+  6: "枚举",
+  7: "枚举值",
+  8: "页"
 };
 

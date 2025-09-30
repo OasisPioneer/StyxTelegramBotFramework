@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['功能特点_0',['✨ 功能特点',['../md_README_8zh-CN.html#autotoc_md26',1,'']]]
+  ['your_20customizations_0',['Share your customizations',['../md_Doxygen_2Theme_2Awesome_2docs_2customization.html#autotoc_md19',1,'']]]
 ];

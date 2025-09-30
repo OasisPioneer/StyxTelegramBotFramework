@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['贡献代码_0',['贡献代码',['../md_Docs_2CONTRIBUTING_8zh-CN.html#autotoc_md12',1,'']]],
-  ['贡献指南_1',['贡献指南',['../md_Docs_2CONTRIBUTING_8zh-CN.html',1,'']]]
+  ['安装指南_0',['🔧 安装指南',['../md_README_8zh-CN.html#autotoc_md71',1,'']]]
 ];

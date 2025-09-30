@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['安装指南_0',['🔧 安装指南',['../md_README_8zh-CN.html#autotoc_md27',1,'']]]
+  ['_7eapplication_0',['~Application',['../classApplication.html#a748bca84fefb9c12661cfaa2f623748d',1,'Application']]],
+  ['_7esingletoninstancecontrol_1',['~SingletonInstanceControl',['../classSingletonInstanceControl.html#a1139d3fa3496769294ddbe6ed4eb369d',1,'SingletonInstanceControl']]]
 ];

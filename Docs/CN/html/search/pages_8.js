@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['冥河电报机器人框架_20styx_20telegram_20bot_20framework_0',['冥河电报机器人框架 (Styx Telegram Bot Framework)',['../index.html',1,'']]]
+  ['zh_20cn_0',['README.zh-CN',['../md_README_8zh-CN.html',1,'']]]
 ];

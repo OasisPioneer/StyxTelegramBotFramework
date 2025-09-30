@@ -61,14 +61,14 @@ PROJECT_BRIEF          = "A modular Telegram bot framework for C++ developers."
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = "/home/oasis-pioneer/图片/Logo/Styx Telegram Bot Framework.svg"
+PROJECT_LOGO           = "Styx-Telegram-Bot-Framework.svg"
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
 # into which the generated documentation will be written. If a relative path is
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = "/home/oasis-pioneer/CLionProjects/Styx Telegram Bot Framework/Docs/EN"
+OUTPUT_DIRECTORY       = "Docs/EN"
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
@@ -1400,7 +1400,8 @@ HTML_STYLESHEET        =
 # documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_STYLESHEET  =
+HTML_EXTRA_STYLESHEET  = "Doxygen/Theme/Awesome/doxygen-awesome.css" \
+                         "Doxygen/Theme/Awesome/doxygen-awesome-sidebar-only-darkmode-toggle.css"
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
@@ -1410,7 +1411,11 @@ HTML_EXTRA_STYLESHEET  =
 # files will be copied as-is; there are no commands or markers available.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_FILES       =
+HTML_EXTRA_FILES       = "Doxygen/Theme/Awesome/doxygen-awesome-darkmode-toggle.js" \
+                         "Doxygen/Theme/Awesome/doxygen-awesome-fragment-copy-button.js" \
+                         "Doxygen/Theme/Awesome/doxygen-awesome-interactive-toc.js" \
+                         "Doxygen/Theme/Awesome/doxygen-awesome-paragraph-link.js" \
+                         "Doxygen/Theme/Awesome/doxygen-awesome-tabs.js"
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme.
@@ -1714,7 +1719,7 @@ ECLIPSE_DOC_ID         = org.doxygen.Project
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-DISABLE_INDEX          = NO
+DISABLE_INDEX          = YES
 
 # The GENERATE_TREEVIEW tag is used to specify whether a tree-like index
 # structure should be generated to display hierarchical information. If the tag
@@ -1731,7 +1736,7 @@ DISABLE_INDEX          = NO
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-GENERATE_TREEVIEW      = NO
+GENERATE_TREEVIEW      = YES
 
 # When both GENERATE_TREEVIEW and DISABLE_INDEX are set to YES, then the
 # FULL_SIDEBAR option determines if the side bar is limited to only the treeview

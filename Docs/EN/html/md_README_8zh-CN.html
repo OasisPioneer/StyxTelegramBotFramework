@@ -9,10 +9,21 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -20,12 +31,24 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="Styx Telegram Bot Framework.svg"/></td>
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
   <td id="projectalign">
    <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
    </div>
    <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
   </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -37,17 +60,23 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
+$(document).ready(function(){initNavTree('md_README_8zh-CN.html',''); initResizable(); });
 /* @license-end */
 </script>
-<div id="main-nav"></div>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -69,7 +98,6 @@ $(function() {
 </div>
 </div>
 
-</div><!-- top -->
 <div><div class="header">
   <div class="headertitle"><div class="title">README.zh-CN</div></div>
 </div><!--header-->
@@ -90,12 +118,12 @@ $(function() {
 <h1 align="center">冥河电报机器人框架 </h1>
 <p align="center"></p>
 <p><b>为 C++ 开发者打造的模块化电报机器人框架</b> </p>
-<h2><a class="anchor" id="autotoc_md23"></a>
+<h2><a class="anchor" id="autotoc_md67"></a>
 描述</h2>
 <blockquote class="doxtable">
 <p>&zwj;本项目是一个为 C++ 开发者设计的电报 (Telegram) 机器人框架，旨在解决原生 API 开发的复杂性。通过高度模块化的插件系统，您无需再关心底层的网络通信和 API 交互，只需专注于实现具体功能的插件，即可快速构建功能强大、易于扩展的电报机器人。 </p>
 </blockquote>
-<h2><a class="anchor" id="autotoc_md24"></a>
+<h2><a class="anchor" id="autotoc_md68"></a>
 目录</h2>
 <ul>
 <li>✨ 功能特性</li>
@@ -106,29 +134,32 @@ $(function() {
 <li>❤️ 赞助我们</li>
 </ul>
 <hr  />
-<h2><a class="anchor" id="autotoc_md26"></a>
+<h2><a class="anchor" id="autotoc_md70"></a>
 ✨ 功能特点</h2>
 <ul>
 <li>[X] 语言国际化</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md27"></a>
+<h2><a class="anchor" id="autotoc_md71"></a>
 🔧 安装指南</h2>
-<h2><a class="anchor" id="autotoc_md28"></a>
+<h2><a class="anchor" id="autotoc_md72"></a>
 🚀 快速开始</h2>
-<h2><a class="anchor" id="autotoc_md29"></a>
+<h2><a class="anchor" id="autotoc_md73"></a>
 💡 使用示例</h2>
-<h2><a class="anchor" id="autotoc_md30"></a>
+<h2><a class="anchor" id="autotoc_md74"></a>
 🤝 如何贡献</h2>
 <p>我们热烈欢迎任何形式的贡献！无论是报告一个 Bug、提交一个功能请求，还是直接贡献代码，都对我们意义重大。</p>
 <p>在您开始之前，请花几分钟阅读我们的 **<a class="el" href="md_Docs_2CONTRIBUTING_8zh-CN.html">贡献指南</a>**，它将帮助您更顺畅地参与进来。</p>
 <p><a href="https://github.com/OasisPioneer/StyxTelegramBotFramework/issues"><img src="https://img.shields.io/github/issues/OasisPioneer/StyxTelegramBotFramework?style=flat-square" alt="GitHub issues" class="inline"/></a> <a href="https://github.com/OasisPioneer/StyxTelegramBotFramework/pulls"><img src="https://img.shields.io/github/issues-pr/OasisPioneer/StyxTelegramBotFramework?style=flat-square" alt="GitHub pull requests" class="inline"/></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" style="pointer-events: none;" class="inline"/> </p>
-<h2><a class="anchor" id="autotoc_md31"></a>
+<h2><a class="anchor" id="autotoc_md75"></a>
 ❤️ 赞助我们</h2>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

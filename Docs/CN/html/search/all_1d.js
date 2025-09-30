@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['目录_0',['目录',['../md_README_8zh-CN.html#autotoc_md24',1,'']]]
+  ['列表_0',['Bug 列表',['../bug.html',1,'']]]
 ];

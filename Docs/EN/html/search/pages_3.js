@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zh_20cn_0',['README.zh-CN',['../md_README_8zh-CN.html',1,'']]]
+  ['deprecated_20list_0',['Deprecated List',['../deprecated.html',1,'']]],
+  ['doxygen_20awesome_1',['Doxygen Awesome',['../md_Doxygen_2Theme_2Awesome_2README.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['赞助我们_0',['❤️ 赞助我们',['../md_README_8zh-CN.html#autotoc_md31',1,'']]]
+  ['快速开始_0',['🚀 快速开始',['../md_README_8zh-CN.html#autotoc_md72',1,'']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['singletoninstancecontrol_0',['singletoninstancecontrol',['../classSingletonInstanceControl.html#af7bcba1599ca80083570f149b6f2b4af',1,'SingletonInstanceControl::SingletonInstanceControl(const std::string &amp;InstanceID)'],['../classSingletonInstanceControl.html#aa98ec5620bae29ae6c7dd95ab78259ad',1,'SingletonInstanceControl::SingletonInstanceControl(SingletonInstanceControl const &amp;)=delete'],['../classSingletonInstanceControl.html#af639450549f427ca0b7316ff250ed615',1,'SingletonInstanceControl::SingletonInstanceControl(SingletonInstanceControl &amp;&amp;)=delete']]],
-  ['singletoninstancecontrolimpl_1',['SingletonInstanceControlIMPL',['../classSingletonInstanceControlIMPL.html#a9642019628b09c3942d6e75857ea8ea5',1,'SingletonInstanceControlIMPL']]]
+  ['long_5ffunction_5fwith_5fmany_5fparameters_0',['long_function_with_many_parameters',['../classMyLibrary_1_1SubclassExample.html#a92227fff4f72a11be0e21d88914ba63e',1,'MyLibrary::SubclassExample']]]
 ];

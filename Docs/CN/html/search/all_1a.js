@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['报告_20bug_0',['报告 Bug',['../md_Docs_2CONTRIBUTING_8zh-CN.html#autotoc_md10',1,'']]]
+  ['❤️_20赞助我们_0',['❤️ 赞助我们',['../md_README_8zh-CN.html#autotoc_md75',1,'']]],
+  ['❤️_20sponsoring_1',['❤️ Sponsoring',['../md_README.html#autotoc_md66',1,'']]]
 ];
