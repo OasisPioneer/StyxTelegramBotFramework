@@ -22,6 +22,7 @@ int main(int argc, char* argv[])
 
 		Application APP;
 		APP.Initialize();
+		APP.Start();
 
 	} catch (const std::runtime_error& Error) {
 		std::cerr << boost::locale::translate("Startup Failure") << " : " << Error.what() << std::endl;

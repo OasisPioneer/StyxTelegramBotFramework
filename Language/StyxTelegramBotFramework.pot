@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-23 20:50+0800\n"
+"POT-Creation-Date: 2025-10-02 23:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,68 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: Src/Main.CPP:31
+#: Src/TerminalUserInterface/TUIPluginPage.CPP:10
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:10
+msgid "Running Status Demo"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIPluginPage.CPP:15
+msgid "Plugins Manage"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUILogPage.CPP:10
+msgid "Log Manage Demo"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUILogPage.CPP:15
+msgid "Log Manage"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIManage.CPP:75
+msgid "Styx Studio"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIManage.CPP:79
+msgid "Demo Announcement"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIManage.CPP:88
+msgid "Error: Page index out of range."
+msgstr ""
+
+#: Src/TerminalUserInterface/TUISettingsPage.CPP:7
+msgid "System Settings Demo"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUISettingsPage.CPP:12
+msgid "System Settings"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:15
+msgid "Running Status"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:6
+msgid "Your Telegram Bot Token"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:7
+msgid "Token"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:12
+msgid "Token Manage Demo"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:17
+msgid "Token Manage"
+msgstr ""
+
+#: Src/Main.CPP:28
 msgid "Startup Failure"
 msgstr ""
 
-#: Src/Main.CPP:32
+#: Src/Main.CPP:29
 msgid "Do Not Run This Application Repeatedly"
 msgstr ""
 

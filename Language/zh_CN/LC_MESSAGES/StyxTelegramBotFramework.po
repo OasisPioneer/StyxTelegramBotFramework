@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-23 20:50+0800\n"
-"PO-Revision-Date: 2025-09-23 20:51+0800\n"
+"POT-Creation-Date: 2025-10-02 23:28+0800\n"
+"PO-Revision-Date: 2025-10-02 23:29+0800\n"
 "Last-Translator: Oasis Pioneer <oasis-pioneer@lenovo-ubuntu>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,11 +16,68 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: Src/Main.CPP:31
+#: Src/TerminalUserInterface/TUIPluginPage.CPP:10
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:10
+msgid "Running Status Demo"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIPluginPage.CPP:15
+msgid "Plugins Manage"
+msgstr "插件管理"
+
+#: Src/TerminalUserInterface/TUILogPage.CPP:10
+msgid "Log Manage Demo"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUILogPage.CPP:15
+msgid "Log Manage"
+msgstr "日志管理"
+
+#: Src/TerminalUserInterface/TUIManage.CPP:75
+msgid "Styx Studio"
+msgstr "冥河工作室"
+
+#: Src/TerminalUserInterface/TUIManage.CPP:79
+msgid "Demo Announcement"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIManage.CPP:88
+msgid "Error: Page index out of range."
+msgstr "错误：页面索引超出范围。"
+
+#: Src/TerminalUserInterface/TUISettingsPage.CPP:7
+msgid "System Settings Demo"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUISettingsPage.CPP:12
+msgid "System Settings"
+msgstr "系统设置"
+
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:15
+msgid "Running Status"
+msgstr "运行状态"
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:6
+msgid "Your Telegram Bot Token"
+msgstr "你的电报机器人令牌"
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:7
+msgid "Token"
+msgstr "令牌"
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:12
+msgid "Token Manage Demo"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:17
+msgid "Token Manage"
+msgstr "令牌管理"
+
+#: Src/Main.CPP:28
 msgid "Startup Failure"
 msgstr "启动失败"
 
-#: Src/Main.CPP:32
+#: Src/Main.CPP:29
 msgid "Do Not Run This Application Repeatedly"
 msgstr "请勿重复运行此应用程序"
 
@@ -30,4 +87,4 @@ msgstr "应用程序已在运行"
 
 #: Src/Core/System/SingletonInstanceControl.CPP:25
 msgid "Unable to Create or Open Instance Lock: "
-msgstr "无法创建或打开实例锁: "
+msgstr "无法创建或打开实例锁："

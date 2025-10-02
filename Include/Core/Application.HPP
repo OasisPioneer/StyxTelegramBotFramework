@@ -3,11 +3,6 @@
 
 #include <atomic>
 #include <memory>
-#include <thread>
-
-class TUIManage;
-class NetworkManage;
-class PluginsManage;
 
 class Application {
     public:
@@ -21,6 +16,8 @@ class Application {
         Application& operator=(Application&&) = delete;
 
         bool Initialize();
+        void Start();
+
     private:
         std::atomic<bool> RunningStatus;
 };
