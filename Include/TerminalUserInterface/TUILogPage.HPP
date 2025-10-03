@@ -10,6 +10,7 @@ class TUILogPage : public TUIBaseClass {
     public:
         TUILogPage();
 
+        ftxui::Component GetComponent() override;
         ftxui::Element Rendering() override;
         std::string PageName() override;
 };

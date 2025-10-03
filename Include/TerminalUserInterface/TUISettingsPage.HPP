@@ -10,6 +10,7 @@ class TUISettingsPage : public TUIBaseClass {
     public:
         TUISettingsPage();
 
+        ftxui::Component GetComponent() override;
         ftxui::Element Rendering() override;
         std::string PageName() override;
 };

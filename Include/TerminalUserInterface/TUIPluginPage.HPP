@@ -10,6 +10,7 @@ class TUIPluginPage : public TUIBaseClass {
     public:
         TUIPluginPage();
 
+        ftxui::Component GetComponent() override;
         ftxui::Element Rendering() override;
         std::string PageName() override;
 };

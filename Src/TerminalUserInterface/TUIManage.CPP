@@ -26,6 +26,13 @@ TUIManage::TUIManage() : Screen_(ftxui::ScreenInteractive::Fullscreen()) {
 
 void TUIManage::Show() {
 
+    std::vector<ftxui::Component> AllPageMainComponents;
+    for (const auto& Page : TUIPage_) {
+        AllPageMainComponents.push_back(Page->GetComponent());
+    }
+
+    auto TabContainer = ftxui::Container::Tab(AllPageMainComponents, &SelectedTab_);
+
     std::vector<ftxui::Component> MenuButton;
     for (int i =0; i < MenuArray_.size(); ++i) {
         MenuButton.push_back(ftxui::Button(
@@ -34,9 +41,12 @@ void TUIManage::Show() {
             ftxui::ButtonOption::Ascii()
             )| ftxui::center | ftxui::border);
     }
-
     auto MenuContainer = ftxui::Container::Vertical(MenuButton);
-    MainContainer_ = MenuContainer;
+
+    MainContainer_ = ftxui::Container::Horizontal({
+        MenuContainer,
+        TabContainer,
+    });
 
     auto Renderer = ftxui::Renderer(MainContainer_, [this] {return this->BuildTUI();});
 
@@ -53,9 +63,8 @@ void TUIManage::Show() {
 
 ftxui::Element TUIManage::BuildTUI() const {
 
-    auto LeftPane = MainContainer_->Render() | ftxui::vscroll_indicator | ftxui::size(ftxui::WIDTH, ftxui::EQUAL, LeftPanelWidth) ;
-
-    auto RightPane = BuildContentArea() | ftxui::flex ;
+    auto LeftPane = MainContainer_->ChildAt(0)->Render() | ftxui::vscroll_indicator | ftxui::size(ftxui::WIDTH, ftxui::EQUAL, LeftPanelWidth) ;
+    auto RightPane = MainContainer_->ChildAt(1)->Render() | ftxui::flex;
 
     auto MainArea = ftxui::hbox({
         LeftPane,
@@ -88,5 +97,6 @@ ftxui::Element TUIManage::BuildContentArea() const {
         return ftxui::text(boost::locale::translate("Error: Page index out of range.")) | ftxui::center;
     }
     auto& SelectedPage = TUIPage_[SelectedTab_];
-    return ftxui::text(SelectedPage->PageName()) | ftxui::bold, SelectedPage->Rendering() | ftxui::flex;
+    // return ftxui::text(SelectedPage->PageName()) | ftxui::bold, SelectedPage->Rendering() | ftxui::flex;
+    return SelectedPage->GetComponent()->Render() | ftxui::flex;
 }

@@ -11,6 +11,10 @@ ftxui::Element TUILogPage::Rendering() {
     });
 }
 
+ftxui::Component TUILogPage::GetComponent() {
+    return ftxui::Renderer([this] { return this->Rendering(); });
+}
+
 std::string TUILogPage::PageName() {
     return boost::locale::translate("Log Manage");
 }

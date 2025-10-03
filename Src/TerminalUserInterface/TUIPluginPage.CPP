@@ -14,3 +14,7 @@ ftxui::Element TUIPluginPage::Rendering() {
 std::string TUIPluginPage::PageName() {
     return boost::locale::translate("Plugins Manage");
 }
+
+ftxui::Component TUIPluginPage::GetComponent() {
+    return ftxui::Renderer([this] { return this->Rendering(); });
+}

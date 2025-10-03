@@ -14,3 +14,7 @@ ftxui::Element TUIStatusPage::Rendering() {
 std::string TUIStatusPage::PageName() {
     return boost::locale::translate("Running Status");
 }
+
+ftxui::Component TUIStatusPage::GetComponent() {
+    return ftxui::Renderer([this] { return this->Rendering(); });
+}
