@@ -16,6 +16,9 @@ FetchContent_Declare(FTXUI
 )
 FetchContent_MakeAvailable(FTXUI)
 
+# --- SQLite3 ---
+find_package(SQLite3 REQUIRED)
+
 file(GLOB_RECURSE SOURCE "Src/*.CPP" "Include/*.HPP")
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCE})
 
@@ -38,6 +41,9 @@ target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
         ftxui::screen
         ftxui::dom
         ftxui::component
+
+        # SQLite
+        SQLite::SQLite3
 )
 
 # --- i18n ---
