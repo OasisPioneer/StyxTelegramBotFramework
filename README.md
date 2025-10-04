@@ -53,6 +53,9 @@ Styx Telegram Bot Framework
 ## ✨ Features
 
 * [X] Language Internationalization
+* [ ] Terminal User Interface (under development)
+* [ ] Network Communication
+* [ ] Plugin system
 
 ## 🔧 Installation
 
@@ -75,3 +78,6 @@ a smooth process.
 </p>
 
 ## ❤️ Sponsoring
+
+* [BTC] `1C9L21Y4VTbeVeTnccyhZb6ziJfdpyQswz`
+* [USDT-TRC20] `TGMPjDRU92JYjidTu6tRuqZezqrNhWZcYS`
