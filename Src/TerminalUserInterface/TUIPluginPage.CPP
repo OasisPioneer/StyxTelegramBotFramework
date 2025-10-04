@@ -7,7 +7,7 @@ TUIPluginPage::TUIPluginPage() {}
 
 ftxui::Element TUIPluginPage::Rendering() {
     return ftxui::vbox({
-        ftxui::text(boost::locale::translate("Running Status Demo"))
+        ftxui::text(boost::locale::translate("Plugins Manage Demo"))
     });
 }
 
