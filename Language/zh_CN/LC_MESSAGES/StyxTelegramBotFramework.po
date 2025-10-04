@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-02 23:28+0800\n"
-"PO-Revision-Date: 2025-10-02 23:29+0800\n"
+"POT-Creation-Date: 2025-10-04 15:55+0800\n"
+"PO-Revision-Date: 2025-10-04 15:55+0800\n"
 "Last-Translator: Oasis Pioneer <oasis-pioneer@lenovo-ubuntu>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: Src/TerminalUserInterface/TUIPluginPage.CPP:10
-#: Src/TerminalUserInterface/TUIStatusPage.CPP:10
-msgid "Running Status Demo"
-msgstr ""
+msgid "Plugins Manage Demo"
+msgstr "插件管理演示"
 
 #: Src/TerminalUserInterface/TUIPluginPage.CPP:15
 msgid "Plugins Manage"
@@ -27,49 +26,61 @@ msgstr "插件管理"
 
 #: Src/TerminalUserInterface/TUILogPage.CPP:10
 msgid "Log Manage Demo"
-msgstr ""
+msgstr "日志管理演示"
 
-#: Src/TerminalUserInterface/TUILogPage.CPP:15
+#: Src/TerminalUserInterface/TUILogPage.CPP:19
 msgid "Log Manage"
 msgstr "日志管理"
 
-#: Src/TerminalUserInterface/TUIManage.CPP:75
+#: Src/TerminalUserInterface/TUIManage.CPP:84
 msgid "Styx Studio"
 msgstr "冥河工作室"
 
-#: Src/TerminalUserInterface/TUIManage.CPP:79
-msgid "Demo Announcement"
-msgstr ""
-
 #: Src/TerminalUserInterface/TUIManage.CPP:88
+msgid "Demo Announcement"
+msgstr "演示公告"
+
+#: Src/TerminalUserInterface/TUIManage.CPP:97
 msgid "Error: Page index out of range."
 msgstr "错误：页面索引超出范围。"
 
-#: Src/TerminalUserInterface/TUISettingsPage.CPP:7
+#: Src/TerminalUserInterface/TUISettingsPage.CPP:10
 msgid "System Settings Demo"
-msgstr ""
+msgstr "系统设置演示"
 
-#: Src/TerminalUserInterface/TUISettingsPage.CPP:12
+#: Src/TerminalUserInterface/TUISettingsPage.CPP:15
 msgid "System Settings"
 msgstr "系统设置"
+
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:10
+msgid "Running Status Demo"
+msgstr "运行状态演示"
 
 #: Src/TerminalUserInterface/TUIStatusPage.CPP:15
 msgid "Running Status"
 msgstr "运行状态"
 
 #: Src/TerminalUserInterface/TUITokenPage.CPP:6
-msgid "Your Telegram Bot Token"
-msgstr "你的电报机器人令牌"
+msgid "Bot Token"
+msgstr "机器人令牌"
 
 #: Src/TerminalUserInterface/TUITokenPage.CPP:7
-msgid "Token"
-msgstr "令牌"
+msgid "Description"
+msgstr "说明"
 
-#: Src/TerminalUserInterface/TUITokenPage.CPP:12
-msgid "Token Manage Demo"
-msgstr ""
+#: Src/TerminalUserInterface/TUITokenPage.CPP:9
+msgid "Add Bot Token"
+msgstr "添加令牌"
 
-#: Src/TerminalUserInterface/TUITokenPage.CPP:17
+#: Src/TerminalUserInterface/TUITokenPage.CPP:24
+msgid "Bot Token: "
+msgstr "机器人令牌"
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:26
+msgid "Description: "
+msgstr "说明"
+
+#: Src/TerminalUserInterface/TUITokenPage.CPP:39
 msgid "Token Manage"
 msgstr "令牌管理"
 
@@ -78,8 +89,8 @@ msgid "Startup Failure"
 msgstr "启动失败"
 
 #: Src/Main.CPP:29
-msgid "Do Not Run This Application Repeatedly"
-msgstr "请勿重复运行此应用程序"
+msgid "请勿重复运行此应用程序"
+msgstr ""
 
 #: Src/Core/System/SingletonInstanceControl.CPP:22
 msgid "Application Already Running"
