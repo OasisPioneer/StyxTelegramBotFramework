@@ -1,36 +1,26 @@
 #include "TerminalUserInterface/TUITokenPage.HPP"
 
 #include <ftxui/dom/elements.hpp>
+#include <ftxui/dom/table.hpp>
 
 TUITokenPage::TUITokenPage() {
-    TokenInput_ = ftxui::Input(&TokenString_, boost::locale::translate("Bot Token").str()) | ftxui::vcenter | ftxui::border;
-    DescriptionInput_ = ftxui::Input(&DescriptionString_, boost::locale::translate("Description").str()) | ftxui::vcenter | ftxui::border;
-
-    AddButton_ = ftxui::Button(boost::locale::translate("Add Bot Token").str(), [this] {
-        TokenString_.clear();
-        DescriptionString_.clear();
-    });
-
-    MainContainer_ = ftxui::Container::Horizontal({
-        TokenInput_,
-        DescriptionInput_,
-        AddButton_,
-    });
+    MainContainer_ = ftxui::Renderer([this] { return this->Rendering(); });
 }
 
 ftxui::Element TUITokenPage::Rendering() {
+    std::vector<std::vector<std::string>> data = {
+        {"ID", "Product", "Quantity", "Price"},
+        {"1", "Laptop", "5", "$1200"},
+        {"2", "Mouse", "30", "$25"},
+        {"3", "Keyboard", "15", "$75"},
+    };
 
-    auto TokenForm = ftxui::hbox({
-        TokenInput_->Render() | ftxui::size(ftxui::WIDTH, ftxui::EQUAL, 30),
-        DescriptionInput_->Render() | ftxui::flex,
-        AddButton_->Render() | ftxui::size(ftxui::HEIGHT, ftxui::EQUAL, 3)
-    }) | ftxui::border;
+    // 2. 创建 Table 对象
+    auto table = ftxui::Table(data);
 
-    auto FinalLayout = ftxui::vbox({
-        TokenForm
-    });
-
-    return FinalLayout;
+    // 3. 渲染成 Element
+    ftxui::Element table_element = table.Render();
+    return table_element;
 }
 
 std::string TUITokenPage::PageName() {
@@ -38,7 +28,5 @@ std::string TUITokenPage::PageName() {
 }
 
 ftxui::Component TUITokenPage::GetComponent() {
-    return ftxui::Renderer(MainContainer_, [this] {
-        return this->Rendering();
-    });
+    return ftxui::Renderer([this] { return this->Rendering(); });
 }

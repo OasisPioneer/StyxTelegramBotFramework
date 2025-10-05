@@ -24,6 +24,7 @@ add_executable(${CMAKE_PROJECT_NAME} ${SOURCE})
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/Include
+        ${CMAKE_CURRENT_SOURCE_DIR}/PluginSDK/Include
 )
 
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE

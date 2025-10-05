@@ -16,13 +16,6 @@ class TUITokenPage : public TUIBaseClass {
         ftxui::Element Rendering() override;
         std::string PageName() override;
     private:
-        std::string TokenString_;
-        ftxui::Component TokenInput_;
-        std::string DescriptionString_;
-        ftxui::Component DescriptionInput_;
-
-        ftxui::Component AddButton_;
-
         ftxui::Component MainContainer_;
 };
 
