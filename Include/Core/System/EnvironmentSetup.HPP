@@ -57,6 +57,8 @@ class EnvironmentSetup {
         *   @endif
         */
         static bool EnsureDirectoryExist(const std::vector<std::string>& Subdirectory);
+
+        size_t GetDirectoryPluginCount(const std::string& DirectoryPath);
 };
 
 #endif //STYXTELEGRAMBOTFRAMEWORK_ENVIRONMENTSETUP_HPP

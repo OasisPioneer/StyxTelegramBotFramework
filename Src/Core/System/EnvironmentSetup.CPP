@@ -1,6 +1,7 @@
 #include "Core/System/EnvironmentSetup.HPP"
 
 #include <cstdlib>
+#include <set>
 
 #include <boost/filesystem.hpp>
 #include <boost/dll/runtime_symbol_info.hpp>
@@ -39,4 +40,27 @@ bool EnvironmentSetup::EnsureDirectoryExist(const std::vector<std::string> &Subd
         return false;
     }
     return true;
+}
+
+size_t EnvironmentSetup::GetDirectoryPluginCount(const std::string &DirectoryPath) {
+    const std::set<std::string_view> ValidExtensions = {".so", ".dll", ".dylib"};
+    try {
+        if (!boost::filesystem::exists(DirectoryPath) || !boost::filesystem::is_directory(DirectoryPath)) {
+            return 0;
+        }
+        size_t PluginCount = 0;
+        for (const auto& entry : boost::filesystem::directory_iterator(DirectoryPath)) {
+            if (entry.is_regular_file()) {
+                const auto& Path = entry.path();
+                if (Path.has_extension()) {
+                    if (ValidExtensions.count(Path.extension().string())) {
+                        PluginCount++;
+                    }
+                }
+            }
+        }
+        return PluginCount;
+    } catch (const std::exception&) {
+        return 0;
+    }
 }

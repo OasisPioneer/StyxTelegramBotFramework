@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-04 15:55+0800\n"
-"PO-Revision-Date: 2025-10-04 15:55+0800\n"
+"POT-Creation-Date: 2025-10-04 23:10+0800\n"
+"PO-Revision-Date: 2025-10-04 23:11+0800\n"
 "Last-Translator: Oasis Pioneer <oasis-pioneer@lenovo-ubuntu>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -52,11 +52,19 @@ msgstr "系统设置演示"
 msgid "System Settings"
 msgstr "系统设置"
 
-#: Src/TerminalUserInterface/TUIStatusPage.CPP:10
-msgid "Running Status Demo"
-msgstr "运行状态演示"
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:27
+msgid "Token Count"
+msgstr "令牌数量"
 
-#: Src/TerminalUserInterface/TUIStatusPage.CPP:15
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:32
+msgid "Plugin Count"
+msgstr "插件数量"
+
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:37
+msgid "Run Time"
+msgstr "运行时间"
+
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:62
 msgid "Running Status"
 msgstr "运行状态"
 
@@ -66,21 +74,13 @@ msgstr "机器人令牌"
 
 #: Src/TerminalUserInterface/TUITokenPage.CPP:7
 msgid "Description"
-msgstr "说明"
+msgstr "描述"
 
 #: Src/TerminalUserInterface/TUITokenPage.CPP:9
 msgid "Add Bot Token"
-msgstr "添加令牌"
+msgstr "添加机器人令牌"
 
-#: Src/TerminalUserInterface/TUITokenPage.CPP:24
-msgid "Bot Token: "
-msgstr "机器人令牌"
-
-#: Src/TerminalUserInterface/TUITokenPage.CPP:26
-msgid "Description: "
-msgstr "说明"
-
-#: Src/TerminalUserInterface/TUITokenPage.CPP:39
+#: Src/TerminalUserInterface/TUITokenPage.CPP:37
 msgid "Token Manage"
 msgstr "令牌管理"
 
@@ -89,8 +89,8 @@ msgid "Startup Failure"
 msgstr "启动失败"
 
 #: Src/Main.CPP:29
-msgid "请勿重复运行此应用程序"
-msgstr ""
+msgid "Do Not Run This Application Repeatedly"
+msgstr "请勿重复运行此应用程序"
 
 #: Src/Core/System/SingletonInstanceControl.CPP:22
 msgid "Application Already Running"
@@ -98,4 +98,4 @@ msgstr "应用程序已在运行"
 
 #: Src/Core/System/SingletonInstanceControl.CPP:25
 msgid "Unable to Create or Open Instance Lock: "
-msgstr "无法创建或打开实例锁："
+msgstr "无法创建或打开实例锁: "

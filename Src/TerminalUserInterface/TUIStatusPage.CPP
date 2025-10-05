@@ -1,14 +1,64 @@
 #include "TerminalUserInterface/TUIStatusPage.HPP"
+#include "Core/System/EnvironmentSetup.HPP"
 
 #include <ftxui/dom/elements.hpp>
 #include <ftxui/component/component.hpp>
 
-TUIStatusPage::TUIStatusPage() {}
+TUIStatusPage::TUIStatusPage() : StartupTime_(std::chrono::steady_clock::now()) {}
 
 ftxui::Element TUIStatusPage::Rendering() {
-    return ftxui::vbox({
-        ftxui::text(boost::locale::translate("Running Status Demo"))
+
+    auto Now = std::chrono::steady_clock::now();
+    auto Duration = std::chrono::duration_cast<std::chrono::seconds>(Now - StartupTime_);
+    long long TotalSeconds = Duration.count();
+
+    long long Hour = TotalSeconds / 3600;
+    long long Minute = (TotalSeconds % 3600) / 60;
+    long long Second = TotalSeconds % 60;
+
+    std::stringstream TimeFlow;
+    TimeFlow << std::setw(2) << std::setfill('0') << Hour << ":"
+                << std::setw(2) << std::setfill('0') << Minute << ":"
+                << std::setw(2) << std::setfill('0') << Second;
+    std::string RuntimeString = TimeFlow.str();
+
+    const int WindowHeight = 5;
+
+    auto TokenCount = ftxui::window(
+        ftxui::text(boost::locale::translate("Token Count")),
+        ftxui::text("0") | ftxui::center
+    ) | ftxui::size(ftxui::HEIGHT, ftxui::EQUAL, WindowHeight) | ftxui::flex_grow;
+
+    EnvironmentSetup Environment;
+    std::string Count = std::to_string(Environment.GetDirectoryPluginCount("Plugins"));
+    auto PluginCount = ftxui::window(
+        ftxui::text(boost::locale::translate("Plugin Count")),
+        ftxui::text(Count) | ftxui::center
+    ) | ftxui::size(ftxui::HEIGHT, ftxui::EQUAL, WindowHeight) | ftxui::flex_grow;
+
+    auto RunTime = ftxui::window(
+        ftxui::text(boost::locale::translate("Run Time")),
+        ftxui::text(RuntimeString) | ftxui::center
+    ) | ftxui::size(ftxui::HEIGHT, ftxui::EQUAL, WindowHeight) | ftxui::flex_grow;
+
+    auto RunningStatus = ftxui::hbox({
+        ftxui::filler(),
+        TokenCount,
+        ftxui::filler(),
+        PluginCount,
+        ftxui::filler(),
+        RunTime,
+        ftxui::filler(),
     });
+
+    auto FinalLayout = ftxui::vbox({
+        ftxui::filler(),
+        RunningStatus,
+        ftxui::filler(),
+        ftxui::filler()
+    });
+
+    return FinalLayout;
 }
 
 std::string TUIStatusPage::PageName() {

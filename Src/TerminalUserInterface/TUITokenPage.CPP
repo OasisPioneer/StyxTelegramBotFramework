@@ -3,8 +3,8 @@
 #include <ftxui/dom/elements.hpp>
 
 TUITokenPage::TUITokenPage() {
-    TokenInput_ = ftxui::Input(&TokenString_, boost::locale::translate("Bot Token").str()) | ftxui::vcenter;
-    DescriptionInput_ = ftxui::Input(&DescriptionString_, boost::locale::translate("Description").str()) | ftxui::vcenter;
+    TokenInput_ = ftxui::Input(&TokenString_, boost::locale::translate("Bot Token").str()) | ftxui::vcenter | ftxui::border;
+    DescriptionInput_ = ftxui::Input(&DescriptionString_, boost::locale::translate("Description").str()) | ftxui::vcenter | ftxui::border;
 
     AddButton_ = ftxui::Button(boost::locale::translate("Add Bot Token").str(), [this] {
         TokenString_.clear();
@@ -21,9 +21,7 @@ TUITokenPage::TUITokenPage() {
 ftxui::Element TUITokenPage::Rendering() {
 
     auto TokenForm = ftxui::hbox({
-        ftxui::text(boost::locale::translate("Bot Token: ").str()) | ftxui::vcenter,
         TokenInput_->Render() | ftxui::size(ftxui::WIDTH, ftxui::EQUAL, 30),
-        ftxui::text(boost::locale::translate("Description: ").str()) | ftxui::vcenter,
         DescriptionInput_->Render() | ftxui::flex,
         AddButton_->Render() | ftxui::size(ftxui::HEIGHT, ftxui::EQUAL, 3)
     }) | ftxui::border;

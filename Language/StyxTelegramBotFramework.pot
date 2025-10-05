@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-04 15:55+0800\n"
+"POT-Creation-Date: 2025-10-04 23:10+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,11 +53,19 @@ msgstr ""
 msgid "System Settings"
 msgstr ""
 
-#: Src/TerminalUserInterface/TUIStatusPage.CPP:10
-msgid "Running Status Demo"
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:27
+msgid "Token Count"
 msgstr ""
 
-#: Src/TerminalUserInterface/TUIStatusPage.CPP:15
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:32
+msgid "Plugin Count"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:37
+msgid "Run Time"
+msgstr ""
+
+#: Src/TerminalUserInterface/TUIStatusPage.CPP:62
 msgid "Running Status"
 msgstr ""
 
@@ -73,15 +81,7 @@ msgstr ""
 msgid "Add Bot Token"
 msgstr ""
 
-#: Src/TerminalUserInterface/TUITokenPage.CPP:24
-msgid "Bot Token: "
-msgstr ""
-
-#: Src/TerminalUserInterface/TUITokenPage.CPP:26
-msgid "Description: "
-msgstr ""
-
-#: Src/TerminalUserInterface/TUITokenPage.CPP:39
+#: Src/TerminalUserInterface/TUITokenPage.CPP:37
 msgid "Token Manage"
 msgstr ""
 
