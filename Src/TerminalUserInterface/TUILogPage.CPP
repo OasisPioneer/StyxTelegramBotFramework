@@ -23,16 +23,17 @@ ftxui::Element TUILogPage::Rendering() {
 
     auto Table = ftxui::Table(TableData);
 
-    Table.SelectColumn(0).DecorateCells(ftxui::size(ftxui::WIDTH, ftxui::GREATER_THAN, 20));
-    Table.SelectColumn(1).DecorateCells(ftxui::size(ftxui::WIDTH, ftxui::GREATER_THAN, 7));
-    Table.SelectColumn(2).DecorateCells(ftxui::flex);
-
     Table.SelectAll().Border(ftxui::LIGHT);
     Table.SelectRow(0).Decorate(ftxui::bold);
+    Table.SelectRow(0).DecorateCells(ftxui::center);
     Table.SelectRow(0).SeparatorVertical(ftxui::LIGHT);
     Table.SelectRow(0).Border(ftxui::DOUBLE);
+
     Table.SelectColumn(0).DecorateCells(ftxui::color(ftxui::Color::GrayDark));
     Table.SelectColumn(1).DecorateCells(ftxui::bold);
+    Table.SelectColumn(0).DecorateCells(ftxui::size(ftxui::WIDTH, ftxui::GREATER_THAN, 20));
+    Table.SelectColumn(1).DecorateCells(ftxui::size(ftxui::WIDTH, ftxui::GREATER_THAN, 8));
+    Table.SelectColumn(2).DecorateCells(ftxui::flex);
 
     for (int i = 0; i < Logs.size(); ++i) {
         ftxui::Decorator LevelDecorator;
