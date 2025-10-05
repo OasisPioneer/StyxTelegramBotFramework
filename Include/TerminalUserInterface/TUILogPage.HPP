@@ -16,7 +16,7 @@ class TUILogPage : public TUIBaseClass {
         std::string PageName() override;
     private:
         int LogLocation = 0;
-        ftxui::Component LogRenderer;
+        ftxui::Component MainComponents_;
 };
 
 #endif //STYXTELEGRAMBOTFRAMEWORK_TUILOGPAGE_HPP

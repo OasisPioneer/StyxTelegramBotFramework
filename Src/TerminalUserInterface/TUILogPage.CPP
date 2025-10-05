@@ -2,10 +2,14 @@
 
 #include <ftxui/dom/table.hpp>
 #include <ftxui/dom/elements.hpp>
+#include <ftxui/component/event.hpp>
 #include <ftxui/component/component.hpp>
 
 TUILogPage::TUILogPage() {
-    LogRenderer = ftxui::Renderer([this] { return this->Rendering(); });
+    auto Renderer = ftxui::Renderer([this] { return this->Rendering(); });
+    MainComponents_ = ftxui::CatchEvent(Renderer, [this](ftxui::Event event) {
+        return false;
+    });
 }
 
 ftxui::Element TUILogPage::Rendering() {
@@ -48,7 +52,7 @@ ftxui::Element TUILogPage::Rendering() {
 }
 
 ftxui::Component TUILogPage::GetComponent() {
-    return LogRenderer;
+    return MainComponents_;
 }
 
 std::string TUILogPage::PageName() {

@@ -57,7 +57,7 @@ void Application::BotTask() {
             TUIManage_->RefreshEvent();
         }
 
-        std::this_thread::sleep_for(3s);
+        std::this_thread::sleep_for(1s);
     }
 }
 
