@@ -1,10 +1,17 @@
 #include "TerminalUserInterface/TUIStatusPage.HPP"
 #include "Core/System/EnvironmentSetup.HPP"
 
+#include <iomanip>
+
 #include <ftxui/dom/elements.hpp>
 #include <ftxui/component/component.hpp>
 
-TUIStatusPage::TUIStatusPage() : StartupTime_(std::chrono::steady_clock::now()) {}
+#include "Core/Application.HPP"
+
+TUIStatusPage::TUIStatusPage(ftxui::ScreenInteractive& Screen) : StartupTime_(std::chrono::steady_clock::now()), Screen_(Screen) {
+    MainComponents_ = ftxui::Renderer([this] { return this->Rendering(); });
+    TimerThread_ = std::thread(&TUIStatusPage::AnimationThread, this);
+}
 
 ftxui::Element TUIStatusPage::Rendering() {
 
@@ -66,5 +73,21 @@ std::string TUIStatusPage::PageName() {
 }
 
 ftxui::Component TUIStatusPage::GetComponent() {
-    return ftxui::Renderer([this] { return this->Rendering(); });
+    // return ftxui::Renderer([this] { return this->Rendering(); });
+    return MainComponents_;
+}
+
+void TUIStatusPage::AnimationThread() {
+    using namespace std::chrono_literals;
+    while (!StopThread_) {
+        Screen_.PostEvent(ftxui::Event::Custom);
+        std::this_thread::sleep_for(500ms);
+    }
+}
+
+TUIStatusPage::~TUIStatusPage() {
+    StopThread_ = true;
+    if (TimerThread_.joinable()) {
+        TimerThread_.join();
+    }
 }

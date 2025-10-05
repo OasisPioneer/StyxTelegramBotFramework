@@ -15,7 +15,7 @@
 constexpr int LeftPanelWidth = 25;
 
 TUIManage::TUIManage() : Screen_(ftxui::ScreenInteractive::Fullscreen()) {
-    TUIPage_.push_back(std::make_unique<TUIStatusPage>());
+    TUIPage_.push_back(std::make_unique<TUIStatusPage>(this->Screen_));
     TUIPage_.push_back(std::make_unique<TUITokenPage>());
     TUIPage_.push_back(std::make_unique<TUIPluginPage>());
     TUIPage_.push_back(std::make_unique<TUILogPage>());

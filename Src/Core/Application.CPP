@@ -11,7 +11,7 @@ Application::Application() : TUIManage_(std::make_unique<TUIManage>()), RunningS
 bool Application::Initialize() {
     std::vector<std::string> Directory = {"DataBase", "Logs", "Plugins"};
     if (EnvironmentSetup::EnsureDirectoryExist(Directory)) {
-        LOG_ERROR(boost::locale::translate(("Failed to create necessary directories.")));
+        LOG_ERROR(boost::locale::translate("Failed to create necessary directories."));
         return false;
     }
     LOG_INFO(boost::locale::translate("Environment initialized successfully."));
@@ -28,7 +28,6 @@ void Application::Start() {
     LOG_INFO("Starting background tasks...");
     BotThread_ = std::thread(&Application::BotTask, this);
 
-    // 2. 在主线程中启动并显示 TUI (这将阻塞主线程)
     LOG_INFO("Starting Terminal User Interface...");
 
     // TUIManage TUI;
