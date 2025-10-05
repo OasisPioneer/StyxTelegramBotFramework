@@ -12,6 +12,8 @@
 class TUIManage {
     public:
         TUIManage();
+        void RefreshEvent();
+        void Exit();
         void Show();
     private:
         ftxui::Element BuildTUI() const;

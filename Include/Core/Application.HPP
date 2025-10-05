@@ -1,7 +1,10 @@
 #ifndef STYXTELEGRAMBOTFRAMEWORK_APPLICATION_HPP
 #define STYXTELEGRAMBOTFRAMEWORK_APPLICATION_HPP
 
+#include "TerminalUserInterface/TUIManage.HPP"
+
 #include <atomic>
+#include <thread>
 #include <memory>
 
 class Application {
@@ -19,7 +22,13 @@ class Application {
         void Start();
 
     private:
+        std::unique_ptr<TUIManage> TUIManage_;
+
+        std::thread BotThread_;
+
         std::atomic<bool> RunningStatus;
+
+        void BotTask();
 };
 
 #endif //STYXTELEGRAMBOTFRAMEWORK_APPLICATION_HPP

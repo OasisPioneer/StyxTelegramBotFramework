@@ -2,6 +2,7 @@
 #define STYXTELEGRAMBOTFRAMEWORK_TUILOGPAGE_HPP
 
 #include "TUIBaseClass.HPP"
+#include "Core/System/LogCollector.HPP"
 
 #include <boost/locale.hpp>
 #include <ftxui/component/component.hpp>
@@ -13,6 +14,9 @@ class TUILogPage : public TUIBaseClass {
         ftxui::Component GetComponent() override;
         ftxui::Element Rendering() override;
         std::string PageName() override;
+    private:
+        int LogLocation = 0;
+        ftxui::Component LogRenderer;
 };
 
 #endif //STYXTELEGRAMBOTFRAMEWORK_TUILOGPAGE_HPP

@@ -3,6 +3,7 @@
 #include <boost/locale.hpp>
 
 #include <ftxui/component/component.hpp>
+#include <ftxui/component/event.hpp>
 #include <ftxui/dom/elements.hpp>
 
 #include "TerminalUserInterface/TUIStatusPage.HPP"
@@ -52,13 +53,22 @@ void TUIManage::Show() {
 
     auto EventCapture = ftxui::CatchEvent(Renderer, [&](const ftxui::Event &event) {
         if (event == ftxui::Event::Character('q')) {
-            Screen_.Exit();
+            // Screen_.Exit();
+            this->Exit();
             return true;
         }
         return false;
     });
 
     Screen_.Loop(EventCapture);
+}
+
+void TUIManage::RefreshEvent() {
+    Screen_.PostEvent(ftxui::Event::Custom);
+}
+
+void TUIManage::Exit() {
+    Screen_.Exit();
 }
 
 ftxui::Element TUIManage::BuildTUI() const {
