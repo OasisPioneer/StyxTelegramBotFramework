@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # --- Boost ---
-find_package(Boost REQUIRED CONFIG COMPONENTS system locale filesystem)
+find_package(Boost REQUIRED CONFIG COMPONENTS system locale json filesystem)
 
 # --- FTXUI ---
 include(FetchContent)
@@ -15,6 +15,9 @@ FetchContent_Declare(FTXUI
         GIT_TAG v6.1.9
 )
 FetchContent_MakeAvailable(FTXUI)
+
+# --- OpenSSL ---
+find_package(OpenSSL REQUIRED)
 
 # --- SQLite3 ---
 find_package(SQLite3 REQUIRED)
@@ -36,7 +39,12 @@ target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
         # Boost
         Boost::system
         Boost::locale
+        Boost::json
         Boost::filesystem
+
+        # OpenSSL
+        OpenSSL::SSL
+        OpenSSL::Crypto
 
         # FTXUI
         ftxui::screen
