@@ -3,9 +3,11 @@
 
 #include "PluginInterface.HPP"
 
+#include <string>
+
 class MyFirstPlugin : public PluginInterface {
 public:
-    void Initialize(FrameworkServiceInterface* Service) override;
+    const char* Initialize(FrameworkServiceInterface* Service) override;
     const char* Name() const override { return "我的第一个插件"; }
     const char* Version() const override { return "1.0.0"; }
     const char* Author() const override { return "龙森"; }
@@ -14,7 +16,8 @@ public:
     void Enable() override;
     void Disable() override;
 private:
-    LoggerInterface* Logger_ = nullptr;
+    FrameworkServiceInterface* Service_ = nullptr;
+    std::string Token_;
 };
 
 #endif //STYXTELEGRAMBOTFRAMEWORK_MYFIRSTPLUGIN_HPP

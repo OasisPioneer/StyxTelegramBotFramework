@@ -13,12 +13,12 @@ PluginManage::PluginManage() {
 }
 
 void PluginManage::LoadingPlugins(const std::string& DirectoryPath) {
+
     LOG_INFO(boost::locale::translate("Scan the following plugins: ").str() + DirectoryPath);
     if (!boost::filesystem::exists(DirectoryPath) || !boost::filesystem::is_directory(DirectoryPath)) {
         LOG_ERROR(boost::locale::translate("Plugin directory does not exist or is not a directory: ").str() + DirectoryPath);
         return;
     }
-
 
     for (const auto& Entry : boost::filesystem::directory_iterator(DirectoryPath)) {
         if (Entry.is_regular_file() && Entry.path().extension() == ".so" || Entry.path().extension() == ".dylib" || Entry.path().extension() == ".dll") {
@@ -39,24 +39,29 @@ void PluginManage::LoadingPlugins(const std::string& DirectoryPath) {
                 continue;
             }
 
-            PluginInterface* plugin_instance = CreateFunction();
+            PluginInterface* PluginsInstance = CreateFunction();
 
-            if (!plugin_instance) {
+            if (!PluginsInstance) {
                 LOG_ERROR(boost::locale::translate("Plugin factory function returned null for ").str() + Path);
                 dlclose(Handle);
                 continue;
             }
             auto Serve = std::make_unique<FrameworkServices>();
-            plugin_instance->Initialize(Serve.get());
-            plugin_instance->Enable();
+            const char* Token = PluginsInstance->Initialize(Serve.get());
+
+            if (Token && strlen(Token) > 0) {
+                LOG_INFO(boost::locale::translate("Successfully loaded ").str() + PluginsInstance->Name() + boost::locale::translate(" Token").str());
+            }
+
+            PluginsInstance->Enable();
 
             LoadedPlugins_.push_back({
-                std::shared_ptr<PluginInterface>(plugin_instance),
+                std::shared_ptr<PluginInterface>(PluginsInstance),
                 Handle,
                 Path,
                 std::move(Serve)
             });
-            LOG_INFO(boost::locale::translate("Successfully loaded plugin: ").str() + std::string(plugin_instance->Name()));
+            LOG_INFO(boost::locale::translate("Successfully loaded plugin: ").str() + std::string(PluginsInstance->Name()));
         }
     }
 }
