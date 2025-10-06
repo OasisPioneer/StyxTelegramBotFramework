@@ -7,7 +7,6 @@
 #include <ftxui/dom/elements.hpp>
 
 #include "TerminalUserInterface/TUIStatusPage.HPP"
-#include "TerminalUserInterface/TUITokenPage.HPP"
 #include "TerminalUserInterface/TUIPluginPage.HPP"
 #include "TerminalUserInterface/TUILogPage.HPP"
 #include "TerminalUserInterface/TUISettingsPage.HPP"
@@ -16,7 +15,6 @@ constexpr int LeftPanelWidth = 25;
 
 TUIManage::TUIManage() : Screen_(ftxui::ScreenInteractive::Fullscreen()) {
     TUIPage_.push_back(std::make_unique<TUIStatusPage>(this->Screen_));
-    TUIPage_.push_back(std::make_unique<TUITokenPage>());
     TUIPage_.push_back(std::make_unique<TUIPluginPage>());
     TUIPage_.push_back(std::make_unique<TUILogPage>());
     TUIPage_.push_back(std::make_unique<TUISettingsPage>());

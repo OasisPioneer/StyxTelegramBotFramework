@@ -48,17 +48,6 @@ void Application::Start() {
 void Application::BotTask() {
     using namespace std::chrono_literals;
     int counter = 0;
-
-    while (RunningStatus) {
-
-        LOG_INFO("Bot is alive... cycle " + std::to_string(++counter));
-
-        if (TUIManage_) {
-            TUIManage_->RefreshEvent();
-        }
-
-        std::this_thread::sleep_for(1s);
-    }
 }
 
 Application::~Application() {
