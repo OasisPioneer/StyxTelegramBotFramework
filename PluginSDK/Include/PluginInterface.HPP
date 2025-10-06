@@ -8,6 +8,8 @@ class PluginInterface {
         virtual ~PluginInterface() = default;
         virtual const char* Initialize(FrameworkServiceInterface* Service) = 0;
 
+        virtual const char* Token() const = 0;
+
         virtual const char* Name() const = 0;
         virtual const char* Version() const = 0;
         virtual const char* Author() const = 0;

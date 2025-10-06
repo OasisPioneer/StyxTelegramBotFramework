@@ -8,6 +8,7 @@
 class MyFirstPlugin : public PluginInterface {
 public:
     const char* Initialize(FrameworkServiceInterface* Service) override;
+    const char* Token() const override;
     const char* Name() const override { return "我的第一个插件"; }
     const char* Version() const override { return "1.0.0"; }
     const char* Author() const override { return "龙森"; }

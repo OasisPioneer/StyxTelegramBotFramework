@@ -12,6 +12,11 @@ const char* MyFirstPlugin::Initialize(FrameworkServiceInterface* Service) {
     return this->Token_.c_str();
 }
 
+const char *MyFirstPlugin::Token() const {
+    return Token_.c_str();
+}
+
+
 void MyFirstPlugin::Enable() {
     if (Service_ && Service_->GetLogger()) {
         // 使用保存的服务指针来获取 Logger
