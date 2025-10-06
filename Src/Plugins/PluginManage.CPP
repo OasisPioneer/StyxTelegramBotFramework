@@ -27,7 +27,7 @@ void PluginManage::LoadingPlugins(const std::string& DirectoryPath) {
 
             void* Handle = dlopen(Path.c_str(), RTLD_LAZY);
             if (!Handle) {
-                LOG_ERROR("Failed to load plugin " + Path + ". Error: " + dlerror());
+                LOG_ERROR(boost::locale::translate("Failed to load plugin ").str() + Path + ". Error: " + dlerror());
                 continue;
             }
 
