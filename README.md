@@ -81,3 +81,9 @@ a smooth process.
 
 * [BTC] `1C9L21Y4VTbeVeTnccyhZb6ziJfdpyQswz`
 * [USDT-TRC20] `TGMPjDRU92JYjidTu6tRuqZezqrNhWZcYS`
+
+* [Ko-Fi](https://ko-fi.com/oasispioneer)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=OasisPioneer/StyxTelegramBotFramework&type=Date)](https://www.star-history.com/#OasisPioneer/StyxTelegramBotFramework&Date)
