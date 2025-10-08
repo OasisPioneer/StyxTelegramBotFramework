@@ -1,3 +1,4 @@
+<a name="README-TOP"></a>
 <p align="center">
     <img src="Styx-Telegram-Bot-Framework.svg" alt="Styx Telegram Bot Framework Logo" width="300"/>
 </p>
@@ -93,6 +94,7 @@ a smooth process.
 ## 💬 Communication and Feedback
 [![Telegram Channel](https://img.shields.io/badge/Telegram-JoinChannel-blue?style=for-the-badge&logo=telegram)](https://t.me/StyxTelegramBotFramework)
 
+<p align="right"><a href="#README-TOP"><img src="https://img.shields.io/badge/Back to top-555555?style=for-the-badge"></a></p>
 
 ## Star History
 
