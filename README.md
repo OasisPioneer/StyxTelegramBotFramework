@@ -77,6 +77,14 @@ a smooth process.
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
 </p>
 
+## 💖 Sincere thanks
+
+### Contributors to this project
+
+<a href="https://github.com/OasisPioneer/StyxTelegramBotFramework/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OasisPioneer/StyxTelegramBotFramework" />
+</a>
+
 ## ❤️ Sponsoring
 
 * [BTC] `1C9L21Y4VTbeVeTnccyhZb6ziJfdpyQswz`

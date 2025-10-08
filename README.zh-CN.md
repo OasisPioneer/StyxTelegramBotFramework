@@ -73,6 +73,14 @@
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
 </p>
 
+## 💖 由衷感谢
+
+### 本项目贡献者
+
+<a href="https://github.com/OasisPioneer/StyxTelegramBotFramework/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OasisPioneer/StyxTelegramBotFramework" />
+</a>
+
 ## ❤️ 赞助我们
 
 * [BTC] `1C9L21Y4VTbeVeTnccyhZb6ziJfdpyQswz`
