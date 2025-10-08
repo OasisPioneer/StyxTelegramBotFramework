@@ -4,6 +4,10 @@
 #include "Core/System/LogCollector.HPP"
 #include "TerminalUserInterface/TUIManage.HPP"
 
+#include "NetWork/TelegramHTTPClient.HPP"
+#include "Plugins/PluginManage.HPP"
+#include "Plugins/BotManage.HPP"
+
 #include <boost/locale.hpp>
 
 Application::Application() : TUIManage_(std::make_unique<TUIManage>()), RunningStatus(false) {}
@@ -25,8 +29,15 @@ void Application::Start() {
     }
     RunningStatus = true;
 
-    LOG_INFO("Starting background tasks...");
-    BotThread_ = std::thread(&Application::BotTask, this);
+    TelegramHTTPClient HTTPClient;
+    BotManage BotManager(&HTTPClient);
+
+    PluginManage Plugin;
+    Plugin.LoadingPlugins("Plugins");
+
+    for (const auto& plugin_info : Plugin.GetLoadedPlugins()) {
+        BotManager.RegisterBot(plugin_info.Instance);
+    }
 
     LOG_INFO("Starting Terminal User Interface...");
 
@@ -37,21 +48,7 @@ void Application::Start() {
     LOG_INFO("UI closed. Shutting down background tasks...");
     RunningStatus = false;
 
-    // 4. 等待后台线程结束
-    if (BotThread_.joinable()) {
-        BotThread_.join();
-    }
-
     LOG_INFO("Application shut down gracefully.");
 }
 
-void Application::BotTask() {
-    using namespace std::chrono_literals;
-    int counter = 0;
-}
-
-Application::~Application() {
-    if (BotThread_.joinable()) {
-        BotThread_.join();
-    }
-}
+Application::~Application() {}

@@ -24,11 +24,7 @@ class Application {
     private:
         std::unique_ptr<TUIManage> TUIManage_;
 
-        std::thread BotThread_;
-
         std::atomic<bool> RunningStatus;
-
-        void BotTask();
 };
 
 #endif //STYXTELEGRAMBOTFRAMEWORK_APPLICATION_HPP
