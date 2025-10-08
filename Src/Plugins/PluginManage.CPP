@@ -55,12 +55,21 @@ void PluginManage::LoadingPlugins(const std::string& DirectoryPath) {
 
             PluginsInstance->Enable();
 
+            auto CustomDeleter = [Handle](PluginInterface* P) {
+                delete P;
+                dlclose(Handle);
+            };
+
+            std::shared_ptr<PluginInterface> Plugin_Ptr(PluginsInstance, CustomDeleter);
+
             LoadedPlugins_.push_back({
-                std::shared_ptr<PluginInterface>(PluginsInstance),
+                // std::shared_ptr<PluginInterface>(PluginsInstance),
+                Plugin_Ptr,
                 Handle,
                 Path,
                 std::move(Serve)
             });
+
             LOG_INFO(boost::locale::translate("Successfully loaded plugin: ").str() + std::string(PluginsInstance->Name()));
         }
     }
@@ -76,9 +85,9 @@ PluginManage::~PluginManage() {
         if (Plugins.Instance) {
             Plugins.Instance->Disable();
         }
-        if (Plugins.Handle) {
-            dlclose(Plugins.Handle);
-        }
+        // if (Plugins.Handle) {
+        //     dlclose(Plugins.Handle);
+        // }
     }
     LoadedPlugins_.clear();
     LOG_INFO(boost::locale::translate("All plugins have been uninstalled."));
