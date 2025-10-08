@@ -51,8 +51,8 @@
 ## ✨ 功能特点
 
 * [X] 语言国际化
-* [ ] 终端用户界面(开发中)
-* [ ] 网络通信
+* [X] 终端用户界面(开发中)
+* [X] 网络通信
 * [ ] 插件系统
 
 ## 🔧 安装指南
@@ -77,8 +77,6 @@
 
 * [BTC] `1C9L21Y4VTbeVeTnccyhZb6ziJfdpyQswz`
 * [USDT-TRC20] `TGMPjDRU92JYjidTu6tRuqZezqrNhWZcYS`
-
-* [Ko-Fi](https://ko-fi.com/oasispioneer)
 
 ## Star History
 

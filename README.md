@@ -53,8 +53,8 @@ Styx Telegram Bot Framework
 ## ✨ Features
 
 * [X] Language Internationalization
-* [ ] Terminal User Interface (under development)
-* [ ] Network Communication
+* [X] Terminal User Interface (under development)
+* [X] Network Communication
 * [ ] Plugin system
 
 ## 🔧 Installation
@@ -81,8 +81,6 @@ a smooth process.
 
 * [BTC] `1C9L21Y4VTbeVeTnccyhZb6ziJfdpyQswz`
 * [USDT-TRC20] `TGMPjDRU92JYjidTu6tRuqZezqrNhWZcYS`
-
-* [Ko-Fi](https://ko-fi.com/oasispioneer)
 
 ## Star History
 
