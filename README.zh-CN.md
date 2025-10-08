@@ -86,6 +86,9 @@
 * [BTC] `1C9L21Y4VTbeVeTnccyhZb6ziJfdpyQswz`
 * [USDT-TRC20] `TGMPjDRU92JYjidTu6tRuqZezqrNhWZcYS`
 
+## 💬 交流反馈
+[![Telegram Channel](https://img.shields.io/badge/Telegram-加入频道-blue?style=for-the-badge&logo=telegram)](https://t.me/StyxTelegramBotFramework)
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=OasisPioneer/StyxTelegramBotFramework&type=Date)](https://www.star-history.com/#OasisPioneer/StyxTelegramBotFramework&Date)
