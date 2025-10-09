@@ -51,9 +51,9 @@
 
 ## ✨ 功能特点
 
-* [X] 语言国际化
-* [X] 终端用户界面(开发中)
-* [X] 网络通信
+* [ ] 语言国际化
+* [ ] 终端用户界面(开发中)
+* [ ] 网络通信
 * [ ] 插件系统
 
 ## 🔧 安装指南
@@ -73,6 +73,46 @@
   <a href="https://github.com/OasisPioneer/StyxTelegramBotFramework/pulls"><img src="https://img.shields.io/github/issues-pr/OasisPioneer/StyxTelegramBotFramework?style=flat-square" alt="GitHub pull requests"></a>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
 </p>
+
+## 项目进度
+
+<div style="max-width: 800px; margin: 2rem auto; padding: 0 1rem; position: relative;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 2rem; position: relative; padding: 0 12px;">
+    <span style="position: absolute; left: 0%; transform: translateX(-50%); font-family: 'Courier New', monospace; color: #333; font-weight: 600; white-space: nowrap;">基础界面</span>
+    <span style="position: absolute; left: 25%; transform: translateX(-50%); font-family: 'Courier New', monospace; color: #333; font-weight: 600; white-space: nowrap;">加载插件</span>
+    <span style="position: absolute; left: 50%; transform: translateX(-50%); font-family: 'Courier New', monospace; color: #333; font-weight: 600; white-space: nowrap;">网络通信</span>
+    <span style="position: absolute; left: 75%; transform: translateX(-50%); font-family: 'Courier New', monospace; color: #333; font-weight: 600; white-space: nowrap;">事件分发</span>
+    <span style="position: absolute; left: 100%; transform: translateX(-50%); font-family: 'Courier New', monospace; color: #999; font-weight: 500; white-space: nowrap;">完成项目</span>
+  </div>
+
+  <div style="width: 100%; height: 28px; background-color: #f0f0f0; border: 1px solid #ddd; border-radius: 14px; overflow: hidden; position: relative; margin-top: 1rem; box-sizing: border-box;">
+
+    <div style="position: absolute; left: 0; top: 50%; width: 16px; height: 16px; background-color: #fff; border: 2px solid #555; border-radius: 50%; transform: translate(0, -50%); z-index: 2;"></div>
+    <div style="position: absolute; left: 25%; top: 50%; width: 16px; height: 16px; background-color: #fff; border: 2px solid #555; border-radius: 50%; transform: translate(-50%, -50%); z-index: 2;"></div>
+    <div style="position: absolute; left: 50%; top: 50%; width: 16px; height: 16px; background-color: #fff; border: 2px solid #555; border-radius: 50%; transform: translate(-50%, -50%); z-index: 2;"></div>
+    <div style="position: absolute; left: 75%; top: 50%; width: 16px; height: 16px; background-color: #fff; border: 2px solid #555; border-radius: 50%; transform: translate(-50%, -50%); z-index: 2;"></div>
+    <div style="position: absolute; right: 0; top: 50%; width: 16px; height: 16px; background-color: #fff; border: 2px solid #ccc; border-radius: 50%; transform: translate(0, -50%); z-index: 2;"></div>
+
+    <div class="feature-progress" style="height: 100%; background: linear-gradient(90deg, #555 0%, #333 100%); border-radius: 13px; width: 0%; animation: feature-progress 18s infinite linear; box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); z-index: 1; position: relative;"></div>
+  </div>
+
+  <div style="text-align: right; margin-top: 0.5rem; font-family: 'Courier New', monospace; color: #555; font-size: 0.9rem;">
+    完成度: 75%
+  </div>
+</div>
+
+<style>
+@keyframes feature-progress {
+  0% { width: 0%; }
+  10% { width: 25%; }
+  20% { width: 25%; }
+  30% { width: 50%; }
+  40% { width: 50%; }
+  50% { width: 75%; }
+  60% { width: 75%; }
+  100% { width: 75%; }
+}
+</style>
 
 ## 💖 由衷感谢
 
