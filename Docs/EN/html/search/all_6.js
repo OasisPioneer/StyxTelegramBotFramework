@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['generator_0',['Doxygen generator',['../md_Doxygen_2Theme_2Awesome_2docs_2customization.html#autotoc_md18',1,'']]],
-  ['getsystemconfigpath_1',['GetSystemConfigPath',['../classEnvironmentSetup.html#a5394e865bfd29e86d97790a8fa2ee6fb',1,'EnvironmentSetup']]],
-  ['git_20submodule_2',['Git submodule',['../md_Doxygen_2Theme_2Awesome_2README.html#autotoc_md50',1,'']]],
-  ['graphviz_3',['Diagrams with Graphviz',['../md_Doxygen_2Theme_2Awesome_2docs_2tricks.html#tricks-graphviz',1,'']]],
-  ['green_4',['green',['../namespaceMyLibrary.html#a79a9f4bbb675f6c082b09249c5a95ceda7170352a3cd8a59b864c0166ff98182e',1,'MyLibrary']]],
-  ['guidelines_5',['Contributing Guidelines',['../md_Docs_2CONTRIBUTING.html',1,'']]]
+  ['6_200_200_202025_2003_2023_0',['6.0.0 (2025-03-23)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md10',1,'']]],
+  ['6_200_201_202025_2003_2028_1',['6.0.1 (2025-03-28)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md9',1,'']]],
+  ['6_200_202_202025_2003_2030_2',['6.0.2 (2025-03-30)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md7',1,'']]],
+  ['6_201_208_202025_2005_2001_3',['6.1.8 (2025-05-01)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md3',1,'']]],
+  ['6_201_209_202025_2005_2007_4',['6.1.9 (2025-05-07)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md0',1,'']]]
 ];

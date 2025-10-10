@@ -4,6 +4,13 @@
 #include <string>
 #include <vector>
 
+/**
+ * @brief
+ *   @if LANG_CN 环境初始化工具类，提供跨平台的配置目录与插件目录操作。
+ *   @endif
+ *   @if LANG_EN Environment initialization utility offering cross-platform configuration and plugin directory helpers.
+ *   @endif
+ */
 class EnvironmentSetup {
     public:
 

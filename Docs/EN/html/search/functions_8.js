@@ -1,6 +1,25 @@
 var searchData=
 [
-  ['singletoninstancecontrol_0',['singletoninstancecontrol',['../classSingletonInstanceControl.html#af7bcba1599ca80083570f149b6f2b4af',1,'SingletonInstanceControl::SingletonInstanceControl(const std::string &amp;InstanceID)'],['../classSingletonInstanceControl.html#aa98ec5620bae29ae6c7dd95ab78259ad',1,'SingletonInstanceControl::SingletonInstanceControl(SingletonInstanceControl const &amp;)=delete'],['../classSingletonInstanceControl.html#af639450549f427ca0b7316ff250ed615',1,'SingletonInstanceControl::SingletonInstanceControl(SingletonInstanceControl &amp;&amp;)=delete']]],
-  ['singletoninstancecontrolimpl_1',['SingletonInstanceControlIMPL',['../classSingletonInstanceControlIMPL.html#a9642019628b09c3942d6e75857ea8ea5',1,'SingletonInstanceControlIMPL']]],
-  ['staticfunc_2',['staticfunc',['../classMyLibrary_1_1Example.html#a8c3ea5ce33b9e1fada7ff46eab0956a7',1,'MyLibrary::Example']]]
+  ['image_0',['image',['../classftxui_1_1Image.html#a9dfe875cb391282f0cdd62448dfbc302',1,'ftxui::Image::Image(int dimx, int dimy)'],['../classftxui_1_1Image.html#aa58e8ff9d7a330a49ca35e045acec19b',1,'ftxui::Image::Image()=delete']]],
+  ['index_1',['Index',['../classftxui_1_1ComponentBase.html#ad81954d1558ea837ffd201565c7c376f',1,'ftxui::ComponentBase']]],
+  ['info_2',['Info',['../classLoggerInterface.html#a9e3db30b7efed04261b48ed3afc1ff1f',1,'LoggerInterface']]],
+  ['initialize_3',['initialize',['../classMyFirstPlugin.html#a79d1b1cc7e54b1389acf169119ef1186',1,'MyFirstPlugin::Initialize()'],['../classApplication.html#a00d10eb756046bb9a02494ca7362013e',1,'Application::Initialize()'],['../classPluginInterface.html#a5c18137289fdb67e7b019d28ebcfd834',1,'PluginInterface::Initialize()']]],
+  ['inner_4',['Inner',['../examples_2component_2collapsible_8cpp.html#a74bf63b8448df7b03bd98ae6de127c0a',1,'collapsible.cpp']]],
+  ['input_5',['input',['../structftxui_1_1Event.html#a0f94237e4449dd0b3d947b2cc8e30404',1,'ftxui::Event::input()'],['../namespaceftxui.html#a0c3871822be9559a4eb3aad15f21be90',1,'ftxui::Input(StringRef content, StringRef placeholder, InputOption option)'],['../namespaceftxui.html#a049390388a9116fbdfd766c8e864af77',1,'ftxui::Input(StringRef content, InputOption option)'],['../namespaceftxui.html#a9126a990867d3036dc623753e5008e53',1,'ftxui::Input(InputOption option)']]],
+  ['instance_6',['Instance',['../focus__cursor_8cpp.html#a96da73e7fb75cca8a91e59559ce1dba2',1,'focus_cursor.cpp']]],
+  ['interpolate_7',['Interpolate',['../classftxui_1_1Color.html#a95ac5de91407cc3ce9af281ddc1298bb',1,'ftxui::Color']]],
+  ['intersection_8',['Intersection',['../structftxui_1_1Box.html#a83078c88dc8559de6ba026288f6f236a',1,'ftxui::Box']]],
+  ['inverted_9',['inverted',['../namespaceftxui.html#a68061e18d031332448590fa7e7539ebd',1,'ftxui']]],
+  ['is_5fcharacter_10',['is_character',['../structftxui_1_1Event.html#a910062e2a52ec601685bd197a1173f33',1,'ftxui::Event']]],
+  ['is_5fcursor_5fposition_11',['is_cursor_position',['../structftxui_1_1Event.html#ac1ebe44b45ebd1951bf1773a398ef30a',1,'ftxui::Event']]],
+  ['is_5fcursor_5fshape_12',['is_cursor_shape',['../structftxui_1_1Event.html#a4bd2f6f82f58e0c4286aa81b224da01b',1,'ftxui::Event']]],
+  ['is_5fmouse_13',['is_mouse',['../structftxui_1_1Event.html#a81807600f4ce67ab4c8a45ab1ae88203',1,'ftxui::Event']]],
+  ['iscombining_14',['IsCombining',['../namespaceftxui.html#a0544c5439092ee405350e1472ac10265',1,'ftxui']]],
+  ['iscontrol_15',['IsControl',['../namespaceftxui.html#a0a050c2c934fd9158f14a8f0d1b8f9e6',1,'ftxui']]],
+  ['isempty_16',['isempty',['../classftxui_1_1Selection.html#ab7c8636b125b38ffdb57a557b27a0e07',1,'ftxui::Selection::IsEmpty()'],['../structftxui_1_1Box.html#aa8d901ea0331cde0ac44f53946013c9c',1,'ftxui::Box::IsEmpty()']]],
+  ['isfullwidth_17',['IsFullWidth',['../namespaceftxui.html#a094e4ebe9287fa0da89bf32253b18d2e',1,'ftxui']]],
+  ['ishorizontal_18',['IsHorizontal',['../classftxui_1_1MenuBase.html#a4274a1d636572e2254e8120f24711b88',1,'ftxui::MenuBase']]],
+  ['isopaque_19',['IsOpaque',['../classftxui_1_1Color.html#a6a8ce5e9012bc1d4f43714c7ca044d19',1,'ftxui::Color']]],
+  ['iswordbreakingcharacter_20',['IsWordBreakingCharacter',['../namespaceftxui.html#aae5684c348d3ef85c1b6ab9b6b08e0cf',1,'ftxui']]],
+  ['italic_21',['italic',['../namespaceftxui.html#a787b5e9c584c7202689eb373ab781d33',1,'ftxui']]]
 ];

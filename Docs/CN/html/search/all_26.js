@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['提交功能建议_0',['提交功能建议',['../md_Docs_2CONTRIBUTING_8zh-CN.html#autotoc_md11',1,'']]]
+  ['❤️_20赞助我们_0',['❤️ 赞助我们',['../md_README_8zh-CN.html#autotoc_md292',1,'']]],
+  ['❤️_20sponsoring_1',['❤️ Sponsoring',['../md_README.html#autotoc_md279',1,'']]]
 ];

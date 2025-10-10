@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['test_0',['test',['../classMyLibrary_1_1Example.html#a1c0046b0674eb4cad09c5d3e943912b8',1,'MyLibrary::Example']]]
+  ['lineargradient_0',['lineargradient',['../structftxui_1_1LinearGradient.html#a20fee8bcc74f47d673cce776d8ca6ba1',1,'ftxui::LinearGradient::LinearGradient()'],['../structftxui_1_1LinearGradient.html#a59f197e9dc863f54f2a66ff937bae023',1,'ftxui::LinearGradient::LinearGradient(Color begin, Color end)'],['../structftxui_1_1LinearGradient.html#a4ce83a4f36245c7a1e764b3e71c61793',1,'ftxui::LinearGradient::LinearGradient(float angle, Color begin, Color end)']]],
+  ['llvmfuzzertestoneinput_1',['llvmfuzzertestoneinput',['../component__fuzzer_8cpp.html#af5589fffd86439465eeb19c9774d1982',1,'LLVMFuzzerTestOneInput(const char *data, size_t size):&#160;component_fuzzer.cpp'],['../terminal__input__parser__test__fuzzer_8cpp.html#af5589fffd86439465eeb19c9774d1982',1,'LLVMFuzzerTestOneInput(const char *data, size_t size):&#160;terminal_input_parser_test_fuzzer.cpp']]],
+  ['loadingplugins_2',['LoadingPlugins',['../classPluginManage.html#a8bfec4a9d723b710df2e475ea38edb0f',1,'PluginManage']]],
+  ['long_5ffunction_5fwith_5fmany_5fparameters_3',['long_function_with_many_parameters',['../classMyLibrary_1_1SubclassExample.html#a92227fff4f72a11be0e21d88914ba63e',1,'MyLibrary::SubclassExample']]],
+  ['loop_4',['loop',['../classftxui_1_1Loop.html#acad333f67da6371e62394b23ba4bf47d',1,'ftxui::Loop::Loop(ScreenInteractive *screen, Component component)'],['../classftxui_1_1Loop.html#aa4e0a6808d8ab264d727e0482f4b8abb',1,'ftxui::Loop::Loop(const Loop &amp;)=default'],['../classftxui_1_1Loop.html#a5d6ca49e35c6166966df46c2c76c8fc5',1,'ftxui::Loop::Loop(Loop &amp;&amp;)=delete'],['../classftxui_1_1Loop.html#a6f86f42759529da29b796774b659931c',1,'ftxui::Loop::Loop(const ScreenInteractive &amp;)=delete'],['../classftxui_1_1ScreenInteractive.html#a23b52629a57315d01ec6fa60dd886b09',1,'ftxui::ScreenInteractive::Loop()']]],
+  ['loremipsum_5',['LoremIpsum',['../examples_2component_2selection_8cpp.html#a693bf20426978b4a6d5114374d8c521d',1,'selection.cpp']]]
 ];

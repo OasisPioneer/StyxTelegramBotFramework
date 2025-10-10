@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['快速开始_0',['🚀 快速开始',['../md_README_8zh-CN.html#autotoc_md72',1,'']]]
+  ['w_0',['w',['../structftxui_1_1Event.html#a4ef9a81feb7db6ab17ccf13c0f55b329',1,'ftxui::Event::w'],['../structftxui_1_1Event.html#ae605ea4a380b1b5339a79bc610e709a6',1,'ftxui::Event::W']]],
+  ['warn_1',['Warn',['../classLoggerInterface.html#aaee5a9f6e8b647bc1c58aa1eb5bc2880',1,'LoggerInterface']]],
+  ['wchar_5fwidth_2',['wchar_width',['../namespaceftxui.html#ae7843f3b05949f38984fe9baa8bd5aa5',1,'ftxui']]],
+  ['wheat1_3',['Wheat1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca607656e4031eead8b95544266b96db0a',1,'ftxui::Color']]],
+  ['wheat4_4',['Wheat4',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca31e16277993ceb36a1c568e409bf1629',1,'ftxui::Color']]],
+  ['wheeldown_5',['WheelDown',['../structftxui_1_1Mouse.html#aa915b210a459afecf9aaffc41a3f64ccac60323ce9d24ff1c5ae16b5e5b488b81',1,'ftxui::Mouse']]],
+  ['wheelleft_6',['WheelLeft',['../structftxui_1_1Mouse.html#aa915b210a459afecf9aaffc41a3f64cca62c07eb5440f76a551641c4a3a04509a',1,'ftxui::Mouse']]],
+  ['wheelright_7',['WheelRight',['../structftxui_1_1Mouse.html#aa915b210a459afecf9aaffc41a3f64ccaf435cab14cc12be5d3aa4e76ac233c80',1,'ftxui::Mouse']]],
+  ['wheelup_8',['WheelUp',['../structftxui_1_1Mouse.html#aa915b210a459afecf9aaffc41a3f64ccacbae90c77bdb4e6cd0a19e83acd6b66f',1,'ftxui::Mouse']]],
+  ['white_9',['White',['../classftxui_1_1Color.html#ac86e752483b7f2d91f21a1c498503abba44ca04d3b0ca457b255891c0d53e7938',1,'ftxui::Color']]],
+  ['wide_10',['System-wide',['../md_Doxygen_2Theme_2Awesome_2README.html#autotoc_md264',1,'']]],
+  ['width_11',['width',['../md_Doxygen_2Theme_2Awesome_2docs_2tricks.html#tricks-sidebar',1,'Choosing Sidebar Width'],['../md_Doxygen_2Theme_2Awesome_2docs_2tricks.html#autotoc_md246',1,'Full Width'],['../namespaceftxui.html#a0fdb917b32f692c81f70b9713a600950a42424838fb8aec27f8c542a37e58ece5',1,'ftxui::WIDTH'],['../structftxui_1_1WindowOptions.html#a856e49ce3b66cfa5ac5a28890783daa0',1,'ftxui::WindowOptions::width'],['../structftxui_1_1Canvas.html#a25721d78658ac872104ee0cc5f9bd244',1,'ftxui::Canvas::width()']]],
+  ['widthorheight_12',['WidthOrHeight',['../namespaceftxui.html#a0fdb917b32f692c81f70b9713a600950',1,'ftxui']]],
+  ['window_13',['window',['../menu__multiple_8cpp.html#ac2013764d7f0c7eb57876c3755e98bb3',1,'Window():&#160;menu_multiple.cpp'],['../namespaceftxui.html#ad72e2acbe576e60d4fb1d6931a0026e8',1,'ftxui::Window(WindowOptions option)'],['../namespaceftxui.html#a2d36e3a8438131096e2333f95eb700da',1,'ftxui::window(Element title, Element content, BorderStyle border)'],['../index.html#dom-window',1,'window']]],
+  ['window_2ecpp_14',['window.cpp',['../src_2ftxui_2component_2window_8cpp.html',1,'(Global Namespace)'],['../examples_2component_2window_8cpp.html',1,'(Global Namespace)']]],
+  ['windowoptions_15',['WindowOptions',['../structftxui_1_1WindowOptions.html',1,'ftxui']]],
+  ['windowrenderstate_16',['WindowRenderState',['../structftxui_1_1WindowRenderState.html',1,'ftxui']]],
+  ['with_20fetchcontent_17',['CMake with FetchContent',['../md_Doxygen_2Theme_2Awesome_2README.html#autotoc_md262',1,'']]],
+  ['with_20graphviz_18',['Diagrams with Graphviz',['../md_Doxygen_2Theme_2Awesome_2docs_2tricks.html#tricks-graphviz',1,'']]],
+  ['with_5frestored_5fio_2ecpp_19',['with_restored_io.cpp',['../with__restored__io_8cpp.html',1,'']]],
+  ['withrestoredio_20',['WithRestoredIO',['../classftxui_1_1ScreenInteractive.html#a1ea63a2594eeaee211e0e8548ec71035',1,'ftxui::ScreenInteractive']]],
+  ['wordbreakproperty_21',['WordBreakProperty',['../namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55',1,'ftxui']]],
+  ['workflow_22',['github workflow',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md49',1,'']]],
+  ['wrap_23',['wrap',['../structftxui_1_1FlexboxConfig.html#a11e23fbcf9dab0896078fe91eb364b4c',1,'ftxui::FlexboxConfig::wrap'],['../gallery_8cpp.html#a0a320000c5a485508c57030f605b800a',1,'Wrap():&#160;gallery.cpp'],['../structftxui_1_1FlexboxConfig.html#abf7c43c64afed10ae714b9e8e756cbb8aa212b19ef5f2fb30acf92e6cbccc1f2d',1,'ftxui::FlexboxConfig::Wrap'],['../structftxui_1_1FlexboxConfig.html#abf7c43c64afed10ae714b9e8e756cbb8',1,'ftxui::FlexboxConfig::Wrap']]],
+  ['wrapinversed_24',['WrapInversed',['../structftxui_1_1FlexboxConfig.html#abf7c43c64afed10ae714b9e8e756cbb8ad639e613e3589af04e39135707dbc642',1,'ftxui::FlexboxConfig']]],
+  ['wsegspace_25',['WSegSpace',['../namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3ddc36a0c4e381a754fb00548d567d09',1,'ftxui']]],
+  ['wstring_5fwidth_26',['wstring_width',['../namespaceftxui.html#a912566c54c005a844204162110de4656',1,'ftxui']]]
 ];

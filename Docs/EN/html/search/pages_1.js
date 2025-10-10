@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['bug_20list_0',['Bug List',['../bug.html',1,'']]]
+  ['bot_20framework_0',['Styx Telegram Bot Framework',['../index.html',1,'']]],
+  ['bug_20list_1',['Bug List',['../bug.html',1,'']]]
 ];

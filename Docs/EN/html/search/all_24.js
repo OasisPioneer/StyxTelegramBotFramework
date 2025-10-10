@@ -1,4 +1,23 @@
 var searchData=
 [
-  ['目录_0',['目录',['../md_README_8zh-CN.html#autotoc_md68',1,'']]]
+  ['_7eadapter_0',['~Adapter',['../classftxui_1_1ConstStringListRef_1_1Adapter.html#a7590c249f42450ce7b0d146caec23d8c',1,'ftxui::ConstStringListRef::Adapter']]],
+  ['_7eapplication_1',['~Application',['../classApplication.html#a748bca84fefb9c12661cfaa2f623748d',1,'Application']]],
+  ['_7eautoreset_2',['~AutoReset',['../classftxui_1_1AutoReset.html#a119f5da3a42fb7c2a4594710f6aea1bb',1,'ftxui::AutoReset']]],
+  ['_7ebotmanage_3',['~BotManage',['../classBotManage.html#af0447973b303ff894ceff17a806a9514',1,'BotManage']]],
+  ['_7ecapturedmouseinterface_4',['~CapturedMouseInterface',['../classftxui_1_1CapturedMouseInterface.html#a006caf82efca88797de0a0db387349a3',1,'ftxui::CapturedMouseInterface']]],
+  ['_7ecomponentbase_5',['~ComponentBase',['../classftxui_1_1ComponentBase.html#a34ce3d5e2ba75bf6e311dbd9092b04e8',1,'ftxui::ComponentBase']]],
+  ['_7econstref_6',['~ConstRef',['../classftxui_1_1ConstRef.html#a72149b4c21e8420a41e4bbd9ea6cfbb7',1,'ftxui::ConstRef']]],
+  ['_7econststringlistref_7',['~ConstStringListRef',['../classftxui_1_1ConstStringListRef.html#a8cfcfd617f960a4290a24807dc749387',1,'ftxui::ConstStringListRef']]],
+  ['_7eframeworkserviceinterface_8',['~FrameworkServiceInterface',['../classFrameworkServiceInterface.html#a8b5b1957da1a2528ffa9291db25bc31a',1,'FrameworkServiceInterface']]],
+  ['_7eloggerinterface_9',['~LoggerInterface',['../classLoggerInterface.html#a48b6ecdfbbe892a757eab851dd3f5b1f',1,'LoggerInterface']]],
+  ['_7eloop_10',['~Loop',['../classftxui_1_1Loop.html#af68ddff48cf456f2b196d8c902c0888b',1,'ftxui::Loop']]],
+  ['_7enode_11',['~Node',['../classftxui_1_1Node.html#ace29fbdede81009e25324c387051baec',1,'ftxui::Node']]],
+  ['_7eplugininterface_12',['~PluginInterface',['../classPluginInterface.html#a760046616d22d730c341e1cc974571cd',1,'PluginInterface']]],
+  ['_7epluginmanage_13',['~PluginManage',['../classPluginManage.html#a9fe852fc4b302f9a18ce4d8ba62c9619',1,'PluginManage']]],
+  ['_7eref_14',['~Ref',['../classftxui_1_1Ref.html#af10f0bd028b838fbe9adf773f18c9c15',1,'ftxui::Ref']]],
+  ['_7esenderimpl_15',['~SenderImpl',['../classftxui_1_1SenderImpl.html#ae5024743f57cd88a8e9a2764e1a9df42',1,'ftxui::SenderImpl']]],
+  ['_7esingletoninstancecontrol_16',['~SingletonInstanceControl',['../classSingletonInstanceControl.html#a1139d3fa3496769294ddbe6ed4eb369d',1,'SingletonInstanceControl']]],
+  ['_7etelegramhttpclient_17',['~TelegramHTTPClient',['../classTelegramHTTPClient.html#a1733e330f57c161dd69bc952fd1b10d1',1,'TelegramHTTPClient']]],
+  ['_7etuibaseclass_18',['~TUIBaseClass',['../classTUIBaseClass.html#ae76264fa6311d22caeb2c5383e648948',1,'TUIBaseClass']]],
+  ['_7etuistatuspage_19',['~TUIStatusPage',['../classTUIStatusPage.html#ad105f1505372fdec32e37c35961b3baa',1,'TUIStatusPage']]]
 ];

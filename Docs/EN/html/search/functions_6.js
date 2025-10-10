@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['main_0',['main',['../Main_8CPP.html#a0ddf1224851353fc92bfbff6f499fa97',1,'Main.CPP']]]
+  ['gauge_0',['gauge',['../namespaceftxui.html#aa6d6b328208e13e8c2d4dde6e74008f7',1,'ftxui']]],
+  ['gaugedirection_1',['gaugeDirection',['../namespaceftxui.html#a85dfc41b171e9f71390cbf16d75275d2',1,'ftxui']]],
+  ['gaugedown_2',['gaugeDown',['../namespaceftxui.html#ae622c472b4ad9156ba1be5d0e1e11849',1,'ftxui']]],
+  ['gaugeleft_3',['gaugeLeft',['../namespaceftxui.html#a91558495bca0e55a429205696b498845',1,'ftxui']]],
+  ['gaugeright_4',['gaugeRight',['../namespaceftxui.html#ac9f943d164dd95e2cbe3d096cb279b35',1,'ftxui']]],
+  ['gaugeup_5',['gaugeUp',['../namespaceftxui.html#a979928731b6a0229bb187eb830205db6',1,'ftxui']]],
+  ['getbox_6',['GetBox',['../classftxui_1_1Selection.html#ae1f47fe3aac2d17912f3032a02372089',1,'ftxui::Selection']]],
+  ['getcolorinfo_7',['getcolorinfo',['../namespaceftxui.html#a91c1089b0ed4d8ee4439dd5af8d49bab',1,'ftxui::GetColorInfo(Color::Palette16 index)'],['../namespaceftxui.html#a37c0d902e2f39eb21fe89cad155d3df3',1,'ftxui::GetColorInfo(Color::Palette256 index)']]],
+  ['getcomponent_8',['getcomponent',['../classTUIBaseClass.html#a846aacc38ad6a30037a785b9573088da',1,'TUIBaseClass::GetComponent()'],['../classTUIStatusPage.html#abb35a0654c39c0fd4e65857d008d0faf',1,'TUIStatusPage::GetComponent()'],['../classTUISettingsPage.html#a166a56491ac11bba7cf3802f9286c17f',1,'TUISettingsPage::GetComponent()'],['../classTUIPluginPage.html#afff554c278927450585bb14d25c670ad',1,'TUIPluginPage::GetComponent()'],['../classTUILogPage.html#ac1a3aa0562bac181be4568c033a2af9e',1,'TUILogPage::GetComponent()']]],
+  ['getdirectoryplugincount_9',['GetDirectoryPluginCount',['../classEnvironmentSetup.html#a416b54b40a51c617b3bf68828c640396',1,'EnvironmentSetup']]],
+  ['getinstance_10',['GetInstance',['../classLogCollector.html#ade1370b2effe27559e14c3902f607ac0',1,'LogCollector']]],
+  ['getloadedplugins_11',['GetLoadedPlugins',['../classPluginManage.html#a7c6604f34b283699bb25b8dcca6c65fc',1,'PluginManage']]],
+  ['getlogger_12',['getlogger',['../classFrameworkServiceInterface.html#ac6e57fc8ec4faf4141d1b25acf1ca88d',1,'FrameworkServiceInterface::GetLogger()'],['../classFrameworkServices.html#a1fff373f06f4a26efd7b632980847211',1,'FrameworkServices::GetLogger()']]],
+  ['getlogs_13',['GetLogs',['../classLogCollector.html#a55a6e23cab60be17f263d840de397c4b',1,'LogCollector']]],
+  ['getnodeselectedcontent_14',['GetNodeSelectedContent',['../namespaceftxui.html#aa3734b2ef66d240fae5ebe1f2ff1a932',1,'ftxui']]],
+  ['getparts_15',['GetParts',['../classftxui_1_1Selection.html#a62b8dcad129ab82cd5e48b4ad53ee02e',1,'ftxui::Selection']]],
+  ['getpixel_16',['GetPixel',['../structftxui_1_1Canvas.html#a73ea7524c662c23f933046603a5cdd8b',1,'ftxui::Canvas']]],
+  ['getselectedcontent_17',['GetSelectedContent',['../classftxui_1_1Node.html#a7bc89180c3186cd3fa28d4a1efbd6e38',1,'ftxui::Node']]],
+  ['getselection_18',['GetSelection',['../classftxui_1_1ScreenInteractive.html#ab9cc978867a236f2e0964a2a6f206d8d',1,'ftxui::ScreenInteractive']]],
+  ['getselectionstyle_19',['GetSelectionStyle',['../classftxui_1_1Screen.html#a94370edf33e38e64736a2292ba54dcc0',1,'ftxui::Screen']]],
+  ['getsystemconfigpath_20',['GetSystemConfigPath',['../classEnvironmentSetup.html#a5394e865bfd29e86d97790a8fa2ee6fb',1,'EnvironmentSetup']]],
+  ['glyphcount_21',['GlyphCount',['../namespaceftxui.html#a824afae899be0cd6cee69d85b01752a7',1,'ftxui']]],
+  ['glyphiterate_22',['GlyphIterate',['../namespaceftxui.html#a1d4f5487c8802ee8d55e56776766e8ab',1,'ftxui']]],
+  ['glyphnext_23',['GlyphNext',['../namespaceftxui.html#a42a8aac059a66602f95a1d08b73b3edc',1,'ftxui']]],
+  ['glyphprevious_24',['GlyphPrevious',['../namespaceftxui.html#a3e03d8a20a81bba1b159668d0208982b',1,'ftxui']]],
+  ['graph_25',['graph',['../namespaceftxui.html#a1fbbc83f1eb27b1b8597b7c0b873e5a1',1,'ftxui']]],
+  ['gridbox_26',['gridbox',['../namespaceftxui.html#ae4aa7c1ff432fdc846d5666f34fe9d35',1,'ftxui']]]
 ];

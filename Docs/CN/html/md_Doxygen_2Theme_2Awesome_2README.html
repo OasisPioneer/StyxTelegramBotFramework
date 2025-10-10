@@ -102,13 +102,13 @@ $(document).ready(function(){initNavTree('md_Doxygen_2Theme_2Awesome_2README.htm
   <div class="headertitle"><div class="title">Doxygen Awesome</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md45"></a> <a href="https://github.com/jothepro/doxygen-awesome-css/releases/latest"><img src="https://img.shields.io/github/v/release/jothepro/doxygen-awesome-css" alt="GitHub release (latest by date)" class="inline"/></a> <a href="https://github.com/jothepro/doxygen-awesome-css/blob/main/LICENSE"><img src="https://img.shields.io/github/license/jothepro/doxygen-awesome-css" alt="GitHub" class="inline"/></a> <img src="https://img.shields.io/github/stars/jothepro/doxygen-awesome-css" alt="GitHub Repo stars" class="inline"/></p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md256"></a> <a href="https://github.com/jothepro/doxygen-awesome-css/releases/latest"><img src="https://img.shields.io/github/v/release/jothepro/doxygen-awesome-css" alt="GitHub release (latest by date)" class="inline"/></a> <a href="https://github.com/jothepro/doxygen-awesome-css/blob/main/LICENSE"><img src="https://img.shields.io/github/license/jothepro/doxygen-awesome-css" alt="GitHub" class="inline"/></a> <img src="https://img.shields.io/github/stars/jothepro/doxygen-awesome-css" alt="GitHub Repo stars" class="inline"/></p>
 <div class="title_screenshot"></div><div class="title_screenshot"><img src="img/screenshot.png" alt="Screenshot of Doxygen Awesome CSS" class="inline"/></div><div class="title_screenshot"></div><p><b>Doxygen Awesome</b> is a custom CSS theme for Doxygen HTML documentation with many customization options.</p>
-<h1><a class="anchor" id="autotoc_md46"></a>
+<h1><a class="anchor" id="autotoc_md257"></a>
 Motivation</h1>
 <p>I really like how the Doxygen HTML documentation is structured, but IMHO it looks a bit outdated.</p>
 <p>This theme is an attempt to modernize the visuals of Doxygen without changing its overall layout too much.</p>
-<h1><a class="anchor" id="autotoc_md47"></a>
+<h1><a class="anchor" id="autotoc_md258"></a>
 Features</h1>
 <ul>
 <li>🌈 Clean, modern design</li>
@@ -118,7 +118,7 @@ Features</h1>
 <li>🌘 Dark mode support!</li>
 <li>🥇 Works best with <b>Doxygen 1.9.1</b> - <b>1.9.4</b> and <b>1.9.6</b> - <b>1.14.0</b></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md48"></a>
+<h1><a class="anchor" id="autotoc_md259"></a>
 Examples</h1>
 <p>Some websites using this theme:</p>
 <ul>
@@ -132,7 +132,7 @@ Examples</h1>
 <li><a href="https://dumux.org/docs/doxygen/master/">DuMu<sup>x</sup></a></li>
 <li><a href="https://openremise.at/">OpenRemise</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md49"></a>
+<h1><a class="anchor" id="autotoc_md260"></a>
 Installation</h1>
 <p>To use the theme when generating your documentation, bring the required CSS and JS files from this repository into your project.</p>
 <p>This can be done in several ways:</p>
@@ -144,13 +144,13 @@ Installation</h1>
 <li>installing the theme system-wide</li>
 </ul>
 <p>All theme files are located in the root of this repository and start with the prefix <code>doxygen-awesome-</code>. You may not need all of them. Follow the installation instructions to determine which files are required for your setup.</p>
-<h2><a class="anchor" id="autotoc_md50"></a>
+<h2><a class="anchor" id="autotoc_md261"></a>
 Git submodule</h2>
 <p>For projects that use Git, add the repository as a submodule and check out the desired release:</p>
 <div class="fragment"><div class="line">git submodule add https://github.com/jothepro/doxygen-awesome-css.git</div>
 <div class="line">cd doxygen-awesome-css</div>
 <div class="line">git checkout v2.4.0</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md51"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md262"></a>
 CMake with FetchContent</h2>
 <p>For projects that build with CMake, the <code>FetchContent</code> module can be used to download the repository at configuration time.</p>
 <p>Add the following snippet to your <code>CMakeLists.txt</code>:</p>
@@ -172,7 +172,7 @@ CMake with FetchContent</h2>
 </div><!-- fragment --><p>This downloads the latest main (but any other revision could be used) and unpacks in the build folder. The <code>Doxyfile.in</code> can reference this location in the <code>HTML_EXTRA_STYLESHEET</code> field</p>
 <div class="fragment"><div class="line">HTML_EXTRA_STYLESHEET  = @AWESOME_CSS_DIR@/doxygen-awesome.css</div>
 </div><!-- fragment --><p>When the configure stage of CMake is run, the <code>Doxyfile.in</code> is rendered to Doxyfile and Doxygen can be run as usual.</p>
-<h2><a class="anchor" id="autotoc_md52"></a>
+<h2><a class="anchor" id="autotoc_md263"></a>
 npm/xpm dependency</h2>
 <p>In the npm ecosystem, this project can be added as a development dependency to your project:</p>
 <div class="fragment"><div class="line">cd your-project</div>
@@ -180,10 +180,10 @@ npm/xpm dependency</h2>
 <div class="line"> </div>
 <div class="line">ls -l node_modules/@jothepro/doxygen-awesome-css</div>
 </div><!-- fragment --><p>Similarly, in the <a href="https://xpack.github.io">xPack</a> ecosystem, this project can be added as a development dependency to an <a href="https://xpack.github.io/xpm/"><code>xpm</code></a> managed project.</p>
-<h2><a class="anchor" id="autotoc_md53"></a>
+<h2><a class="anchor" id="autotoc_md264"></a>
 System-wide</h2>
 <p>You can even install the theme system-wide by running <code>make install</code>. The files will be installed to <code>/usr/local/share/</code> by default, but you can customize the install location with <code>make PREFIX=/my/custom/path install</code>.</p>
-<h2><a class="anchor" id="autotoc_md54"></a>
+<h2><a class="anchor" id="autotoc_md265"></a>
 Choosing a layout</h2>
 <p>There are two layout options. Choose one of them and configure Doxygen accordingly:</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
@@ -212,14 +212,14 @@ Choosing a layout</h2>
 <li><code>HTML_COLORSTYLE</code> must be set to <code>LIGHT</code> since Doxygen 1.9.5!</li>
 </ul>
 </dd></dl>
-<h2><a class="anchor" id="autotoc_md55"></a>
+<h2><a class="anchor" id="autotoc_md266"></a>
 Further installation instructions</h2>
 <ul>
 <li><a class="el" href="md_Doxygen_2Theme_2Awesome_2docs_2extensions.html">Installing extensions</a></li>
 <li><a class="el" href="md_Doxygen_2Theme_2Awesome_2docs_2customization.html">Customizing the theme (colors, spacing, border-radius, ...)</a></li>
 <li><a class="el" href="md_Doxygen_2Theme_2Awesome_2docs_2tricks.html">Tips and Tricks for further configuration</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md56"></a>
+<h1><a class="anchor" id="autotoc_md267"></a>
 Browser support</h1>
 <p>Tested with</p>
 <ul>
@@ -230,7 +230,7 @@ Browser support</h1>
 <li>Opera One 122</li>
 </ul>
 <p>The theme does not strive to be backward compatible with (significantly) older browser versions.</p>
-<h1><a class="anchor" id="autotoc_md57"></a>
+<h1><a class="anchor" id="autotoc_md268"></a>
 Credits</h1>
 <p>Thanks for all the bug reports and inspiring feedback on GitHub!</p>
 <p>Special thanks to all the contributors: <br  />

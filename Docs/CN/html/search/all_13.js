@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['variables_0',['variables',['../md_Doxygen_2Theme_2Awesome_2docs_2customization.html#autotoc_md17',1,'Available variables'],['../md_Doxygen_2Theme_2Awesome_2docs_2customization.html#autotoc_md15',1,'CSS-Variables']]],
-  ['virtualfunc_1',['virtualfunc',['../classMyLibrary_1_1Example.html#a8431ef1c10c4e2a36302b8e8556514f6',1,'MyLibrary::Example::virtualfunc()'],['../classMyLibrary_1_1SubclassExample.html#a08668a9f16511ad37fb547c985d62764',1,'MyLibrary::SubclassExample::virtualfunc()']]]
+  ['j_0',['j',['../structftxui_1_1Event.html#ab838aeda2868877c8d9b99e20bb09dda',1,'ftxui::Event::J'],['../structftxui_1_1Event.html#afc9f7c3ecddfc7c382d9e7077ec6b852',1,'ftxui::Event::j']]],
+  ['justify_5fcontent_1',['justify_content',['../structftxui_1_1FlexboxConfig.html#a6fa74e58e38854fe44b548028d054af3',1,'ftxui::FlexboxConfig']]],
+  ['justifycontent_2',['JustifyContent',['../structftxui_1_1FlexboxConfig.html#a2aead4217deda668fc71707a1cdd4000',1,'ftxui::FlexboxConfig']]]
 ];

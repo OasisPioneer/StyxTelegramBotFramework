@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['赞助我们_0',['❤️ 赞助我们',['../md_README_8zh-CN.html#autotoc_md75',1,'']]]
+  ['列表_0',['Bug 列表',['../bug.html',1,'']]]
 ];

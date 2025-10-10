@@ -1,11 +1,21 @@
 var searchData=
 [
-  ['a_20layout_0',['Choosing a layout',['../md_Doxygen_2Theme_2Awesome_2README.html#autotoc_md54',1,'']]],
-  ['application_1',['application',['../classApplication.html',1,'Application'],['../classApplication.html#afa8cc05ce6b6092be5ecdfdae44e05f8',1,'Application::Application()'],['../classApplication.html#afaeec66a8591b6d88049b260133d13fc',1,'Application::Application(const Application &amp;)=delete'],['../classApplication.html#a7b5be0a8e4df05ca7ceb2d3d7d275278',1,'Application::Application(Application &amp;&amp;)=delete']]],
-  ['application_2ecpp_2',['Application.CPP',['../Application_8CPP.html',1,'']]],
-  ['application_2ehpp_3',['Application.HPP',['../Application_8HPP.html',1,'']]],
-  ['application_5ftext_5fdomain_4',['APPLICATION_TEXT_DOMAIN',['../Main_8CPP.html#a9f8c221856b2473bd0ab066b2e86e96b',1,'Main.CPP']]],
-  ['application_5funique_5fid_5',['APPLICATION_UNIQUE_ID',['../Main_8CPP.html#a3b8aad31dc4b4c20b8e6bdeb5f16ba14',1,'Main.CPP']]],
-  ['available_20variables_6',['Available variables',['../md_Doxygen_2Theme_2Awesome_2docs_2customization.html#autotoc_md17',1,'']]],
-  ['awesome_7',['Doxygen Awesome',['../md_Doxygen_2Theme_2Awesome_2README.html',1,'']]]
+  ['0_200_0',['0 0',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md36',1,'2.0.0'],['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md31',1,'3.0.0'],['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md26',1,'4.0.0'],['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md16',1,'5.0.0']]],
+  ['0_200_202025_2003_2023_1',['6.0.0 (2025-03-23)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md10',1,'']]],
+  ['0_201_202025_2003_2028_2',['6.0.1 (2025-03-28)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md9',1,'']]],
+  ['0_2010_202021_2009_2030_3',['0.10 (2021-09-30)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md52',1,'']]],
+  ['0_2011_4',['0.11',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md48',1,'']]],
+  ['0_2011_201_5',['0.11.1',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md45',1,'']]],
+  ['0_202_202025_2003_2030_6',['6.0.2 (2025-03-30)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md7',1,'']]],
+  ['0_209_202021_2009_2026_7',['0.9 (2021-09-26)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md56',1,'']]],
+  ['0_20abandonned_8',['4.1.0  (Abandonned)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md25',1,'']]],
+  ['01_9',['6.1.8 (2025-05-01)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md3',1,'']]],
+  ['03_2023_10',['6.0.0 (2025-03-23)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md10',1,'']]],
+  ['03_2028_11',['6.0.1 (2025-03-28)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md9',1,'']]],
+  ['03_2030_12',['6.0.2 (2025-03-30)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md7',1,'']]],
+  ['05_2001_13',['6.1.8 (2025-05-01)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md3',1,'']]],
+  ['05_2007_14',['6.1.9 (2025-05-07)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md0',1,'']]],
+  ['07_15',['6.1.9 (2025-05-07)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md0',1,'']]],
+  ['09_2026_16',['0.9 (2021-09-26)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md56',1,'']]],
+  ['09_2030_17',['0.10 (2021-09-30)',['../md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html#autotoc_md52',1,'']]]
 ];

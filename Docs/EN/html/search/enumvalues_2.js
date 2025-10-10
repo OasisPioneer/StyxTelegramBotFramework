@@ -1,4 +1,22 @@
 var searchData=
 [
-  ['red_0',['red',['../namespaceMyLibrary.html#a79a9f4bbb675f6c082b09249c5a95ceda82b4a54f6fbf39698c2a6982d75f4f0c',1,'MyLibrary']]]
+  ['cadetblue_0',['CadetBlue',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0caea0cf096be04a8189df1974cfd7e7975',1,'ftxui::Color']]],
+  ['cadetbluebis_1',['CadetBlueBis',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cad07ccff14ac21682675ff01bc1a39f7c',1,'ftxui::Color']]],
+  ['center_2',['center',['../structftxui_1_1FlexboxConfig.html#a2aead4217deda668fc71707a1cdd4000a4f1f6016fc9f3f2353c0cc7c67b292bd',1,'ftxui::FlexboxConfig::Center'],['../structftxui_1_1FlexboxConfig.html#ae146c379472ae116ec4993e501c4df48a4f1f6016fc9f3f2353c0cc7c67b292bd',1,'ftxui::FlexboxConfig::Center'],['../structftxui_1_1FlexboxConfig.html#af13db96c842596c1d88da5d40d61b1c6a4f1f6016fc9f3f2353c0cc7c67b292bd',1,'ftxui::FlexboxConfig::Center']]],
+  ['chartreuse1_3',['Chartreuse1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca139a92047bb24c013ba6d4dbb20052d7',1,'ftxui::Color']]],
+  ['chartreuse2_4',['Chartreuse2',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0caa217ccd8460c985e98e2e5896d5ebdc1',1,'ftxui::Color']]],
+  ['chartreuse2bis_5',['Chartreuse2Bis',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0caca1f4456f4d16f59c8e4b34eabcdb2bc',1,'ftxui::Color']]],
+  ['chartreuse3_6',['Chartreuse3',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cac2f12ae9beda15e65726d89dbe574bf0',1,'ftxui::Color']]],
+  ['chartreuse3bis_7',['Chartreuse3Bis',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cafecfbc5f564ca47cf38b6954272fd6cb',1,'ftxui::Color']]],
+  ['chartreuse4_8',['Chartreuse4',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cab678a59696255276d28ccab91a019579',1,'ftxui::Color']]],
+  ['column_9',['Column',['../structftxui_1_1FlexboxConfig.html#a024993c575c549fe2ba31b16540c2fd0a1976d7f704de389d9fe064e08ea35b2d',1,'ftxui::FlexboxConfig']]],
+  ['columninversed_10',['ColumnInversed',['../structftxui_1_1FlexboxConfig.html#a024993c575c549fe2ba31b16540c2fd0a338df815740895b690c7b07716acda20',1,'ftxui::FlexboxConfig']]],
+  ['cornflowerblue_11',['CornflowerBlue',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cacabb5792af63eb794a6885706f6c1126',1,'ftxui::Color']]],
+  ['cornsilk1_12',['Cornsilk1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca42438cde95f6dcc43a5b1f1375bbf659',1,'ftxui::Color']]],
+  ['cr_13',['CR',['../namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a1d7b33fc26ca22c2011aaa97fecc43d8',1,'ftxui']]],
+  ['cyan_14',['Cyan',['../classftxui_1_1Color.html#ac86e752483b7f2d91f21a1c498503abba02e12526ded65899d42782ef044c6702',1,'ftxui::Color']]],
+  ['cyan1_15',['Cyan1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca65f1cb0996726a509ae2d5a0f3489824',1,'ftxui::Color']]],
+  ['cyan2_16',['Cyan2',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca2a49d00bad8a4942cbc39ea5b2303d8c',1,'ftxui::Color']]],
+  ['cyan3_17',['Cyan3',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca2e628ad3775dd117a4f1316781a95a84',1,'ftxui::Color']]],
+  ['cyanlight_18',['CyanLight',['../classftxui_1_1Color.html#ac86e752483b7f2d91f21a1c498503abba5739eacc7f055416da575446f23e6dfa',1,'ftxui::Color']]]
 ];

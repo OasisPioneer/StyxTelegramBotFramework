@@ -1,3 +1,5 @@
 <map id="类继承关系图" name="类继承关系图">
-<area shape="rect" id="Node000000" href="$classMyLibrary_1_1SecondExample.html" title=" " alt="" coords="5,5,204,31"/>
+<area shape="rect" id="Node000000" href="$classFrameworkServiceInterface.html" title=" " alt="" coords="5,5,207,31"/>
+<area shape="rect" id="Node000001" href="$classFrameworkServices.html" title="框架服务入口，为插件提供日志等通用能力。" alt="" coords="255,5,405,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="220,15,254,15,254,21,220,21"/>
 </map>

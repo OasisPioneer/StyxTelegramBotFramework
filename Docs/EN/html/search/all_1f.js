@@ -1,4 +1,31 @@
 var searchData=
 [
-  ['安装指南_0',['🔧 安装指南',['../md_README_8zh-CN.html#autotoc_md71',1,'']]]
+  ['v_0',['v',['../structftxui_1_1Event.html#a84a5d79550f44b586b8f61d55ebf0b63',1,'ftxui::Event::v'],['../structftxui_1_1Event.html#ad063be270c7019de495fb10fbf264373',1,'ftxui::Event::V']]],
+  ['value_1',['value',['../structftxui_1_1SliderOption.html#ad46d239bb70759a45f1d738cc508fc34',1,'ftxui::SliderOption::value'],['../structftxui_1_1ColorInfo.html#a54c0691f0ef6601a888c8be7709f10c8',1,'ftxui::ColorInfo::value']]],
+  ['value_5f_2',['value_',['../src_2ftxui_2dom_2separator_8cpp.html#ad84db3d1db4de4af9935d2d361626bdb',1,'separator.cpp']]],
+  ['variables_3',['variables',['../md_Doxygen_2Theme_2Awesome_2docs_2customization.html#autotoc_md228',1,'Available variables'],['../md_Doxygen_2Theme_2Awesome_2docs_2customization.html#autotoc_md226',1,'CSS-Variables']]],
+  ['variant_4',['Variant',['../classftxui_1_1ConstStringListRef.html#a60e1fd1d7fd235c5a3225a5b3cd0af35',1,'ftxui::ConstStringListRef']]],
+  ['vbox_5',['vbox',['../namespaceftxui.html#aadd6ec32554fad00b54ae59144867926',1,'ftxui']]],
+  ['vbox_2ecpp_6',['vbox.cpp',['../vbox_8cpp.html',1,'']]],
+  ['vbox_5fhbox_2ecpp_7',['vbox_hbox.cpp',['../vbox__hbox_8cpp.html',1,'']]],
+  ['vbox_5ftest_2ecpp_8',['vbox_test.cpp',['../vbox__test_8cpp.html',1,'']]],
+  ['vcenter_9',['vcenter',['../namespaceftxui.html#a479d35cf7b53ed94189f71216e2ff19a',1,'ftxui']]],
+  ['version_10',['version',['../classPluginInterface.html#ad55419093b7274118c867d7190b65429',1,'PluginInterface::Version()'],['../classMyFirstPlugin.html#aeaabbe7cc009c9496508e8e8d816b21c',1,'MyFirstPlugin::Version()']]],
+  ['vertical_11',['vertical',['../structftxui_1_1MenuOption.html#ae070644b06c1bddb3ba731a53521d569',1,'ftxui::MenuOption::Vertical()'],['../index.html#component-vertical',1,'Vertical'],['../namespaceftxui_1_1Container.html#ac7161eb342da04ef2d6e44ac209917d3',1,'ftxui::Container::Vertical(Components children, int *selector)'],['../namespaceftxui_1_1Container.html#a117282d0db159ddfdfaf0bc3bea8e647',1,'ftxui::Container::Vertical(Components children)']]],
+  ['verticalanimated_12',['VerticalAnimated',['../structftxui_1_1MenuOption.html#a48146c6acb2110780712deb9806b5dc5',1,'ftxui::MenuOption']]],
+  ['verticalcontainer_13',['VerticalContainer',['../classftxui_1_1VerticalContainer.html',1,'ftxui']]],
+  ['vflow_14',['vflow',['../namespaceftxui.html#a041b92c9b5f1d65fe61e4d6c6a1d1dfb',1,'ftxui']]],
+  ['vflow_2ecpp_15',['vflow.cpp',['../vflow_8cpp.html',1,'']]],
+  ['violet_16',['Violet',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca944ec1705cc79eeffcc74bfc444dccda',1,'ftxui::Color']]],
+  ['virtualfunc_17',['virtualfunc',['../classMyLibrary_1_1Example.html#a8431ef1c10c4e2a36302b8e8556514f6',1,'MyLibrary::Example::virtualfunc()'],['../classMyLibrary_1_1SubclassExample.html#a08668a9f16511ad37fb547c985d62764',1,'MyLibrary::SubclassExample::virtualfunc()']]],
+  ['vmenu1_18',['VMenu1',['../menu__style_8cpp.html#abc833415e917ac2a93b5a4f35df2f0fb',1,'menu_style.cpp']]],
+  ['vmenu2_19',['VMenu2',['../menu__style_8cpp.html#ab1c7204fedc90016a50553cdcdc9b58b',1,'menu_style.cpp']]],
+  ['vmenu3_20',['VMenu3',['../menu__style_8cpp.html#aec99d3a88e71643df15281e0041e44a2',1,'menu_style.cpp']]],
+  ['vmenu4_21',['VMenu4',['../menu__style_8cpp.html#afc540158e9fcd015af9e24d4ef072214',1,'menu_style.cpp']]],
+  ['vmenu5_22',['VMenu5',['../menu__style_8cpp.html#a62669e7b3cf3a388a714910a16cce19b',1,'menu_style.cpp']]],
+  ['vmenu6_23',['VMenu6',['../menu__style_8cpp.html#aeeb06101b3a771616149626f203be146',1,'menu_style.cpp']]],
+  ['vmenu7_24',['VMenu7',['../menu__style_8cpp.html#af07f6b560af2a9d723b3e53360d280b5',1,'menu_style.cpp']]],
+  ['vmenu8_25',['VMenu8',['../menu__style_8cpp.html#afade922e195c0cda670066485469de56',1,'menu_style.cpp']]],
+  ['vscroll_5findicator_26',['vscroll_indicator',['../namespaceftxui.html#a85c8fd12938205009584019464ca08b1',1,'ftxui']]],
+  ['vtext_27',['vtext',['../namespaceftxui.html#a947a5434076d2a34d028af249c4bd25f',1,'ftxui::vtext(std::wstring text)'],['../namespaceftxui.html#a47e7edccfef230c44b9133ec83caf658',1,'ftxui::vtext(std::string text)'],['../index.html#dom-vtext',1,'vtext']]]
 ];

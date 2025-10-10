@@ -106,13 +106,18 @@ $(document).ready(function(){initNavTree('classApplication.html',''); initResiza
 </div><!--header-->
 <div class="contents">
 
+<p>Core entry class of the application that coordinates initialization and runtime flow.   
+ <a href="classApplication.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="Application_8HPP_source.html">Application.HPP</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afa8cc05ce6b6092be5ecdfdae44e05f8" id="r_afa8cc05ce6b6092be5ecdfdae44e05f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplication.html#afa8cc05ce6b6092be5ecdfdae44e05f8">Application</a> ()</td></tr>
+<tr class="memdesc:afa8cc05ce6b6092be5ecdfdae44e05f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that initializes the terminal UI manager and sets the running flag.   <br /></td></tr>
 <tr class="separator:afa8cc05ce6b6092be5ecdfdae44e05f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a748bca84fefb9c12661cfaa2f623748d" id="r_a748bca84fefb9c12661cfaa2f623748d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplication.html#a748bca84fefb9c12661cfaa2f623748d">~Application</a> ()</td></tr>
+<tr class="memdesc:a748bca84fefb9c12661cfaa2f623748d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor with default behavior to release owned resources.   <br /></td></tr>
 <tr class="separator:a748bca84fefb9c12661cfaa2f623748d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaeec66a8591b6d88049b260133d13fc" id="r_afaeec66a8591b6d88049b260133d13fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplication.html#afaeec66a8591b6d88049b260133d13fc">Application</a> (const <a class="el" href="classApplication.html">Application</a> &amp;)=delete</td></tr>
 <tr class="separator:afaeec66a8591b6d88049b260133d13fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,9 +128,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa909176412a911bcedb36005049c7bcf" id="r_aa909176412a911bcedb36005049c7bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classApplication.html">Application</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplication.html#aa909176412a911bcedb36005049c7bcf">operator=</a> (<a class="el" href="classApplication.html">Application</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:aa909176412a911bcedb36005049c7bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00d10eb756046bb9a02494ca7362013e" id="r_a00d10eb756046bb9a02494ca7362013e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplication.html#a00d10eb756046bb9a02494ca7362013e">Initialize</a> ()</td></tr>
+<tr class="memdesc:a00d10eb756046bb9a02494ca7362013e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs pre-run environment preparation such as directory verification and creation.   <br /></td></tr>
 <tr class="separator:a00d10eb756046bb9a02494ca7362013e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adedfa7e821be70b6c9f47086cdaade1d" id="r_adedfa7e821be70b6c9f47086cdaade1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplication.html#adedfa7e821be70b6c9f47086cdaade1d">Start</a> ()</td></tr>
+<tr class="memdesc:adedfa7e821be70b6c9f47086cdaade1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the main workflow including plugin loading and terminal UI loop.   <br /></td></tr>
+<tr class="separator:adedfa7e821be70b6c9f47086cdaade1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Core entry class of the application that coordinates initialization and runtime flow.  </p>
+<ul>
+<li>Prepares the runtime environment, starts plugins and the terminal interface.</li>
+<li>Uses RAII to manage internal components, ensuring resources are released at end of lifecycle.  </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afa8cc05ce6b6092be5ecdfdae44e05f8" name="afa8cc05ce6b6092be5ecdfdae44e05f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa8cc05ce6b6092be5ecdfdae44e05f8">&#9670;&#160;</a></span>Application() <span class="overload">[1/3]</span></h2>
 
@@ -140,6 +155,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructor that initializes the terminal UI manager and sets the running flag.  </p>
+<p>Constructor that creates the terminal UI manager and initializes the running state flag.  </p>
 
 </div>
 </div>
@@ -157,6 +175,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destructor with default behavior to release owned resources.  </p>
 
 </div>
 </div>
@@ -228,6 +248,12 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Performs pre-run environment preparation such as directory verification and creation.  </p>
+<p>Checks and creates fundamental directories required for runtime. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns <code>true</code> on successful initialization and <code>false</code> on failure. </dd>
+<dd>
+Returns <code>true</code> on success, or <code>false</code> if directories cannot be created.  </dd></dl>
+
 </div>
 </div>
 <a id="aa909176412a911bcedb36005049c7bcf" name="aa909176412a911bcedb36005049c7bcf"></a>
@@ -279,6 +305,26 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="adedfa7e821be70b6c9f47086cdaade1d" name="adedfa7e821be70b6c9f47086cdaade1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adedfa7e821be70b6c9f47086cdaade1d">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Application::Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Starts the main workflow including plugin loading and terminal UI loop.  </p>
+<p>Starts the application's main loop, loading plugins and presenting the terminal interface.  </p>
 
 </div>
 </div>

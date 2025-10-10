@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['🔧_20安装指南_0',['🔧 安装指南',['../md_README_8zh-CN.html#autotoc_md71',1,'']]],
-  ['🔧_20installation_1',['🔧 Installation',['../md_README.html#autotoc_md62',1,'']]]
+  ['如何贡献？_0',['如何贡献？',['../md_Docs_2CONTRIBUTING_8zh-CN.html#autotoc_md220',1,'']]],
+  ['如何贡献_1',['🤝 如何贡献',['../md_README_8zh-CN.html#autotoc_md289',1,'']]]
 ];

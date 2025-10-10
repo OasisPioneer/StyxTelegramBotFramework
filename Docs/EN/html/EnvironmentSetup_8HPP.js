@@ -1,4 +1,4 @@
 var EnvironmentSetup_8HPP =
 [
-    [ "EnvironmentSetup", "classEnvironmentSetup.html", null ]
+    [ "EnvironmentSetup", "classEnvironmentSetup.html", "classEnvironmentSetup" ]
 ];

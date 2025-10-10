@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zh_20cn_0',['README.zh-CN',['../md_README_8zh-CN.html',1,'']]]
+  ['styx_20telegram_20bot_20framework_0',['Styx Telegram Bot Framework',['../index.html',1,'']]]
 ];

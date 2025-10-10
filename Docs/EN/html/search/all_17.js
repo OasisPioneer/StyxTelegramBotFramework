@@ -1,4 +1,27 @@
 var searchData=
 [
-  ['zh_20cn_0',['README.zh-CN',['../md_README_8zh-CN.html',1,'']]]
+  ['n_0',['n',['../structftxui_1_1Event.html#a1fe21a46f743682af34f2997d20cf69e',1,'ftxui::Event::N'],['../structftxui_1_1Event.html#ab34753ff950ec0eb770a69284b11ab01',1,'ftxui::Event::n']]],
+  ['name_1',['name',['../structftxui_1_1ColorInfo.html#a79c65fdb9cb452205d904addd6a985ea',1,'ftxui::ColorInfo::name'],['../classMyFirstPlugin.html#a7e9e107f888a38a198a8f15fd0d375eb',1,'MyFirstPlugin::Name()'],['../classPluginInterface.html#a6db0228df18e8945b946261d005af4b3',1,'PluginInterface::Name()']]],
+  ['navajowhite1_2',['NavajoWhite1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca22f1e63eedf13d36475677af5889a4fe',1,'ftxui::Color']]],
+  ['navajowhite3_3',['NavajoWhite3',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cabb5860dceb74010416a3da9d46607ce7',1,'ftxui::Color']]],
+  ['navigation_4',['Page Navigation',['../md_Doxygen_2Theme_2Awesome_2docs_2extensions.html#extension-page-navigation',1,'']]],
+  ['navyblue_5',['NavyBlue',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cadd2e7507eb12d6dd5f65a878a5f7a73f',1,'ftxui::Color']]],
+  ['need_5fiteration_6',['need_iteration',['../structftxui_1_1Node_1_1Status.html#ad026f962dcc504d6cb554e90a7e0997e',1,'ftxui::Node::Status']]],
+  ['need_5fiteration_5f_7',['need_iteration_',['../flexbox_8cpp.html#a82e273363997977449a51ea1b7dce6f0',1,'flexbox.cpp']]],
+  ['nested_8',['Nested',['../nested__screen_8cpp.html#a77fdac0113a8c43983469efa26ce7276',1,'nested_screen.cpp']]],
+  ['nested_5fscreen_2ecpp_9',['nested_screen.cpp',['../nested__screen_8cpp.html',1,'']]],
+  ['newline_10',['Newline',['../namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a755fee300780823fcf4df98383331745',1,'ftxui']]],
+  ['node_11',['node',['../structftxui_1_1Requirement_1_1Focused.html#a4dc00c03a69af57c7460c0b1917aadcf',1,'ftxui::Requirement::Focused::node'],['../classftxui_1_1Node.html#a985c2a29e684628f5a7314d493055f98',1,'ftxui::Node::Node()'],['../classftxui_1_1Node.html#a1ec609f27961f83f5a07c23f77e8e114',1,'ftxui::Node::Node(Elements children)'],['../classftxui_1_1Node.html#aa0ffadd6283b85d85eb368f10fec4586',1,'ftxui::Node::Node(const Node &amp;)=delete'],['../classftxui_1_1Node.html#a19f767522b844664809a63dfb16895f9',1,'ftxui::Node::Node(const Node &amp;&amp;)=delete'],['../classftxui_1_1Node.html',1,'ftxui::Node']]],
+  ['node_2ecpp_12',['node.cpp',['../node_8cpp.html',1,'']]],
+  ['node_2ehpp_13',['node.hpp',['../node_8hpp.html',1,'']]],
+  ['node_5fdecorator_2ecpp_14',['node_decorator.cpp',['../node__decorator_8cpp.html',1,'']]],
+  ['node_5fdecorator_2ehpp_15',['node_decorator.hpp',['../node__decorator_8hpp.html',1,'']]],
+  ['nodedecorator_16',['nodedecorator',['../classftxui_1_1NodeDecorator.html',1,'ftxui::NodeDecorator'],['../classftxui_1_1NodeDecorator.html#ad179dae4ce420c479425c4fc2a04552f',1,'ftxui::NodeDecorator::NodeDecorator()']]],
+  ['nominmax_17',['NOMINMAX',['../src_2ftxui_2component_2window_8cpp.html#a9f918755b601cf4bffca775992e6fb90',1,'window.cpp']]],
+  ['none_18',['None',['../structftxui_1_1Mouse.html#aa915b210a459afecf9aaffc41a3f64cca221deb02b5f8edfb4cc9cc91754436bd',1,'ftxui::Mouse']]],
+  ['notflex_19',['notflex',['../namespaceftxui.html#a6718d67dc73384f628c142a436c66620',1,'ftxui']]],
+  ['nothing_20',['nothing',['../namespaceftxui.html#a338ed1d44041377a12f7597220426b20',1,'ftxui']]],
+  ['nowrap_21',['NoWrap',['../structftxui_1_1FlexboxConfig.html#abf7c43c64afed10ae714b9e8e756cbb8a93ac740a98eb4cc45b853c780ed16c44',1,'ftxui::FlexboxConfig']]],
+  ['npm_20xpm_20dependency_22',['npm/xpm dependency',['../md_Doxygen_2Theme_2Awesome_2README.html#autotoc_md263',1,'']]],
+  ['numeric_23',['Numeric',['../namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a87322391cc6e8948ce9fd5d6cb84fced',1,'ftxui']]]
 ];

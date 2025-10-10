@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['弃用列表_0',['弃用列表',['../deprecated.html',1,'']]]
+  ['zh_20cn_0',['README.zh-CN',['../md_README_8zh-CN.html',1,'']]]
 ];

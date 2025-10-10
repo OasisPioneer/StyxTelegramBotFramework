@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tips_20tricks_0',['Tips &amp; Tricks',['../md_Doxygen_2Theme_2Awesome_2docs_2tricks.html',1,'']]],
-  ['tricks_1',['Tips &amp; Tricks',['../md_Doxygen_2Theme_2Awesome_2docs_2tricks.html',1,'']]]
+  ['readme_0',['readme',['../md_cmake-build-debug_2__deps_2ftxui-src_2README.html',1,'README'],['../md_README.html',1,'README']]],
+  ['readme_20zh_20cn_1',['README.zh-CN',['../md_README_8zh-CN.html',1,'']]]
 ];

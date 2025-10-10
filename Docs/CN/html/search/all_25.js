@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['描述_0',['描述',['../md_README_8zh-CN.html#autotoc_md67',1,'']]]
+  ['✨_20功能特点_0',['✨ 功能特点',['../md_README_8zh-CN.html#autotoc_md285',1,'']]],
+  ['✨_20features_1',['✨ Features',['../md_README.html#autotoc_md272',1,'']]]
 ];

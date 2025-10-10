@@ -1,3 +1,3 @@
 <map id="类继承关系图" name="类继承关系图">
-<area shape="rect" id="Node000000" href="$classEnvironmentSetup.html" title=" " alt="" coords="5,5,148,31"/>
+<area shape="rect" id="Node000000" href="$classBotManage.html" title="机器人管理器，负责注册插件并驱动其更新循环。" alt="" coords="5,5,101,31"/>
 </map>

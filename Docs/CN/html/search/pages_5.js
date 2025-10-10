@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['guidelines_0',['Contributing Guidelines',['../md_Docs_2CONTRIBUTING.html',1,'']]]
+  ['framework_0',['Styx Telegram Bot Framework',['../index.html',1,'']]]
 ];
