@@ -8,7 +8,7 @@
 
 #include "Core/Application.HPP"
 
-TUIStatusPage::TUIStatusPage(ftxui::ScreenInteractive& Screen) : StartupTime_(std::chrono::steady_clock::now()), Screen_(Screen) {
+TUIStatusPage::TUIStatusPage(ftxui::ScreenInteractive& Screen) : StartupTime_(std::chrono::steady_clock::now()), Screen_(Screen), StopThread_(false) {
     MainComponents_ = ftxui::Renderer([this] { return this->Rendering(); });
     TimerThread_ = std::thread(&TUIStatusPage::AnimationThread, this);
 }

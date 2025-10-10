@@ -14,7 +14,7 @@ Application::Application() : TUIManage_(std::make_unique<TUIManage>()), RunningS
 
 bool Application::Initialize() {
     std::vector<std::string> Directory = {"DataBase", "Logs", "Plugins"};
-    if (EnvironmentSetup::EnsureDirectoryExist(Directory)) {
+    if (!EnvironmentSetup::EnsureDirectoryExist(Directory)) {
         LOG_ERROR(boost::locale::translate("Failed to create necessary directories."));
         return false;
     }

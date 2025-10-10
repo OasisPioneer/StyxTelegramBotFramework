@@ -21,7 +21,8 @@ void PluginManage::LoadingPlugins(const std::string& DirectoryPath) {
     }
 
     for (const auto& Entry : boost::filesystem::directory_iterator(DirectoryPath)) {
-        if (Entry.is_regular_file() && Entry.path().extension() == ".so" || Entry.path().extension() == ".dylib" || Entry.path().extension() == ".dll") {
+        // if (Entry.is_regular_file() && Entry.path().extension() == ".so" || Entry.path().extension() == ".dylib" || Entry.path().extension() == ".dll") {
+        if (Entry.is_regular_file() && (Entry.path().extension() == ".so" || Entry.path().extension() == ".dylib" || Entry.path().extension() == ".dll")){
             const std::string Path = Entry.path().string();
             LOG_INFO(boost::locale::translate("Attempting to load plugin: ").str() + Path);
 
