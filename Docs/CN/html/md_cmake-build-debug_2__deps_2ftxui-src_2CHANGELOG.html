@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: Changelog</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('md_cmake-build-debug_2__deps_2ftxui-src_2CHANGELOG.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">Changelog</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1><a class="anchor" id="autotoc_md0"></a>
+6.1.9 (2025-05-07)</h1>
+<h2><a class="anchor" id="autotoc_md1"></a>
+Build</h2>
+<p>If all goes well (pending), ftxui should appear in the Bazel central repository. It can be imported into your project using the following lines:</p>
+<p><b>MODULE.bazel</b> </p><div class="fragment"><div class="line">bazel_dep(name = &quot;ftxui&quot;, version = &quot;6.1.9&quot;)</div>
+</div><!-- fragment --><p>Thanks @robinlinden and @kcc for the reviews.</p>
+<h2><a class="anchor" id="autotoc_md2"></a>
+dom</h2>
+<ul>
+<li>Bugfix: Restore the <code>dbox</code> behavior from ftxui 5.0.0. To apply bgcolor blending between the two layers, a new <code>dboxBlend</code> will be added.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+6.1.8 (2025-05-01)</h1>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Build</h2>
+<ul>
+<li><p class="startli">Feature: Support <code>bazel</code> build system. See #1032. Proposed by Kostya Serebryany @kcc</p>
+<p class="startli"><b>BUILD.bazel</b> </p><div class="fragment"><div class="line">deps = [</div>
+<div class="line">  // Depend on the whole library:</div>
+<div class="line">  &quot;@ftxui//:ftxui&quot;,</div>
+<div class="line"> </div>
+<div class="line">  // Choose a specific submodule:</div>
+<div class="line">  &quot;@ftxui//:component&quot;,</div>
+<div class="line">  &quot;@ftxui//:dom&quot;,</div>
+<div class="line">  &quot;@ftxui//:screen&quot;,</div>
+<div class="line">]</div>
+</div><!-- fragment --></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md5"></a>
+Component</h2>
+<ul>
+<li>Bugfix: Fix a crash with ResizeableSplit. See #1023.<ul>
+<li>Clamp screen size to terminal size.</li>
+<li>Disallow <code>ResizeableSplit</code> with negative size.</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Dom</h2>
+<ul>
+<li>Bugfix: Disallow specifying a negative size constraint. See #1023.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md7"></a>
+6.0.2 (2025-03-30)</h1>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Component</h2>
+<ul>
+<li>BugFix: Fix major crash on Windows affecting all components. See #1020</li>
+<li>BugFix: Fix focusRelative.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md9"></a>
+6.0.1 (2025-03-28)</h1>
+<p>Same as v6.0.0.</p>
+<p>Due to a problem tag v6.0.0 was replaced. This isn't a good practice and affect developers that started using it in the short timeframe. Submitting a new release with the same content is the best way to fix this.</p>
+<p>See #1017 and #1019.</p>
+<h1><a class="anchor" id="autotoc_md10"></a>
+6.0.0 (2025-03-23)</h1>
+<h2><a class="anchor" id="autotoc_md11"></a>
+Component</h2>
+<ul>
+<li>Feature: Add support for raw input. Allowing more keys to be detected.</li>
+<li>Feature: Add <code>ScreenInteractive::ForceHandleCtrlC(false)</code> to allow component to fully override the default <code>Ctrl+C</code> handler.</li>
+<li>Feature: Add <code>ScreenInteractive::ForceHandleCtrlZ(false)</code> to allow component to fully override the default <code>Ctrl+Z</code> handler.</li>
+<li>Feature: Add <code>Mouse::WeelLeft</code> and <code>Mouse::WeelRight</code> events on supported terminals.</li>
+<li>Feature: Add <code>Event::DebugString()</code>.</li>
+<li>Feature: Add support for <code>Input</code>'s insert mode. Add <code>InputOption::insert</code> option. Added by @mingsheng13.</li>
+<li>Feature: Add <code>DropdownOption</code> to configure the dropdown. See #826.</li>
+<li>Feature: Add support for Selection. Thanks @clement-roblot. See #926.<ul>
+<li>See <code>ScreenInteractive::GetSelection()</code>.</li>
+<li>See <code>ScreenInteractive::SelectionChange(...)</code> listener.</li>
+</ul>
+</li>
+<li>Bugfix/Breaking change: <code>Mouse transition</code>:<ul>
+<li>Detect when the mouse move, as opposed to being pressed. The Mouse::Moved motion was added.</li>
+<li>Dragging the mouse with the left button pressed now avoids activating multiple checkboxes.</li>
+<li>A couple of components are now activated when the mouse is pressed, as opposed to being released. This fixes: <a href="https://github.com/ArthurSonzogni/FTXUI/issues/773">https://github.com/ArthurSonzogni/FTXUI/issues/773</a> This fixes: <a href="https://github.com/ArthurSonzogni/FTXUI/issues/792">https://github.com/ArthurSonzogni/FTXUI/issues/792</a></li>
+</ul>
+</li>
+<li>Bugfix: mouse.control is now reported correctly.</li>
+<li>Feature: Add <code>ScreenInteractive::FullscreenPrimaryScreen()</code>. This allows displaying a fullscreen component on the primary screen, as opposed to the alternate screen.</li>
+<li>Bugfix: <code>Input</code> <code>onchange</code> was not called on backspace or delete key. Fixed by @chrysante in chrysante in PR #776.</li>
+<li>Bugfix: Propertly restore cursor shape on exit. See #792.</li>
+<li>Bugfix: Fix cursor position in when in the last column. See #831.</li>
+<li>Bugfix: Fix <code>ResizeableSplit</code> keyboard navigation. Fixed by #842.</li>
+<li>Bugfix: Fix <code>Menu</code> focus. See #841</li>
+<li>Feature: Add <code>ComponentBase::Index()</code>. This allows to get the index of a component in its parent. See #932</li>
+<li>Feature: Add <code>EntryState::index</code>. This allows to get the index of a menu entry. See #932</li>
+<li>Feature: Add <code>SliderOption::on_change</code>. This allows to set a callback when the slider value changes. See #938.</li>
+<li>Bugfix: Handle <code>Dropdown</code> with no entries.</li>
+<li>Bugfix: Fix crash in <code>LinearGradient</code> due to float precision and an off-by-one mistake. See #998.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md12"></a>
+Dom</h2>
+<ul>
+<li>Feature: Add <code>italic</code> decorator. For instance: <div class="fragment"><div class="line"><span class="keyword">auto</span> italic_text = text(<span class="stringliteral">&quot;Italic text&quot;</span>) | italic;</div>
+</div><!-- fragment --> <div class="fragment"><div class="line"><span class="keyword">auto</span> italic_text = italic(text(<span class="stringliteral">&quot;Italic text&quot;</span>));</div>
+</div><!-- fragment --> Proposed by @kenReneris in #1009.</li>
+<li>Feature: Add <code>hscroll_indicator</code>. It display an horizontal indicator reflecting the current scroll position. Proposed by @ibrahimnasson in <a href="https://github.com/ArthurSonzogni/FTXUI/issues/752">issue 752</a></li>
+<li>Feature: Add <code>extend_beyond_screen</code> option to <code>Dimension::Fit(..)</code>, allowing the element to be larger than the screen. Proposed by @LordWhiro. See #572 and #949.</li>
+<li>Feature: Add support for Selection. Thanks @clement-roblot. See #926.<ul>
+<li>See <code>selectionColor</code> decorator.</li>
+<li>See <code>selectionBackgroundColor</code> decorator.</li>
+<li>See <code>selectionForegroundColor</code> decorator.</li>
+<li>See <code>selectionStyle(style)</code> decorator.</li>
+<li>See <code>selectionStyleReset</code> decorator.</li>
+</ul>
+</li>
+<li>Breaking change: Change how "focus"/"select" are handled. This fixes the behavior.</li>
+<li>Breaking change: <code>Component::OnRender()</code> becomes the method to override to render a component. This replaces <code>Component::Render()</code> that is still in use to call the rendering method on the children. This change allows to fix a couple of issues around focus handling.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md13"></a>
+Screen</h2>
+<ul>
+<li>Feature: Add <code>Box::IsEmpty()</code>.</li>
+<li>Feature: Color transparency<ul>
+<li>Add <code>Color::RGBA(r,g,b,a)</code>.</li>
+<li>Add <code>Color::HSVA(r,g,b,a)</code>.</li>
+<li>Add <code>Color::Blend(Color)</code>.</li>
+<li>Add <code>Color::IsOpaque()</code></li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md14"></a>
+Util</h2>
+<ul>
+<li>Feature: Support arbitrary <code>Adapter</code> for <code>ConstStringListRef</code>. See #843.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md15"></a>
+Build</h2>
+<ul>
+<li>Support for cmake's "unity/jumbo" builds. Fixed by @ClausKlein.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md16"></a>
+5.0.0</h1>
+<h2><a class="anchor" id="autotoc_md17"></a>
+Component</h2>
+<ul>
+<li>Breaking: MenuDirection enum is renamed Direction</li>
+<li>Breaking: GaugeDirection enum is renamed Direction</li>
+<li>Breaking: Direction enum is renamed WidthOrHeight</li>
+<li>Breaking: Remove <code>ComponentBase</code> copy constructor/assignment.</li>
+<li>Breaking: MenuOption::entries is renamed MenuOption::entries_option.</li>
+<li>Breaking: <code>Ref&lt;{Component}Option&gt;</code> becomes <code>{Component}Option</code> in component constructors.</li>
+<li>Feature: <code>ResizeableSplit</code> now support arbitrary element as a separator.</li>
+<li>Feature: <code>input</code> is now supporting multiple lines.</li>
+<li>Feature: <code>input</code> style is now customizeable.</li>
+<li>Bugfix: Support F1-F5 from OS terminal.</li>
+<li>Feature: Add struct based constructor: <div class="fragment"><div class="line">Component Button(ButtonOption options);</div>
+<div class="line">Component Checkbox(CheckboxOption options);</div>
+<div class="line">Component Input(InputOption options);</div>
+<div class="line">Component Menu(MenuOption options);</div>
+<div class="line">Component MenuEntry(MenuEntryOption options);</div>
+<div class="line">Component Radiobox(RadioboxOption options);</div>
+<div class="line">Component Slider(SliderOption&lt;T&gt; options);</div>
+<div class="line">Component ResizableSplit(ResizableSplitOption options);</div>
+</div><!-- fragment --></li>
+<li>Feature: Add <code>ScreenInteractive::TrackMouse(false)</code> disable mouse support.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md18"></a>
+Dom</h2>
+<ul>
+<li>Feature: Add <code>hyperlink</code> decorator. For instance: <div class="fragment"><div class="line"><span class="keyword">auto</span> link = text(<span class="stringliteral">&quot;Click here&quot;</span>) | hyperlink(<span class="stringliteral">&quot;https://github.com/FTXUI&quot;</span>)</div>
+</div><!-- fragment --> See the <a href="https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda">OSC 8 page</a>. FTXUI support proposed by @aaleino in <a href="https://github.com/ArthurSonzogni/FTXUI/issues/662">#662</a>.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md19"></a>
+Screen</h2>
+<ul>
+<li>Breaking: <code>WordBreakProperty</code> becomes a uint8_t enum. This yields a 0.8% performance improvement.</li>
+<li>Breaking: Remove user defined Pixel constructor and equality operator.</li>
+<li>Performance: 19% faster on benchmarks.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md20"></a>
+Build</h2>
+<ul>
+<li>Check version compatibility when using cmake find_package()</li>
+<li>Add <code>FTXUI_DEV_WARNING</code> options to turn on warnings when building FTXUI</li>
+<li>Turn OFF by default <code>FTXUI_BUILD_DOCS</code></li>
+<li>Turn OFF by default <code>FTXUI_BUILD_EXAMPLE</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md21"></a>
+4.1.1</h1>
+<h2><a class="anchor" id="autotoc_md22"></a>
+Component</h2>
+<ul>
+<li>Fix: Support arrow keys in application mode</li>
+<li>Fix: Remove useless new line when using an alternative screen.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md23"></a>
+Dom</h2>
+<ul>
+<li>Feature: Add the dashed style for border and separator:<ul>
+<li>See <code>DASHED</code> enum, and <code>separatorDashed()</code>, <code>borderDashed()</code> functions.</li>
+</ul>
+</li>
+<li>Feature: Add colored borders.<ul>
+<li>See functions: <code>borderStyled(BorderStyle, Color)</code> and <code>borderStyled(Color)</code>.</li>
+</ul>
+</li>
+<li>Feature: Add <code>LinearGradient</code>. It can be used in <code>color</code> and <code>bgColor</code>.</li>
+<li>Improvement: Color::Interpolate() uses gamma correction.</li>
+<li>Fix: Check the <code>graph</code> area is positive.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md24"></a>
+Build/Install</h2>
+<ul>
+<li>Use globally set CMAKE_CXX_STANDARD if it is set.</li>
+<li>Expose the pkg-config file</li>
+<li>Check version compatibility when using cmake find_package()</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md25"></a>
+4.1.0  (Abandonned)</h1>
+<p>This version is abandonned and must not be used. It introduced a breaking change in the API.</p>
+<h1><a class="anchor" id="autotoc_md26"></a>
+4.0.0</h1>
+<h2><a class="anchor" id="autotoc_md27"></a>
+DOM</h2>
+<ul>
+<li>Feature: more styles:<ul>
+<li><code>strikethrough</code></li>
+<li><code>underlinedDouble</code></li>
+</ul>
+</li>
+<li>Feature: Customize the cursor. Add the following decorators:<ul>
+<li><code>focusCursorBlock</code></li>
+<li><code>focusCursorBlockBlinking</code></li>
+<li><code>focusCursorBar</code></li>
+<li><code>focusCursorBarBlinking</code></li>
+<li><code>focusCursorUnderline</code></li>
+<li><code>focusCursorUnderlineBlinking</code></li>
+</ul>
+</li>
+<li>Bugfix: Fix <code>focus</code>/<code>select</code> when the <code>vbox</code>/<code>hbox</code>/<code>dbox</code> contains a <code>flexbox</code></li>
+<li>Bugfix: Fix the selected/focused area. It used to be 1 cell larger/longer than requested</li>
+<li>Bugfix: Forward the selected/focused area from the child in gridbox.</li>
+<li>Bugfix: Fix incorrect Canvas computed dimensions.</li>
+<li>Bugfix: Support <code>vscroll_indicator</code> with a zero inner size.</li>
+<li>Bugfix: Fix <code>vscroll_indicator</code> hidding the last column.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md28"></a>
+Component:</h2>
+<ul>
+<li>Feature: Add the <code>Modal</code> component.</li>
+<li>Feature: <code>Slider</code> supports taking references for all its arguments.</li>
+<li>Feature: <code>Slider</code> supports <code>SliderOption</code>. It supports:<ul>
+<li>multiple directions.</li>
+<li>multiple colors.</li>
+<li>various values (value, min, max, increment).</li>
+</ul>
+</li>
+<li>Feature: Define <code>ScreenInteractive::Exit()</code>.</li>
+<li>Feature: Add <code>Loop</code> to give developers a better control on the main loop. This can be used to integrate FTXUI into another main loop, without taking the full control.</li>
+<li>Feature: <code>Input</code> supports CTRL+Left and CTRL+Right</li>
+<li>Feature: Use a blinking bar in the <code>Input</code> component.</li>
+<li>Improvement: The <code>Menu</code> keeps the focus when an entry is selected with the mouse.</li>
+<li>Bugfix: Add implementation of <code>ButtonOption::Border()</code>. It was missing.</li>
+<li>Bugfix: Provide the correct key for F1-F4 and F11.</li>
+<li>Feature: Add the <code>Hoverable</code> component decorators.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md29"></a>
+Screen</h2>
+<ul>
+<li>Feature: add <code>Box::Union(a,b) -&gt; Box</code></li>
+<li>Bugfix: Fix resetting <code>dim</code> clashing with resetting of <code>bold</code>.</li>
+<li>Feature: Add emscripten screen resize support.</li>
+<li>Bugfix: Add unicode 13 support for full width characters.</li>
+<li>Bugfix: Fix MSVC treating codecvt C++17 deprecated function as an error.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md30"></a>
+Build</h2>
+<ul>
+<li>Support using the google test version provided by the package manager.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md31"></a>
+3.0.0</h1>
+<h2><a class="anchor" id="autotoc_md32"></a>
+Build</h2>
+<ul>
+<li><b>breaking</b>: The library prefix is now back to "lib" (the default). This means non-cmake users should not link against "libftxui-dom" for instance.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md33"></a>
+Component</h2>
+<ul>
+<li><b>Animations</b> module! Components can implement the <code>OnAnimation</code> method and the animation::Animator to define some animated properties.<ul>
+<li><code>Menu</code> now support animations.</li>
+<li><code>Button</code> now supports animations.</li>
+</ul>
+</li>
+<li>Support SIGTSTP. (ctrl+z).</li>
+<li>Support task posting. <code>ScreenInteractive::Post(Task)</code>.</li>
+<li><code>Menu</code> can now be used in the 4 directions, using <code>MenuOption.direction</code>.</li>
+<li><code>Menu</code> can display an animated underline, using <code>MenuOption.underline.enabled</code>.</li>
+<li><code>Button</code> is now taking the focus in frame.</li>
+<li><b>breaking</b> All the options are now using a transform function.</li>
+<li><b>breaking</b> The <code>Toggle</code> component is now implemented using <code>Menu</code>.</li>
+<li><b>bugfix</b> Container::Tab implements <code>Focusable()</code>.</li>
+<li><b>bugfix</b> Improved default implementations of ComponentBase <code>Focusable()</code> and <code>ActiveChild()</code> methods.</li>
+<li><b>bugfix</b> Automatically convert '\r' keys into '<br  />
+' for Linux programs that do not send the correct code for the return key, like the 'bind'. <a href="https://github.com/ArthurSonzogni/FTXUI/issues/337">https://github.com/ArthurSonzogni/FTXUI/issues/337</a></li>
+<li>Add decorator for components:<ul>
+<li><code>operator|(Component, ComponentDecorator)</code></li>
+<li><code>operator|(Component, ElementDecorator)</code></li>
+<li><code>operator|=(Component, ComponentDecorator)</code></li>
+<li><code>operator|=(Component, ElementDecorator)</code></li>
+<li>Add the <code>Maybe</code> decorator.</li>
+<li>Add the <code>CatchEvent</code> decorator.</li>
+<li>Add the <code>Renderer</code> decorator.</li>
+</ul>
+</li>
+<li><b>breaking</b> remove the "deprectated.hpp" header and Input support for wide string.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md34"></a>
+DOM:</h2>
+<ul>
+<li><b>breaking</b>: The <code>inverted</code> decorator now toggle in the inverted attribute.</li>
+<li>Add <code>gauge</code> for the 4 directions. Expose the following API: <div class="fragment"><div class="line">Element gauge(<span class="keywordtype">float</span> ratio);</div>
+<div class="line">Element gaugeLeft(<span class="keywordtype">float</span> ratio);</div>
+<div class="line">Element gaugeRight(<span class="keywordtype">float</span> ratio);</div>
+<div class="line">Element gaugeUp(<span class="keywordtype">float</span> ratio);</div>
+<div class="line">Element gaugeDown(<span class="keywordtype">float</span> ratio);</div>
+<div class="line">Element gaugeDirection(<span class="keywordtype">float</span> ratio, GaugeDirection);</div>
+</div><!-- fragment --></li>
+<li>Add <code>separatorHSelector</code> and <code>separatorVSelector</code> elements. This can be used to highlight an area.</li>
+<li>Add the <code>automerge</code> decorator. This makes separator characters to be merged with others nearby.</li>
+<li>Fix the <code>Table</code> rendering function, to allow automerging characters.</li>
+<li><b>Bugfix</b>: The <code>vscroll_indicator</code> now computes its offset and size correctly.</li>
+<li>Add the <code>operator|=(Element, Decorator)</code></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md35"></a>
+Screen:</h2>
+<ul>
+<li>Add: <code>Color::Interpolate(lambda, color_a, color_b)</code>.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md36"></a>
+2.0.0</h1>
+<h2><a class="anchor" id="autotoc_md37"></a>
+Features:</h2>
+<h3><a class="anchor" id="autotoc_md38"></a>
+Screen</h3>
+<ul>
+<li>Add the <code>automerge</code> to the Pixel bit field. This now controls which pixels are automatically merged.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md39"></a>
+DOM:</h3>
+<ul>
+<li>Add the <code>Canvas</code> class and &lsquo;ElementFrom('canvas&rsquo;)<code>function. Together users of the library can draw using braille and block characters.</code></li>
+<li><code>Support</code>flexbox<code>dom elements. This is build symmetrically to the HTML one. All the following attributes are supported: direction, wrap, justify-content, align-items, align-content, gap</code></li>
+<li><code>Add the dom elements helper based on</code>flexbox<code>: -</code>paragraph<code> -</code>paragraphAlignLeft<code> -</code>paragraphAlignCenter<code> -</code>paragraphAlignRight<code> -</code>paragraphAlignJustify<code></code></li>
+<li><code>Add the helper elements based on</code>flexbox<code>:</code>hflow()<code>,</code>vflow()<code>.</code></li>
+<li><code>Add:</code>focusPositionRelative<code>and</code>focusPosition<code></code></li>
+<li><code>Add</code>Table` constructor from 2D vector of Element, instead of string.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md40"></a>
+Component</h3>
+<ul>
+<li>Add the <code>collapsible</code> component.</li>
+<li>Add the <code>ScreenInteractive::WithRestoredIO</code>. This decorates a callback. This runs it with the terminal hooks temporarilly uninstalled. This is useful if you want to execute command using directly stdin/stdout/sterr.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md41"></a>
+Bug</h2>
+<h3><a class="anchor" id="autotoc_md42"></a>
+Table</h3>
+<ul>
+<li>The <code>table</code> horizontal and vertical separator are now correctly expanded.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md43"></a>
+Component</h3>
+<ul>
+<li><code>Input</code> shouldn't take focus when hovered by the mouse.</li>
+<li>Modifying <code>Input</code>'s during on_enter/on_change event is now working correctly.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md44"></a>
+Breaking changes:</h2>
+<ul>
+<li>The behavior of <code>paragraph</code> has been modified. It now returns en Element, instead of a list of elements.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md45"></a>
+0.11.1</h1>
+<h1><a class="anchor" id="autotoc_md46"></a>
+Component</h1>
+<ul>
+<li>Feature: Support for PageUp/PageDown/Home/End buttons.</li>
+<li>Bugfix: Check the selected element are within bounds for Dropdown.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md47"></a>
+Build</h1>
+<ul>
+<li>Bugfix: Package library using the "Release config". Not debug.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md48"></a>
+0.11</h2>
+<h2><a class="anchor" id="autotoc_md49"></a>
+github workflow</h2>
+<ul>
+<li>Add Windows ad MacOS artefacts.</li>
+<li>Merge all the workflows.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md50"></a>
+Bug</h2>
+<ul>
+<li>On Unix system, fallback to {80,25} screen dimension on failure.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md51"></a>
+CMake</h2>
+<ul>
+<li>Support for shared library, via <code>BUILD_SHARED_LIBS</code> option.</li>
+<li>Add library version and symlinks.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md52"></a>
+0.10 (2021-09-30)</h2>
+<h2><a class="anchor" id="autotoc_md53"></a>
+Bug</h2>
+<ul>
+<li>Fix the automated merge of borders.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md54"></a>
+Dom</h3>
+<ul>
+<li><code>Table()</code> class to build stylised table. See <a href="https://github.com/ArthurSonzogni/FTXUI/discussions/228">https://github.com/ArthurSonzogni/FTXUI/discussions/228</a></li>
+<li><code>vscroll_indicator</code>. Show a scrollbar indicator on the right.</li>
+<li><code>separatorEmpty</code>. A separator drawing nothing.</li>
+<li><code>separatorFixed</code>. A separator drawing the provided character.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md55"></a>
+Component</h3>
+<ul>
+<li><code>Maybe</code>: Display an component conditionnally based on a boolean.</li>
+<li><code>Dropdown</code>: A dropdown select list.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md56"></a>
+0.9 (2021-09-26)</h2>
+<p>The initial release where changelog where written.</p>
+<p>This version includes:</p>
+<h3><a class="anchor" id="autotoc_md57"></a>
+screen</h3>
+<ul>
+<li>Style:<ul>
+<li>Bold.</li>
+<li>Blink.</li>
+<li>Dim.</li>
+<li>Inverted.</li>
+<li>Underlined.</li>
+<li>Foreground color.</li>
+<li>Background color.</li>
+</ul>
+</li>
+<li>Support for UTF8 unicode.<ul>
+<li>Full wide character: 测试.</li>
+<li>Combining characters: a⃒</li>
+</ul>
+</li>
+<li>A Stencil buffer.</li>
+<li>Automatically merge box drawing characters.</li>
+<li>Detect terminal dimension.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md58"></a>
+DOM</h3>
+<ul>
+<li>Element:<ul>
+<li><code>text</code> &amp; <code>vtext</code></li>
+<li><code>separator</code> and 5 variations.</li>
+<li><code>gauge</code></li>
+<li><code>border</code> and 6 variations.</li>
+<li><code>window</code></li>
+<li><code>spinner</code></li>
+<li><code>paragraph</code> and <code>hflow</code>.</li>
+</ul>
+</li>
+<li>Layout:<ul>
+<li><code>hbox</code></li>
+<li><code>vbox</code></li>
+<li><code>dbox</code></li>
+<li><code>gridbox</code></li>
+<li><code>frame</code>: Drawing inside a virtual area, potentially larger than the real one.</li>
+<li><code>focus</code>, <code>select</code>: scroll the inner view of a frame, to be in view.</li>
+<li><code>flex</code> &amp; 8 variations. <code>filler</code></li>
+</ul>
+</li>
+<li>Decorators:<ul>
+<li><code>bold</code></li>
+<li><code>dim</code></li>
+<li><code>inverted</code></li>
+<li><code>blink</code></li>
+<li><code>color</code></li>
+<li><code>bgcolor</code></li>
+<li><code>clearunder</code></li>
+</ul>
+</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md59"></a>
+Component</h3>
+<ul>
+<li>Container:<ul>
+<li><code>Container::Vertical</code></li>
+<li><code>Container::Horizontal</code></li>
+<li><code>Container::Tab</code></li>
+</ul>
+</li>
+<li><code>Button</code></li>
+<li><code>Checkbox</code></li>
+<li><code>Input</code></li>
+<li><code>Menu</code></li>
+<li><code>MenuEntry</code></li>
+<li><code>Radiobox</code></li>
+<li><code>Toggle</code></li>
+<li><code>Slider</code></li>
+<li><code>Renderer</code> &amp; variations</li>
+<li><code>CatchEvent</code></li>
+</ul>
+<h3><a class="anchor" id="autotoc_md60"></a>
+MISC</h3>
+<ul>
+<li>Fuzzer</li>
+<li>Tests using gtest.</li>
+<li>Doxygen documentation</li>
+<li>IWYU</li>
+<li>52 examples.</li>
+<li>Support for WebAssembly.</li>
+<li>Support for Window and fallback for broken terminal. </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

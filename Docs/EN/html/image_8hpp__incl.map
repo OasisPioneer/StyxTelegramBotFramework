@@ -1,0 +1,18 @@
+<map id="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/include/ftxui/screen/image.hpp" name="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/include/ftxui/screen/image.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="34,5,208,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="162,255,221,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,62,35,77,18,94,9,112,13,132,40,171,76,203,115,228,151,247,149,252,112,233,73,207,36,175,8,134,4,111,13,90,32,73,55,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="23,108,86,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,62,74,99,70,95,98,58"/>
+<area shape="rect" id="Node000004" href="$box_8hpp.html" title=" " alt="" coords="110,108,265,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="143,58,172,95,168,99,139,62"/>
+<area shape="rect" id="Node000005" href="$pixel_8hpp.html" title=" " alt="" coords="290,108,451,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="198,58,325,101,323,106,196,63"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="308,136,261,154,239,167,220,183,204,211,196,242,191,241,199,209,216,180,236,162,259,149,306,131"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="336,255,402,280"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="382,132,402,165,407,186,406,207,388,245,383,242,401,206,402,187,397,167,378,135"/>
+<area shape="rect" id="Node000007" href="$color_8hpp.html" title=" " alt="" coords="230,181,391,207"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="362,135,331,173,327,169,358,132"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="293,209,224,250,221,245,290,204"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="322,205,353,243,349,246,318,209"/>
+</map>

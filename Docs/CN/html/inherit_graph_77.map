@@ -1,0 +1,11 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="Node000000" href="$classTUIBaseClass.html" title="终端界面页面的抽象基类，定义统一接口。" alt="" coords="5,80,116,105"/>
+<area shape="rect" id="Node000001" href="$classTUILogPage.html" title="日志查看页面，按表格形式展示框架日志。" alt="" coords="179,5,277,31"/>
+<area shape="poly" id="edge19_Node000000_Node000001" title=" " alt="" coords="97,71,163,40,190,28,192,33,165,44,99,76"/>
+<area shape="rect" id="Node000002" href="$classTUIPluginPage.html" title=" " alt="" coords="171,55,285,80"/>
+<area shape="poly" id="edge20_Node000000_Node000002" title=" " alt="" coords="129,80,170,73,171,79,130,85"/>
+<area shape="rect" id="Node000003" href="$classTUISettingsPage.html" title=" " alt="" coords="164,104,292,129"/>
+<area shape="poly" id="edge21_Node000000_Node000003" title=" " alt="" coords="130,100,164,105,163,110,129,105"/>
+<area shape="rect" id="Node000004" href="$classTUIStatusPage.html" title="状态展示页面，动态呈现运行时间、插件数量等信息。" alt="" coords="170,153,286,179"/>
+<area shape="poly" id="edge22_Node000000_Node000004" title=" " alt="" coords="102,109,165,138,195,151,193,156,163,143,99,114"/>
+</map>

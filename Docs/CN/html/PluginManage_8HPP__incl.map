@@ -1,0 +1,15 @@
+<map id="Include/Plugins/PluginManage.HPP" name="Include/Plugins/PluginManage.HPP">
+<area shape="rect" id="Node000001" title=" " alt="" coords="169,5,416,31"/>
+<area shape="rect" id="Node000002" href="$PluginInterface_8HPP.html" title=" " alt="" coords="45,79,196,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,33,162,76,160,71,264,28"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="221,79,279,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="288,32,266,68,262,66,283,30"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="304,79,367,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="302,30,324,66,319,68,297,32"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="391,79,469,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="316,28,397,70,394,75,314,33"/>
+<area shape="rect" id="Node000003" href="$FrameworkServiceInterface_8HPP.html" title=" " alt="" coords="5,152,236,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,104,123,138,118,138,118,104"/>
+<area shape="rect" id="Node000004" href="$LoggerInterface_8HPP.html" title=" " alt="" coords="43,225,198,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,178,123,212,118,212,118,178"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ftxui::MenuOption" name="ftxui::MenuOption">
+<area shape="rect" id="Node000001" title="Option for the Menu component." alt="" coords="5,5,144,31"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1MenuBase.html" title="A list of items. The user can navigate through them." alt="" coords="11,79,138,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,44,77,79,72,79,72,44"/>
+</map>

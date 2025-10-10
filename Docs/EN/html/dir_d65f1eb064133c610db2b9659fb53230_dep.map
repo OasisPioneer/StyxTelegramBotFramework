@@ -1,0 +1,13 @@
+<map id="Include/TerminalUserInterface" name="Include/TerminalUserInterface">
+<area shape="rect" id="node1" href="dir_0599d141b1a2e9e9007ecef8e4a97773.html" title="Core" alt="" coords="37,125,89,151"/>
+<area shape="rect" id="node2" href="dir_20de91d11825d11b2e1937a8e14f06d7.html" title="Plugins" alt="" coords="113,125,183,151"/>
+<area shape="rect" id="node3" href="dir_d65f1eb064133c610db2b9659fb53230.html" title="TerminalUserInterface" alt="" coords="27,52,194,77"/>
+<area shape="poly" id="edge1" href="dir_000053_000014.html" alt="" coords="105,79,80,116,76,113,101,76"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000053_000014.html" title="1" alt="" coords="83,108,92,122"/>
+<area shape="poly" id="edge2" href="dir_000053_000040.html" alt="" coords="119,76,138,112,133,115,114,79"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000053_000040.html" title="1" alt="" coords="136,98,146,113"/>
+<area shape="rect" id="node4" href="dir_95e29a8b8ee7c54052c171a88bb95675.html" title="cmake&#45;build&#45;debug" alt="" coords="216,125,363,151"/>
+<area shape="poly" id="edge3" href="dir_000053_000006.html" alt="" coords="140,75,249,118,247,123,138,80"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000053_000006.html" title="8" alt="" coords="242,103,251,118"/>
+<area shape="rect" id="clust1" href="dir_856524284ebe840938865dc061f982fb.html" title="Include" alt="" coords="16,16,205,161"/>
+</map>

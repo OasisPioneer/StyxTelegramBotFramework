@@ -1,0 +1,18 @@
+<map id="ftxui::Event" name="ftxui::Event">
+<area shape="rect" id="Node000001" title="Represent an event. It can be key press event, a terminal resize, or more ..." alt="" coords="245,412,341,437"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="320,404,337,401,352,403,363,411,367,425,361,440,346,448,327,447,307,440,309,435,328,442,345,442,357,436,362,425,359,414,350,408,337,406,321,409"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1ScreenInteractive.html" title=" " alt="" coords="43,256,217,281"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="154,289,282,410,278,414,150,293"/>
+<area shape="rect" id="Node000003" href="$classftxui_1_1Screen.html" title="A rectangular grid of Pixel." alt="" coords="79,181,181,207"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="133,221,133,256,127,256,127,221"/>
+<area shape="rect" id="Node000004" href="$classftxui_1_1Image.html" title="A rectangular grid of Pixel." alt="" coords="5,93,105,119"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="76,127,122,179,118,183,72,131"/>
+<area shape="rect" id="Node000005" href="$structftxui_1_1Box.html" title=" " alt="" coords="13,5,97,31"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="58,45,58,93,53,93,53,45"/>
+<area shape="rect" id="Node000006" href="$structftxui_1_1Screen_1_1Cursor.html" title=" " alt="" coords="129,93,283,119"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="189,131,143,183,139,179,185,127"/>
+<area shape="rect" id="Node000007" href="$structftxui_1_1Mouse.html" title="A mouse event. It contains the coordinate of the mouse, the button pressed and the modifier (shift,..." alt="" coords="241,256,344,281"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="295,295,295,412,290,412,290,295"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="369,256,515,281"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="423,293,306,414,302,410,419,290"/>
+</map>

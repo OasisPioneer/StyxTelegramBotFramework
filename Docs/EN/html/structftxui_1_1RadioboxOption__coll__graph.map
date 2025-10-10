@@ -1,0 +1,7 @@
+<map id="ftxui::RadioboxOption" name="ftxui::RadioboxOption">
+<area shape="rect" id="Node000001" title="Option for the Radiobox component." alt="" coords="101,108,264,133"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1ConstStringListRef.html" title="An adapter. Reference a list of strings." alt="" coords="5,5,184,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,39,175,106,171,110,112,43"/>
+<area shape="rect" id="Node000003" href="$classftxui_1_1Ref.html" title=" " alt="" coords="208,5,336,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,43,195,110,191,106,251,39"/>
+</map>

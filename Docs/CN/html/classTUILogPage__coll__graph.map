@@ -1,0 +1,5 @@
+<map id="TUILogPage" name="TUILogPage">
+<area shape="rect" id="Node000001" title="日志查看页面，按表格形式展示框架日志。" alt="" coords="11,79,110,104"/>
+<area shape="rect" id="Node000002" href="$classTUIBaseClass.html" title="终端界面页面的抽象基类，定义统一接口。" alt="" coords="5,5,116,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,44,63,79,58,79,58,44"/>
+</map>

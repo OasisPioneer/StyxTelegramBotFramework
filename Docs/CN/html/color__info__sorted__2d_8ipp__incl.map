@@ -1,0 +1,16 @@
+<map id="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/examples/dom/color_info_sorted_2d.ipp" name="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/examples/dom/color_info_sorted_2d.ipp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="37,5,256,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,91,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,62,72,107,69,104,117,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="115,115,178,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,60,149,101,144,101,144,60"/>
+<area shape="rect" id="Node000004" href="$color__info_8hpp.html" title=" " alt="" coords="202,108,337,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,58,235,98,232,102,180,62"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="192,269,259,295"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="260,150,239,197,229,256,224,255,233,195,255,147"/>
+<area shape="rect" id="Node000006" href="$color_8hpp.html" title=" " alt="" coords="247,196,409,221"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="286,147,313,183,309,186,281,150"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="313,224,255,263,252,259,310,219"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="299,269,357,295"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="331,222,331,256,325,256,325,222"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Src/Core/System/LogCollector.CPP" name="Src/Core/System/LogCollector.CPP">
+<area shape="rect" id="Node000001" title=" " alt="" coords="212,5,455,31"/>
+<area shape="rect" id="Node000002" href="$LogCollector_8HPP.html" title=" " alt="" coords="11,79,229,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="300,33,168,77,167,72,298,28"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="253,79,320,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="328,32,304,69,300,66,323,30"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="344,79,419,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="343,30,368,66,364,69,339,33"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="443,79,517,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="358,28,445,70,443,75,356,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,64,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,106,61,145,57,141,105,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="89,152,151,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="123,104,123,138,117,138,117,104"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="176,152,240,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="136,102,185,141,181,145,132,106"/>
+</map>

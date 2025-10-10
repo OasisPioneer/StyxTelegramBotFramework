@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: Include/Plugins/PluginManage.HPP 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('PluginManage_8HPP.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a>  </div>
+  <div class="headertitle"><div class="title">PluginManage.HPP 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="PluginInterface_8HPP_source.html">PluginInterface.HPP</a>&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+PluginManage.HPP 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="PluginManage_8HPP__incl.png" border="0" usemap="#aInclude_2Plugins_2PluginManage_8HPP" alt=""/></div>
+<map name="aInclude_2Plugins_2PluginManage_8HPP" id="aInclude_2Plugins_2PluginManage_8HPP">
+<area shape="rect" title=" " alt="" coords="169,5,416,31"/>
+<area shape="rect" href="PluginInterface_8HPP.html" title=" " alt="" coords="45,79,196,104"/>
+<area shape="poly" title=" " alt="" coords="266,33,162,76,160,71,264,28"/>
+<area shape="rect" title=" " alt="" coords="221,79,279,104"/>
+<area shape="poly" title=" " alt="" coords="288,32,266,68,262,66,283,30"/>
+<area shape="rect" title=" " alt="" coords="304,79,367,104"/>
+<area shape="poly" title=" " alt="" coords="302,30,324,66,319,68,297,32"/>
+<area shape="rect" title=" " alt="" coords="391,79,469,104"/>
+<area shape="poly" title=" " alt="" coords="316,28,397,70,394,75,314,33"/>
+<area shape="rect" href="FrameworkServiceInterface_8HPP.html" title=" " alt="" coords="5,152,236,177"/>
+<area shape="poly" title=" " alt="" coords="123,104,123,138,118,138,118,104"/>
+<area shape="rect" href="LoggerInterface_8HPP.html" title=" " alt="" coords="43,225,198,251"/>
+<area shape="poly" title=" " alt="" coords="123,178,123,212,118,212,118,178"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="PluginManage_8HPP__dep__incl.png" border="0" usemap="#aInclude_2Plugins_2PluginManage_8HPPdep" alt=""/></div>
+<map name="aInclude_2Plugins_2PluginManage_8HPPdep" id="aInclude_2Plugins_2PluginManage_8HPPdep">
+<area shape="rect" title=" " alt="" coords="308,5,555,31"/>
+<area shape="rect" href="TUIPluginPage_8HPP.html" title=" " alt="" coords="99,79,316,119"/>
+<area shape="poly" title=" " alt="" coords="387,38,262,81,260,76,385,33"/>
+<area shape="rect" href="Application_8CPP.html" title=" " alt="" coords="340,86,523,111"/>
+<area shape="poly" title=" " alt="" coords="434,44,434,86,429,86,429,44"/>
+<area shape="rect" href="PluginManage_8CPP.html" title=" " alt="" coords="547,86,766,111"/>
+<area shape="poly" title=" " alt="" coords="478,33,625,83,623,88,476,38"/>
+<area shape="rect" href="TUIManage_8CPP.html" title=" " alt="" coords="5,167,196,207"/>
+<area shape="poly" title=" " alt="" coords="175,129,126,169,123,164,171,125"/>
+<area shape="rect" href="TUIPluginPage_8CPP.html" title=" " alt="" coords="220,167,411,207"/>
+<area shape="poly" title=" " alt="" coords="244,125,293,164,290,169,240,129"/>
+</map>
+</div>
+</div>
+<p><a href="PluginManage_8HPP_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPluginInfo.html">PluginInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">描述单个插件实例及其运行时资源的结构体。    <a href="structPluginInfo.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManage.html">PluginManage</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">插件管理器，负责扫描、加载并维护插件生命周期。    <a href="classPluginManage.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_856524284ebe840938865dc061f982fb.html">Include</a></li><li class="navelem"><a class="el" href="dir_20de91d11825d11b2e1937a8e14f06d7.html">Plugins</a></li><li class="navelem"><a class="el" href="PluginManage_8HPP.html">PluginManage.HPP</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

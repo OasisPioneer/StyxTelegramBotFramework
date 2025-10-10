@@ -1,0 +1,11 @@
+<map id="TUIBaseClass" name="TUIBaseClass">
+<area shape="rect" id="Node000001" title="终端界面页面的抽象基类，定义统一接口。" alt="" coords="202,5,313,31"/>
+<area shape="rect" id="Node000002" href="$classTUILogPage.html" title="日志查看页面，按表格形式展示框架日志。" alt="" coords="5,79,104,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,38,88,81,87,76,211,33"/>
+<area shape="rect" id="Node000003" href="$classTUIPluginPage.html" title=" " alt="" coords="128,79,243,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,43,199,80,195,77,234,39"/>
+<area shape="rect" id="Node000004" href="$classTUISettingsPage.html" title=" " alt="" coords="267,79,395,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="281,38,321,77,317,80,277,42"/>
+<area shape="rect" id="Node000005" href="$classTUIStatusPage.html" title="状态展示页面，动态呈现运行时间、插件数量等信息。" alt="" coords="419,79,535,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="307,32,443,76,441,81,305,37"/>
+</map>

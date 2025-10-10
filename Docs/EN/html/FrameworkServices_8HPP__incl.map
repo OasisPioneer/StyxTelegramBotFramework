@@ -1,0 +1,20 @@
+<map id="Include/Core/System/FrameworkServices.HPP" name="Include/Core/System/FrameworkServices.HPP">
+<area shape="rect" id="Node000001" title=" " alt="" coords="253,5,437,45"/>
+<area shape="rect" id="Node000002" href="$FrameworkServiceInterface_8HPP.html" title=" " alt="" coords="5,93,236,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="292,48,167,91,165,86,290,43"/>
+<area shape="rect" id="Node000004" href="$FrameworkLogger_8HPP.html" title=" " alt="" coords="261,93,429,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="347,46,347,79,342,79,342,46"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="453,93,530,119"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="381,43,459,84,456,89,379,48"/>
+<area shape="rect" id="Node000003" href="$LoggerInterface_8HPP.html" title=" " alt="" coords="50,167,205,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="124,119,128,153,122,153,119,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="311,121,176,165,175,160,309,116"/>
+<area shape="rect" id="Node000005" href="$LogCollector_8HPP.html" title=" " alt="" coords="235,167,454,192"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="347,119,347,153,342,153,342,119"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="230,240,289,265"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="333,194,285,233,282,229,329,190"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="313,240,376,265"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="347,192,347,226,342,226,342,192"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="401,240,465,265"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="360,190,409,229,406,233,357,194"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="PluginSDK/Include/PluginInterface.HPP" name="PluginSDK/Include/PluginInterface.HPP">
+<area shape="rect" id="Node000001" title=" " alt="" coords="525,5,709,45"/>
+<area shape="rect" id="Node000002" href="$MyFirstPlugin_8HPP.html" title=" " alt="" coords="88,93,267,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="512,50,267,97,266,92,511,44"/>
+<area shape="rect" id="Node000004" href="$BotManage_8HPP.html" title=" " alt="" coords="373,101,601,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="578,55,506,103,503,98,575,51"/>
+<area shape="rect" id="Node000007" href="$PluginManage_8HPP.html" title=" " alt="" coords="625,101,871,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="659,51,732,98,729,103,656,55"/>
+<area shape="rect" id="Node000011" href="$PluginManage_8CPP.html" title=" " alt="" coords="881,189,1100,214"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="724,37,804,57,845,72,884,91,916,114,945,140,984,187,980,190,941,144,913,118,881,96,843,77,803,62,722,43"/>
+<area shape="rect" id="Node000003" href="$MyFirstPlugin_8CPP.html" title=" " alt="" coords="5,181,184,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,145,115,183,111,179,147,142"/>
+<area shape="rect" id="Node000005" href="$Application_8CPP.html" title=" " alt="" coords="433,189,615,214"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="500,137,521,187,516,189,495,139"/>
+<area shape="rect" id="Node000006" href="$BotManage_8CPP.html" title=" " alt="" coords="208,189,408,214"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="452,134,333,191,331,186,449,130"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="706,134,555,191,553,186,704,129"/>
+<area shape="rect" id="Node000008" href="$TUIPluginPage_8HPP.html" title=" " alt="" coords="639,181,857,221"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="751,140,751,181,745,181,745,140"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="794,128,959,186,957,191,793,133"/>
+<area shape="rect" id="Node000009" href="$TUIManage_8CPP.html" title=" " alt="" coords="546,269,737,309"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="715,232,667,271,663,267,712,228"/>
+<area shape="rect" id="Node000010" href="$TUIPluginPage_8CPP.html" title=" " alt="" coords="761,269,951,309"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="784,228,834,267,830,271,781,232"/>
+</map>

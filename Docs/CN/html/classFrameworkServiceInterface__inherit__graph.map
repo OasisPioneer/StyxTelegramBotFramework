@@ -1,0 +1,5 @@
+<map id="FrameworkServiceInterface" name="FrameworkServiceInterface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,207,31"/>
+<area shape="rect" id="Node000002" href="$classFrameworkServices.html" title="框架服务入口，为插件提供日志等通用能力。" alt="" coords="31,79,181,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
+</map>

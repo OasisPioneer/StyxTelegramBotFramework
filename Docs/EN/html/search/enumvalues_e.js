@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['palegreen1_0',['PaleGreen1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca8b47c4dda070ad75e7bdb9c58c14d5c5',1,'ftxui::Color']]],
+  ['palegreen1bis_1',['PaleGreen1Bis',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca9db32a9a7376a95f27689511090616a8',1,'ftxui::Color']]],
+  ['palegreen3_2',['PaleGreen3',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca8b1f6f4e310c7b0ea613c629c0d0bb4d',1,'ftxui::Color']]],
+  ['palegreen3bis_3',['PaleGreen3Bis',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca0362b8970a14f97c999b4ed526fc8877',1,'ftxui::Color']]],
+  ['palette1_4',['Palette1',['../namespaceftxui_1_1Terminal.html#ace9c322fd9a3ec244fd172b52c2e964fa52d9f1bc3b558db01f14e80631fddacd',1,'ftxui::Terminal']]],
+  ['palette16_5',['Palette16',['../namespaceftxui_1_1Terminal.html#ace9c322fd9a3ec244fd172b52c2e964faf861ebd03f2b989fb45c0125f5171781',1,'ftxui::Terminal']]],
+  ['palette256_6',['Palette256',['../namespaceftxui_1_1Terminal.html#ace9c322fd9a3ec244fd172b52c2e964fa3153ad03bd61418164b8ed2ffc0ec3dc',1,'ftxui::Terminal']]],
+  ['paleturquoise1_7',['PaleTurquoise1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca66d888f48a754c7e5be2ccf35ff7aa5b',1,'ftxui::Color']]],
+  ['paleturquoise4_8',['PaleTurquoise4',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0caa77be9f3b97ea0bed11164b6d5f8cb69',1,'ftxui::Color']]],
+  ['palevioletred1_9',['PaleVioletRed1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cadeea77cc998beb0b350d2dc59684a34b',1,'ftxui::Color']]],
+  ['pink1_10',['Pink1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca34780e633d58f30465aba02eaa6e790c',1,'ftxui::Color']]],
+  ['pink3_11',['Pink3',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca972209593bb192877b3ad654a2e2649f',1,'ftxui::Color']]],
+  ['plum1_12',['Plum1',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cadee49ed7e2f1a596519f57633db7d4d0',1,'ftxui::Color']]],
+  ['plum2_13',['Plum2',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca948f87191a7eaba9aa076f5c608dbcc8',1,'ftxui::Color']]],
+  ['plum3_14',['Plum3',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0cac0c6ab88876dd9d5307685b54e63ee09',1,'ftxui::Color']]],
+  ['plum4_15',['Plum4',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca846bd5255996fcde0a49d40b35119654',1,'ftxui::Color']]],
+  ['pressed_16',['Pressed',['../structftxui_1_1Mouse.html#a1958abdf22208dc8c223af6c9ea8f821a4c87b3e56606f796d5f7acc9eca760a2',1,'ftxui::Mouse']]],
+  ['purple_17',['Purple',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca35271e381b30e0ceb6eec5accfd219fc',1,'ftxui::Color']]],
+  ['purple3_18',['Purple3',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0caa5867347e74c952601002482e47a76d9',1,'ftxui::Color']]],
+  ['purple4_19',['Purple4',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca12ab6f89210c8ea3c09dadfb3c0c79fd',1,'ftxui::Color']]],
+  ['purple4bis_20',['Purple4Bis',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca77adc62796dc9d836afb44acdc680f31',1,'ftxui::Color']]],
+  ['purplebis_21',['PurpleBis',['../classftxui_1_1Color.html#ab5027212f1ff50f9a38c5e2006b5bd0ca1d01fdc31e3f2502b3756f7ebfbf0787',1,'ftxui::Color']]]
+];

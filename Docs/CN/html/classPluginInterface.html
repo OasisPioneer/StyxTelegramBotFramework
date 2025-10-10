@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: PluginInterface类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classPluginInterface.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="classPluginInterface-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">PluginInterface类 参考<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="PluginInterface_8HPP_source.html">PluginInterface.HPP</a>&gt;</code></p>
+<div class="dynheader">
+类 PluginInterface 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classPluginInterface__inherit__graph.png" border="0" usemap="#aPluginInterface_inherit__map" alt="Inheritance graph"/></div>
+<map name="aPluginInterface_inherit__map" id="aPluginInterface_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,5,125,31"/>
+<area shape="rect" href="classMyFirstPlugin.html" title=" " alt="" coords="10,79,121,104"/>
+<area shape="poly" title=" " alt="" coords="68,44,68,79,63,79,63,44"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a760046616d22d730c341e1cc974571cd" id="r_a760046616d22d730c341e1cc974571cd"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#a760046616d22d730c341e1cc974571cd">~PluginInterface</a> ()=default</td></tr>
+<tr class="separator:a760046616d22d730c341e1cc974571cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c18137289fdb67e7b019d28ebcfd834" id="r_a5c18137289fdb67e7b019d28ebcfd834"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#a5c18137289fdb67e7b019d28ebcfd834">Initialize</a> (<a class="el" href="classFrameworkServiceInterface.html">FrameworkServiceInterface</a> *Service)=0</td></tr>
+<tr class="separator:a5c18137289fdb67e7b019d28ebcfd834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7d42c82fa1cfd8dbec20e717b5c29c" id="r_aef7d42c82fa1cfd8dbec20e717b5c29c"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#aef7d42c82fa1cfd8dbec20e717b5c29c">Token</a> () const =0</td></tr>
+<tr class="separator:aef7d42c82fa1cfd8dbec20e717b5c29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db0228df18e8945b946261d005af4b3" id="r_a6db0228df18e8945b946261d005af4b3"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#a6db0228df18e8945b946261d005af4b3">Name</a> () const =0</td></tr>
+<tr class="separator:a6db0228df18e8945b946261d005af4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad55419093b7274118c867d7190b65429" id="r_ad55419093b7274118c867d7190b65429"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#ad55419093b7274118c867d7190b65429">Version</a> () const =0</td></tr>
+<tr class="separator:ad55419093b7274118c867d7190b65429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9528203c0ec23fd7deaafd83d1c07a5c" id="r_a9528203c0ec23fd7deaafd83d1c07a5c"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#a9528203c0ec23fd7deaafd83d1c07a5c">Author</a> () const =0</td></tr>
+<tr class="separator:a9528203c0ec23fd7deaafd83d1c07a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb412576ddf573d87803b6108360ae1" id="r_a7bb412576ddf573d87803b6108360ae1"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#a7bb412576ddf573d87803b6108360ae1">Description</a> () const =0</td></tr>
+<tr class="separator:a7bb412576ddf573d87803b6108360ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46766ebc7eb373f4477066d35bcea572" id="r_a46766ebc7eb373f4477066d35bcea572"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#a46766ebc7eb373f4477066d35bcea572">Enable</a> ()=0</td></tr>
+<tr class="separator:a46766ebc7eb373f4477066d35bcea572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39ab7817f5bc1cd14b3096f3d4ea047b" id="r_a39ab7817f5bc1cd14b3096f3d4ea047b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginInterface.html#a39ab7817f5bc1cd14b3096f3d4ea047b">Disable</a> ()=0</td></tr>
+<tr class="separator:a39ab7817f5bc1cd14b3096f3d4ea047b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a760046616d22d730c341e1cc974571cd" name="a760046616d22d730c341e1cc974571cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760046616d22d730c341e1cc974571cd">&#9670;&#160;</a></span>~PluginInterface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual PluginInterface::~PluginInterface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a9528203c0ec23fd7deaafd83d1c07a5c" name="a9528203c0ec23fd7deaafd83d1c07a5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9528203c0ec23fd7deaafd83d1c07a5c">&#9670;&#160;</a></span>Author()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char * PluginInterface::Author </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMyFirstPlugin.html#a58d41c4dba5540e02b1abb1e497e60e2">MyFirstPlugin</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a7bb412576ddf573d87803b6108360ae1" name="a7bb412576ddf573d87803b6108360ae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb412576ddf573d87803b6108360ae1">&#9670;&#160;</a></span>Description()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char * PluginInterface::Description </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMyFirstPlugin.html#a60ed781b8e63d43307c3dd9fddb44b69">MyFirstPlugin</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a39ab7817f5bc1cd14b3096f3d4ea047b" name="a39ab7817f5bc1cd14b3096f3d4ea047b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39ab7817f5bc1cd14b3096f3d4ea047b">&#9670;&#160;</a></span>Disable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PluginInterface::Disable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMyFirstPlugin.html#a9aa976420b3bef4e09b31da7f484df05">MyFirstPlugin</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a46766ebc7eb373f4477066d35bcea572" name="a46766ebc7eb373f4477066d35bcea572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46766ebc7eb373f4477066d35bcea572">&#9670;&#160;</a></span>Enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PluginInterface::Enable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMyFirstPlugin.html#a31b0583fe4a43eeed7c291716e7ce140">MyFirstPlugin</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a5c18137289fdb67e7b019d28ebcfd834" name="a5c18137289fdb67e7b019d28ebcfd834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c18137289fdb67e7b019d28ebcfd834">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char * PluginInterface::Initialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classFrameworkServiceInterface.html">FrameworkServiceInterface</a> *&#160;</td>
+          <td class="paramname"><em>Service</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMyFirstPlugin.html#a79d1b1cc7e54b1389acf169119ef1186">MyFirstPlugin</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a6db0228df18e8945b946261d005af4b3" name="a6db0228df18e8945b946261d005af4b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6db0228df18e8945b946261d005af4b3">&#9670;&#160;</a></span>Name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char * PluginInterface::Name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMyFirstPlugin.html#a7e9e107f888a38a198a8f15fd0d375eb">MyFirstPlugin</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="aef7d42c82fa1cfd8dbec20e717b5c29c" name="aef7d42c82fa1cfd8dbec20e717b5c29c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7d42c82fa1cfd8dbec20e717b5c29c">&#9670;&#160;</a></span>Token()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char * PluginInterface::Token </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMyFirstPlugin.html#a6c446e84a8b4e1c0d7b389f2ced99c7e">MyFirstPlugin</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="ad55419093b7274118c867d7190b65429" name="ad55419093b7274118c867d7190b65429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad55419093b7274118c867d7190b65429">&#9670;&#160;</a></span>Version()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char * PluginInterface::Version </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="classMyFirstPlugin.html#aeaabbe7cc009c9496508e8e8d816b21c">MyFirstPlugin</a> 内被实现.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>PluginSDK/Include/<a class="el" href="PluginInterface_8HPP_source.html">PluginInterface.HPP</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classPluginInterface.html">PluginInterface</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

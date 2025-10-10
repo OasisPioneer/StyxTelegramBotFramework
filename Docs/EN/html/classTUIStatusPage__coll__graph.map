@@ -1,0 +1,5 @@
+<map id="TUIStatusPage" name="TUIStatusPage">
+<area shape="rect" id="Node000001" title="Status display page showing runtime duration, plugin count, and more." alt="" coords="5,79,121,104"/>
+<area shape="rect" id="Node000002" href="$classTUIBaseClass.html" title="Abstract base class for terminal UI pages defining the unified interface." alt="" coords="8,5,119,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,44,66,79,61,79,61,44"/>
+</map>

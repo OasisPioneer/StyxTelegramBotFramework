@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: cmake-build-debug/_deps/ftxui-src/src/ftxui/dom/table_test.cpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('table__test_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">table_test.cpp 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;gtest/gtest.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="elements_8hpp_source.html">ftxui/dom/elements.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="node_8hpp_source.html">ftxui/dom/node.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="table_8hpp_source.html">ftxui/dom/table.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="screen_8hpp_source.html">ftxui/screen/screen.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+table_test.cpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="table__test_8cpp__incl.png" border="0" usemap="#acmake-build-debug_2__deps_2ftxui-src_2src_2ftxui_2dom_2table__test_8cpp" alt=""/></div>
+<map name="acmake-build-debug_2__deps_2ftxui-src_2src_2ftxui_2dom_2table__test_8cpp" id="acmake-build-debug_2__deps_2ftxui-src_2src_2ftxui_2dom_2table__test_8cpp">
+<area shape="rect" title=" " alt="" coords="429,5,613,60"/>
+<area shape="rect" title=" " alt="" coords="207,108,311,133"/>
+<area shape="poly" title=" " alt="" coords="442,63,307,106,306,101,440,58"/>
+<area shape="rect" href="elements_8hpp.html" title=" " alt="" coords="945,181,1122,207"/>
+<area shape="poly" title=" " alt="" coords="606,57,984,175,982,180,605,63"/>
+<area shape="rect" href="node_8hpp.html" title=" " alt="" coords="1553,343,1701,368"/>
+<area shape="poly" title=" " alt="" coords="614,34,877,47,1044,61,1217,81,1385,110,1535,147,1600,169,1656,194,1702,222,1735,253,1742,264,1744,274,1736,296,1712,322,1682,340,1679,335,1708,318,1731,293,1738,274,1737,265,1731,256,1698,226,1653,199,1598,174,1533,152,1383,115,1216,87,1043,66,877,52,613,39"/>
+<area shape="rect" href="screen_8hpp.html" title=" " alt="" coords="1419,489,1592,515"/>
+<area shape="poly" title=" " alt="" coords="524,60,528,109,539,171,562,236,578,266,599,293,629,316,659,324,692,328,732,340,787,368,827,394,868,417,925,439,1052,468,1182,486,1303,496,1405,499,1405,504,1303,501,1181,492,1051,474,923,444,866,422,824,398,784,373,730,345,691,334,658,329,627,320,595,297,574,269,557,238,534,173,523,110,519,61"/>
+<area shape="rect" href="table_8hpp.html" title=" " alt="" coords="335,108,484,133"/>
+<area shape="poly" title=" " alt="" coords="489,62,437,102,434,97,486,58"/>
+<area shape="rect" title=" " alt="" coords="1319,563,1406,588"/>
+<area shape="poly" title=" " alt="" coords="1038,207,1047,247,1068,293,1098,336,1132,377,1207,452,1279,511,1336,553,1332,557,1276,516,1204,455,1128,381,1094,340,1063,296,1042,248,1033,208"/>
+<area shape="rect" title=" " alt="" coords="936,416,1013,441"/>
+<area shape="poly" title=" " alt="" coords="1032,208,1017,255,982,403,977,402,1012,254,1027,206"/>
+<area shape="rect" href="canvas_8hpp.html" title=" " alt="" coords="804,489,967,515"/>
+<area shape="poly" title=" " alt="" coords="1028,208,1001,256,941,380,898,478,893,476,936,378,996,253,1024,206"/>
+<area shape="rect" href="color_8hpp.html" title=" " alt="" coords="1239,709,1401,735"/>
+<area shape="poly" title=" " alt="" coords="1042,205,1068,247,1088,271,1111,293,1152,320,1193,341,1235,356,1276,367,1357,381,1435,391,1506,405,1540,417,1571,433,1599,454,1625,482,1647,518,1667,562,1671,581,1671,597,1666,610,1658,620,1632,632,1599,638,1527,637,1498,636,1479,639,1422,667,1353,705,1350,700,1419,662,1478,633,1498,631,1527,631,1598,632,1631,627,1655,616,1662,607,1666,596,1666,582,1661,564,1643,520,1621,486,1596,458,1568,437,1538,422,1505,411,1434,396,1356,387,1275,372,1233,361,1191,345,1149,324,1108,297,1084,275,1064,251,1037,208"/>
+<area shape="rect" href="box_8hpp.html" title=" " alt="" coords="2124,636,2279,661"/>
+<area shape="poly" title=" " alt="" coords="1122,194,1428,205,1623,216,1821,231,2006,251,2159,278,2219,293,2265,311,2294,331,2303,342,2305,354,2305,504,2298,542,2279,577,2254,606,2230,629,2226,625,2250,603,2274,574,2293,540,2300,503,2300,354,2298,344,2291,335,2263,316,2218,298,2158,283,2005,256,1820,236,1622,221,1428,210,1122,200"/>
+<area shape="rect" href="direction_8hpp.html" title=" " alt="" coords="1121,262,1295,287"/>
+<area shape="poly" title=" " alt="" coords="1060,204,1171,254,1169,259,1058,209"/>
+<area shape="rect" href="flexbox__config_8hpp.html" title=" " alt="" coords="1319,262,1529,287"/>
+<area shape="poly" title=" " alt="" coords="1091,204,1355,257,1354,262,1090,209"/>
+<area shape="rect" href="linear__gradient_8hpp.html" title=" " alt="" coords="195,563,410,588"/>
+<area shape="poly" title=" " alt="" coords="945,203,752,221,661,237,625,246,599,257,549,288,502,325,459,366,421,408,358,490,319,552,314,549,354,487,417,405,456,362,499,321,546,283,596,252,624,241,660,232,751,216,944,198"/>
+<area shape="poly" title=" " alt="" coords="1122,194,1283,198,1468,208,1628,225,1684,238,1714,253,1721,263,1722,274,1714,296,1694,321,1669,338,1666,334,1691,317,1710,293,1717,273,1716,265,1710,257,1682,243,1628,231,1468,214,1283,204,1122,199"/>
+<area shape="rect" href="terminal_8hpp.html" title=" " alt="" coords="1778,563,1963,588"/>
+<area shape="poly" title=" " alt="" coords="1122,196,1446,216,1613,232,1734,252,1773,260,1811,264,1881,272,1910,281,1933,296,1948,319,1953,354,1953,430,1947,467,1932,501,1913,531,1894,554,1890,551,1909,527,1928,498,1942,465,1948,430,1948,354,1943,321,1929,299,1908,285,1880,277,1810,269,1772,265,1733,257,1613,237,1446,221,1122,202"/>
+<area shape="rect" href="ref_8hpp.html" title=" " alt="" coords="593,343,719,368"/>
+<area shape="poly" title=" " alt="" coords="993,209,933,229,869,257,841,277,812,297,758,322,707,341,705,336,756,317,809,292,838,272,867,252,932,224,991,204"/>
+<area shape="rect" href="take__any__args_8hpp.html" title=" " alt="" coords="1553,255,1700,295"/>
+<area shape="poly" title=" " alt="" coords="1123,200,1311,220,1540,252,1539,257,1310,225,1122,206"/>
+<area shape="rect" href="dom_2deprecated_8hpp.html" title=" " alt="" coords="609,262,799,287"/>
+<area shape="poly" title=" " alt="" coords="986,209,766,261,764,256,985,204"/>
+<area shape="poly" title=" " alt="" coords="967,511,1120,531,1306,560,1306,565,1119,537,966,516"/>
+<area shape="rect" title=" " alt="" coords="729,563,799,588"/>
+<area shape="poly" title=" " alt="" coords="867,517,797,558,794,553,864,512"/>
+<area shape="rect" title=" " alt="" coords="540,783,599,808"/>
+<area shape="poly" title=" " alt="" coords="804,510,434,533,263,548,209,557,184,565,169,586,163,606,165,626,174,644,190,661,212,678,268,709,336,734,407,756,527,784,526,789,405,761,334,739,266,713,209,683,187,665,170,647,160,627,158,606,164,584,181,561,207,552,263,543,433,527,804,505"/>
+<area shape="rect" title=" " alt="" coords="823,563,947,588"/>
+<area shape="poly" title=" " alt="" coords="888,515,888,549,883,549,883,515"/>
+<area shape="poly" title=" " alt="" coords="909,512,1286,701,1284,705,907,517"/>
+<area shape="rect" href="image_8hpp.html" title=" " alt="" coords="1124,563,1295,588"/>
+<area shape="poly" title=" " alt="" coords="938,512,1144,557,1143,562,937,517"/>
+<area shape="poly" title=" " alt="" coords="1240,734,612,793,612,787,1239,728"/>
+<area shape="rect" title=" " alt="" coords="1537,783,1604,808"/>
+<area shape="poly" title=" " alt="" coords="1361,732,1525,778,1523,783,1360,737"/>
+<area shape="poly" title=" " alt="" coords="1208,589,1196,620,1175,661,1146,703,1128,721,1107,737,1066,754,1010,768,870,785,725,794,613,797,612,791,725,789,870,780,1009,762,1064,749,1104,732,1124,717,1142,699,1171,658,1191,618,1203,587"/>
+<area shape="rect" title=" " alt="" coords="659,636,722,661"/>
+<area shape="poly" title=" " alt="" coords="1126,591,736,644,735,639,1126,585"/>
+<area shape="poly" title=" " alt="" coords="1295,584,1308,585,1758,619,2110,640,2110,645,1758,625,1308,591,1295,589"/>
+<area shape="rect" href="pixel_8hpp.html" title=" " alt="" coords="1490,636,1651,661"/>
+<area shape="poly" title=" " alt="" coords="1268,585,1500,631,1499,636,1267,591"/>
+<area shape="poly" title=" " alt="" coords="1556,664,1496,702,1456,722,1414,737,1342,752,1245,765,1012,782,780,792,613,796,612,791,779,787,1012,777,1245,759,1341,747,1413,732,1454,717,1493,697,1553,659"/>
+<area shape="poly" title=" " alt="" coords="1531,664,1375,708,1373,703,1530,659"/>
+<area shape="poly" title=" " alt="" coords="1573,662,1573,769,1568,769,1568,662"/>
+<area shape="poly" title=" " alt="" coords="342,586,476,622,647,659,806,681,964,697,1226,714,1226,720,964,702,805,686,646,664,475,627,340,591"/>
+<area shape="poly" title=" " alt="" coords="365,585,646,637,645,642,365,591"/>
+<area shape="rect" title=" " alt="" coords="265,636,340,661"/>
+<area shape="poly" title=" " alt="" coords="305,588,305,622,300,622,300,588"/>
+<area shape="poly" title=" " alt="" coords="1553,367,1027,424,1027,419,1552,362"/>
+<area shape="poly" title=" " alt="" coords="1599,371,1339,467,1153,531,961,591,839,621,736,642,735,637,838,615,959,585,1152,526,1338,462,1597,366"/>
+<area shape="poly" title=" " alt="" coords="1701,362,1828,379,1977,405,2049,422,2114,441,2167,463,2204,487,2224,510,2232,533,2233,558,2228,589,2216,625,2211,623,2223,587,2227,558,2227,534,2219,513,2201,491,2165,468,2112,446,2048,427,1976,410,1827,384,1701,367"/>
+<area shape="rect" href="requirement_8hpp.html" title=" " alt="" coords="1665,416,1861,441"/>
+<area shape="poly" title=" " alt="" coords="1650,366,1730,407,1727,412,1647,370"/>
+<area shape="poly" title=" " alt="" coords="1619,370,1526,480,1522,477,1615,367"/>
+<area shape="rect" href="selection_8hpp.html" title=" " alt="" coords="1989,489,2163,515"/>
+<area shape="poly" title=" " alt="" coords="1629,368,1635,404,1642,423,1655,439,1677,453,1709,464,1791,481,1885,491,1975,496,1975,501,1885,496,1790,486,1707,469,1675,457,1652,443,1638,426,1629,405,1624,368"/>
+<area shape="poly" title=" " alt="" coords="1861,438,2059,464,2139,477,2178,487,2199,519,2208,555,2210,592,2208,622,2203,622,2205,592,2203,556,2194,521,2174,491,2138,482,2058,469,1860,444"/>
+<area shape="poly" title=" " alt="" coords="1722,444,1561,488,1559,483,1721,439"/>
+<area shape="poly" title=" " alt="" coords="1484,517,1399,559,1397,554,1481,512"/>
+<area shape="poly" title=" " alt="" coords="1419,513,1274,531,1193,546,1113,565,961,616,815,677,691,735,604,778,602,774,688,730,813,672,959,611,1111,560,1192,541,1273,526,1418,507"/>
+<area shape="poly" title=" " alt="" coords="1589,512,1632,530,1651,544,1666,561,1679,589,1681,619,1676,649,1664,679,1629,734,1594,775,1590,771,1625,730,1659,677,1671,648,1676,619,1674,591,1662,564,1647,548,1629,535,1587,517"/>
+<area shape="poly" title=" " alt="" coords="1458,517,1271,562,1270,557,1457,512"/>
+<area shape="poly" title=" " alt="" coords="1499,517,1468,555,1446,575,1420,590,1360,609,1280,624,1186,634,1084,642,884,649,736,650,736,645,884,644,1084,636,1185,629,1280,618,1359,604,1418,586,1443,570,1464,551,1495,514"/>
+<area shape="poly" title=" " alt="" coords="1565,512,1799,557,1798,563,1564,517"/>
+<area shape="rect" href="autoreset_8hpp.html" title=" " alt="" coords="1481,563,1652,588"/>
+<area shape="poly" title=" " alt="" coords="1517,513,1550,550,1546,554,1513,517"/>
+<area shape="rect" title=" " alt="" coords="1354,636,1414,661"/>
+<area shape="poly" title=" " alt="" coords="1538,591,1428,633,1426,628,1536,586"/>
+<area shape="poly" title=" " alt="" coords="1989,514,1470,565,1420,570,1420,565,1469,560,1988,509"/>
+<area shape="poly" title=" " alt="" coords="2088,513,2184,624,2180,627,2084,517"/>
+<area shape="poly" title=" " alt="" coords="2068,517,2031,554,2006,574,1977,590,1920,608,1839,622,1665,642,1665,637,1838,617,1918,602,1975,586,2003,570,2028,550,2064,513"/>
+<area shape="rect" title=" " alt="" coords="2039,563,2113,588"/>
+<area shape="poly" title=" " alt="" coords="2079,515,2079,549,2073,549,2073,515"/>
+<area shape="poly" title=" " alt="" coords="708,365,923,413,922,418,707,371"/>
+<area shape="poly" title=" " alt="" coords="632,371,466,444,396,466,304,493,218,525,185,543,163,564,151,590,147,615,153,639,165,661,184,682,207,701,264,732,333,757,405,773,472,784,526,789,526,794,471,789,404,779,332,762,262,737,204,705,180,686,161,664,148,641,142,616,146,589,159,561,182,539,215,520,303,487,395,461,464,439,630,366"/>
+<area shape="poly" title=" " alt="" coords="661,368,668,416,691,622,686,623,663,416,655,368"/>
+<area shape="rect" href="string_8hpp.html" title=" " alt="" coords="486,563,653,588"/>
+<area shape="poly" title=" " alt="" coords="630,370,600,389,586,402,576,417,564,451,560,486,566,549,561,549,555,486,559,449,571,415,582,399,597,385,627,366"/>
+<area shape="rect" title=" " alt="" coords="586,416,654,441"/>
+<area shape="poly" title=" " alt="" coords="652,370,634,405,630,402,648,367"/>
+<area shape="poly" title=" " alt="" coords="572,588,572,768,567,768,567,588"/>
+<area shape="poly" title=" " alt="" coords="590,586,661,627,658,631,587,590"/>
+<area shape="poly" title=" " alt="" coords="1629,295,1629,329,1624,329,1624,295"/>
+<area shape="poly" title=" " alt="" coords="671,290,547,334,384,402,303,441,232,482,178,524,159,544,146,564,137,591,133,616,134,639,140,661,152,681,168,700,213,732,273,752,359,768,527,788,526,793,358,773,272,757,211,737,164,704,147,684,135,663,129,640,127,615,131,589,142,561,155,541,174,520,229,478,301,437,382,397,545,329,669,285"/>
+<area shape="poly" title=" " alt="" coords="799,281,1539,344,1538,349,799,287"/>
+<area shape="poly" title=" " alt="" coords="485,128,931,178,931,184,484,133"/>
+<area shape="poly" title=" " alt="" coords="340,136,239,157,130,187,82,206,43,227,17,250,10,261,8,274,8,650,12,668,24,685,44,700,69,714,136,738,217,756,304,770,390,780,527,790,526,795,389,785,303,775,216,762,135,743,67,719,41,705,20,689,7,670,3,650,3,273,5,259,13,246,40,222,79,201,128,182,238,152,339,131"/>
+<area shape="poly" title=" " alt="" coords="403,135,369,193,354,232,348,274,348,357,350,397,355,432,364,461,377,488,394,512,416,536,475,586,505,601,549,615,646,637,645,642,548,620,503,606,472,590,413,540,390,516,372,491,359,463,350,433,344,398,343,357,343,273,349,231,364,190,398,132"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespaceftxui" id="r_namespaceftxui"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html">ftxui</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a08edba2dc81abad95a3ccb2872227285" id="r_a08edba2dc81abad95a3ccb2872227285"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a08edba2dc81abad95a3ccb2872227285">ftxui::TEST</a> (TableTest, <a class="el" href="examples_2component_2collapsible_8cpp.html#aacbbfcb3c5bc93d26a5c681172e27eae">Empty</a>)</td></tr>
+<tr class="separator:a08edba2dc81abad95a3ccb2872227285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0daf7032927f73e4b312be078b2eb52" id="r_ac0daf7032927f73e4b312be078b2eb52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ac0daf7032927f73e4b312be078b2eb52">ftxui::TEST</a> (TableTest, Basic)</td></tr>
+<tr class="separator:ac0daf7032927f73e4b312be078b2eb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248ce4ed90b60b39970f1965803a6ad7" id="r_a248ce4ed90b60b39970f1965803a6ad7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a248ce4ed90b60b39970f1965803a6ad7">ftxui::TEST</a> (TableTest, SeparatorVerticalEmpty)</td></tr>
+<tr class="separator:a248ce4ed90b60b39970f1965803a6ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4284bd5d9d02aabc302a609891c7aa30" id="r_a4284bd5d9d02aabc302a609891c7aa30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a4284bd5d9d02aabc302a609891c7aa30">ftxui::TEST</a> (TableTest, SeparatorHorizontalEmpty)</td></tr>
+<tr class="separator:a4284bd5d9d02aabc302a609891c7aa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c042cd096deb4112efddf1479f8f5fc" id="r_a3c042cd096deb4112efddf1479f8f5fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a3c042cd096deb4112efddf1479f8f5fc">ftxui::TEST</a> (TableTest, SeparatorHorizontalLight)</td></tr>
+<tr class="separator:a3c042cd096deb4112efddf1479f8f5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af47536dd1d8c45c1ad180ba829e78b1c" id="r_af47536dd1d8c45c1ad180ba829e78b1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#af47536dd1d8c45c1ad180ba829e78b1c">ftxui::TEST</a> (TableTest, SeparatorVerticalLight)</td></tr>
+<tr class="separator:af47536dd1d8c45c1ad180ba829e78b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b5a2b88f5fcfaad3c56f4ddb6a6416" id="r_a57b5a2b88f5fcfaad3c56f4ddb6a6416"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a57b5a2b88f5fcfaad3c56f4ddb6a6416">ftxui::TEST</a> (TableTest, SeparatorLight)</td></tr>
+<tr class="separator:a57b5a2b88f5fcfaad3c56f4ddb6a6416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5be60fab385984b0f17b759060ce443d" id="r_a5be60fab385984b0f17b759060ce443d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a5be60fab385984b0f17b759060ce443d">ftxui::TEST</a> (TableTest, SeparatorVerticalHorizontalLight)</td></tr>
+<tr class="separator:a5be60fab385984b0f17b759060ce443d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ae8b240338ac4bdd1970512e26f910" id="r_a37ae8b240338ac4bdd1970512e26f910"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a37ae8b240338ac4bdd1970512e26f910">ftxui::TEST</a> (TableTest, SeparatorHorizontalVerticalLight)</td></tr>
+<tr class="separator:a37ae8b240338ac4bdd1970512e26f910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be73c65759d203a0291c297b9e4f9c4" id="r_a3be73c65759d203a0291c297b9e4f9c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a3be73c65759d203a0291c297b9e4f9c4">ftxui::TEST</a> (TableTest, BorderLight)</td></tr>
+<tr class="separator:a3be73c65759d203a0291c297b9e4f9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8586d0ac9241f52a732d0164335ef065" id="r_a8586d0ac9241f52a732d0164335ef065"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a8586d0ac9241f52a732d0164335ef065">ftxui::TEST</a> (TableTest, BorderSeparatorLight)</td></tr>
+<tr class="separator:a8586d0ac9241f52a732d0164335ef065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1563ae600c529eb0572335ebd4ec4507" id="r_a1563ae600c529eb0572335ebd4ec4507"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a1563ae600c529eb0572335ebd4ec4507">ftxui::TEST</a> (TableTest, SelectRow)</td></tr>
+<tr class="separator:a1563ae600c529eb0572335ebd4ec4507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed905ee980105ce37be4a67331e5c3aa" id="r_aed905ee980105ce37be4a67331e5c3aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#aed905ee980105ce37be4a67331e5c3aa">ftxui::TEST</a> (TableTest, SelectRowNegative)</td></tr>
+<tr class="separator:aed905ee980105ce37be4a67331e5c3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ec6a53948ef001b07719016aa297d5" id="r_a16ec6a53948ef001b07719016aa297d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a16ec6a53948ef001b07719016aa297d5">ftxui::TEST</a> (TableTest, SelectColumn)</td></tr>
+<tr class="separator:a16ec6a53948ef001b07719016aa297d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3bc896e42ae55ce81d37d190faf491" id="r_afe3bc896e42ae55ce81d37d190faf491"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#afe3bc896e42ae55ce81d37d190faf491">ftxui::TEST</a> (TableTest, SelectColumnNegative)</td></tr>
+<tr class="separator:afe3bc896e42ae55ce81d37d190faf491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe2ab09a769bb52dba5edd63f38fb4b" id="r_aefe2ab09a769bb52dba5edd63f38fb4b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#aefe2ab09a769bb52dba5edd63f38fb4b">ftxui::TEST</a> (TableTest, CrossingBorders)</td></tr>
+<tr class="separator:aefe2ab09a769bb52dba5edd63f38fb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20c719c596a1e864a17603a7e4607612" id="r_a20c719c596a1e864a17603a7e4607612"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a20c719c596a1e864a17603a7e4607612">ftxui::TEST</a> (TableTest, CrossingBordersLightAndDouble)</td></tr>
+<tr class="separator:a20c719c596a1e864a17603a7e4607612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a968ecb7a097df261e5a270fa3690be10" id="r_a968ecb7a097df261e5a270fa3690be10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a968ecb7a097df261e5a270fa3690be10">ftxui::TEST</a> (TableTest, SelectColumns)</td></tr>
+<tr class="separator:a968ecb7a097df261e5a270fa3690be10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ec9c6075a87d6caf10bde27ebac5e8" id="r_ac7ec9c6075a87d6caf10bde27ebac5e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ac7ec9c6075a87d6caf10bde27ebac5e8">ftxui::TEST</a> (TableTest, SelectRows)</td></tr>
+<tr class="separator:ac7ec9c6075a87d6caf10bde27ebac5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa22c5ddd3fae49eb9d1f2e6ce64bb99" id="r_aaa22c5ddd3fae49eb9d1f2e6ce64bb99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#aaa22c5ddd3fae49eb9d1f2e6ce64bb99">ftxui::TEST</a> (TableTest, SelectRectangle)</td></tr>
+<tr class="separator:aaa22c5ddd3fae49eb9d1f2e6ce64bb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac938421ed2c5315bbc7108e1dce0c82a" id="r_ac938421ed2c5315bbc7108e1dce0c82a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ac938421ed2c5315bbc7108e1dce0c82a">ftxui::TEST</a> (TableTest, SelectColumnsNegative)</td></tr>
+<tr class="separator:ac938421ed2c5315bbc7108e1dce0c82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8386e44acdfe599e6eccf8b337be36d" id="r_ad8386e44acdfe599e6eccf8b337be36d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ad8386e44acdfe599e6eccf8b337be36d">ftxui::TEST</a> (TableTest, SelectInverted)</td></tr>
+<tr class="separator:ad8386e44acdfe599e6eccf8b337be36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9ad99049d92a52aae0eb1ced062d8a" id="r_abb9ad99049d92a52aae0eb1ced062d8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#abb9ad99049d92a52aae0eb1ced062d8a">ftxui::TEST</a> (TableTest, ColumnFlex)</td></tr>
+<tr class="separator:abb9ad99049d92a52aae0eb1ced062d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65b976607b07b42a11ad6aaad617d31" id="r_af65b976607b07b42a11ad6aaad617d31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#af65b976607b07b42a11ad6aaad617d31">ftxui::TEST</a> (TableTest, ColumnFlexCenter)</td></tr>
+<tr class="separator:af65b976607b07b42a11ad6aaad617d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24ff662e52e7f05a866cba6d24841b1" id="r_ac24ff662e52e7f05a866cba6d24841b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ac24ff662e52e7f05a866cba6d24841b1">ftxui::TEST</a> (TableTest, ColumnCenter)</td></tr>
+<tr class="separator:ac24ff662e52e7f05a866cba6d24841b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a5d9cb3912176be7bbf48347977f21" id="r_a69a5d9cb3912176be7bbf48347977f21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a69a5d9cb3912176be7bbf48347977f21">ftxui::TEST</a> (TableTest, ColumnFlexTwo)</td></tr>
+<tr class="separator:a69a5d9cb3912176be7bbf48347977f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad60b380a924004013b7977e82a17111e" id="r_ad60b380a924004013b7977e82a17111e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ad60b380a924004013b7977e82a17111e">ftxui::TEST</a> (TableTest, RowFlex)</td></tr>
+<tr class="separator:ad60b380a924004013b7977e82a17111e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25554eacd918ba39c02683b93434a8d3" id="r_a25554eacd918ba39c02683b93434a8d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a25554eacd918ba39c02683b93434a8d3">ftxui::TEST</a> (TableTest, RowFlexTwo)</td></tr>
+<tr class="separator:a25554eacd918ba39c02683b93434a8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f45c41f086c4534fe462b4f2326ff5f" id="r_a5f45c41f086c4534fe462b4f2326ff5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a5f45c41f086c4534fe462b4f2326ff5f">ftxui::TEST</a> (TableTest, <a class="el" href="namespaceftxui.html#a927d4f3dffdb4630dc6fe7587c491927">Merge</a>)</td></tr>
+<tr class="separator:a5f45c41f086c4534fe462b4f2326ff5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88e966bb09b896c899887636d5306ed8" id="r_a88e966bb09b896c899887636d5306ed8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a88e966bb09b896c899887636d5306ed8">ftxui::TEST</a> (TableTest, Issue912)</td></tr>
+<tr class="separator:a88e966bb09b896c899887636d5306ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_95e29a8b8ee7c54052c171a88bb95675.html">cmake-build-debug</a></li><li class="navelem"><a class="el" href="dir_5ed36b38ab1e0b9b742fc01309e4e757.html">_deps</a></li><li class="navelem"><a class="el" href="dir_9406ff1c430c07fdd8bea52d605c6102.html">ftxui-src</a></li><li class="navelem"><a class="el" href="dir_eb895073c2a3aad1052f6fcbce46c902.html">src</a></li><li class="navelem"><a class="el" href="dir_a9929cb9c637c27d86a75bcf17bdc80d.html">ftxui</a></li><li class="navelem"><a class="el" href="dir_54ac3a757089591ace50c817056fd2bf.html">dom</a></li><li class="navelem"><a class="el" href="table__test_8cpp.html">table_test.cpp</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

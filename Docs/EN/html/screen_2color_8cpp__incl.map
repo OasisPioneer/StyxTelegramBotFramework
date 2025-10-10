@@ -1,0 +1,21 @@
+<map id="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/src/ftxui/screen/color.cpp" name="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/src/ftxui/screen/color.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="179,5,343,60"/>
+<area shape="rect" id="Node000002" href="$color_8hpp.html" title=" " alt="" coords="23,196,185,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,45,147,54,115,67,87,85,63,109,58,128,61,147,72,167,85,184,80,187,67,170,56,149,52,127,59,107,83,81,113,62,145,49,178,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="189,269,256,295"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="337,58,367,78,392,107,398,128,392,149,366,188,332,220,295,246,262,265,259,261,293,242,328,216,362,185,387,147,393,128,387,109,364,82,334,62"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="16,269,75,295"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="180,50,113,72,81,89,52,110,28,135,13,160,8,187,13,221,31,257,26,259,8,222,3,187,8,158,24,132,49,106,78,84,111,67,178,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="233,115,289,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="264,60,264,101,259,101,259,60"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="314,115,377,141"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="287,59,327,103,323,107,283,62"/>
+<area shape="rect" id="Node000007" href="$color__info_8hpp.html" title=" " alt="" coords="74,108,209,148"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="229,62,178,102,174,98,226,58"/>
+<area shape="rect" id="Node000008" href="$terminal_8hpp.html" title=" " alt="" coords="453,115,638,141"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="342,58,498,109,497,114,340,63"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="124,219,193,260,190,264,122,224"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="96,223,65,261,61,257,92,220"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="135,149,118,185,113,182,130,147"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="162,147,181,169,198,195,211,225,220,255,215,256,206,227,194,197,177,172,158,150"/>
+</map>

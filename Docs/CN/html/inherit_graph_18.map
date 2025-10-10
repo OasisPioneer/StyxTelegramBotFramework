@@ -1,0 +1,19 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="Node000000" href="$classftxui_1_1ComponentBase.html" title="It implement rendering itself as ftxui::Element. It implement keyboard navigation by responding to ft..." alt="" coords="5,80,172,105"/>
+<area shape="rect" id="Node000001" href="$classftxui_1_1CatchEventBase.html" title=" " alt="" coords="220,31,385,56"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="157,74,246,53,247,59,158,79"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1ContainerBase.html" title=" " alt="" coords="225,80,380,105"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="186,90,225,90,225,95,186,95"/>
+<area shape="rect" id="Node000007" href="$classftxui_1_1MenuBase.html" title="A list of items. The user can navigate through them." alt="" coords="239,129,366,155"/>
+<area shape="poly" id="edge8_Node000000_Node000007" title=" " alt="" coords="158,106,247,127,246,132,157,111"/>
+<area shape="rect" id="Node000003" href="$classftxui_1_1HorizontalContainer.html" title=" " alt="" coords="433,5,623,31"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="362,73,384,65,408,52,432,40,467,28,469,33,434,44,410,57,386,70,364,78"/>
+<area shape="rect" id="Node000004" href="$classftxui_1_1StackedContainer.html" title=" " alt="" coords="441,55,615,80"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="393,80,441,74,441,80,394,85"/>
+<area shape="rect" id="Node000005" href="$classftxui_1_1TabContainer.html" title=" " alt="" coords="456,104,600,129"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="394,100,456,106,456,112,393,105"/>
+<area shape="rect" id="Node000006" href="$classftxui_1_1VerticalContainer.html" title=" " alt="" coords="443,153,613,179"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="366,107,386,114,434,138,474,151,472,156,432,143,384,119,364,112"/>
+<area shape="rect" id="Node000008" href="$structftxui_1_1MenuOption.html" title="Option for the Menu component." alt="" coords="19,129,158,155"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="172,139,239,139,239,145,172,145"/>
+</map>

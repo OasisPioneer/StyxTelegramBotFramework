@@ -1,0 +1,7 @@
+<map id="ftxui::Screen" name="ftxui::Screen">
+<area shape="rect" id="Node000001" title="A rectangular grid of Pixel." alt="" coords="41,79,143,104"/>
+<area shape="rect" id="Node000003" href="$classftxui_1_1ScreenInteractive.html" title=" " alt="" coords="5,152,179,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="95,118,95,152,89,152,89,118"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1Image.html" title="A rectangular grid of Pixel." alt="" coords="42,5,142,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,89,79,89,44"/>
+</map>

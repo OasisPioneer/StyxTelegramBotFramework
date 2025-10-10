@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: cmake-build-debug/_deps/ftxui-src/include/ftxui/component/component.hpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('component_8hpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#typedef-members">类型定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">component.hpp 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &quot;<a class="el" href="component__base_8hpp_source.html">ftxui/component/component_base.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="component__options_8hpp_source.html">ftxui/component/component_options.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="elements_8hpp_source.html">ftxui/dom/elements.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ref_8hpp_source.html">ftxui/util/ref.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+component.hpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="component_8hpp__incl.png" border="0" usemap="#acmake-build-debug_2__deps_2ftxui-src_2include_2ftxui_2component_2component_8hpp" alt=""/></div>
+<map name="acmake-build-debug_2__deps_2ftxui-src_2include_2ftxui_2component_2component_8hpp" id="acmake-build-debug_2__deps_2ftxui-src_2include_2ftxui_2component_2component_8hpp">
+<area shape="rect" title=" " alt="" coords="1501,5,1739,60"/>
+<area shape="rect" title=" " alt="" coords="333,680,419,705"/>
+<area shape="poly" title=" " alt="" coords="1501,39,1155,53,941,65,725,83,525,106,359,136,295,153,247,172,217,193,209,204,207,215,207,547,210,570,219,590,232,609,249,626,289,653,329,672,327,677,286,658,245,630,228,612,214,593,205,571,201,548,201,214,204,202,213,189,244,168,294,148,358,131,524,101,724,78,941,60,1155,48,1501,34"/>
+<area shape="rect" title=" " alt="" coords="2240,533,2317,559"/>
+<area shape="poly" title=" " alt="" coords="1739,33,1948,43,2068,54,2184,70,2291,93,2337,107,2378,124,2411,143,2437,164,2453,188,2459,214,2459,298,2454,336,2442,372,2424,406,2402,437,2353,490,2308,527,2305,523,2349,486,2398,433,2420,403,2437,370,2449,335,2453,298,2453,215,2448,190,2433,167,2408,147,2375,129,2335,112,2289,98,2184,75,2067,59,1948,48,1739,38"/>
+<area shape="rect" title=" " alt="" coords="239,753,299,779"/>
+<area shape="poly" title=" " alt="" coords="1501,38,1231,45,890,58,560,79,424,93,320,111,274,118,227,121,142,127,108,135,82,150,65,176,59,215,59,621,61,667,68,684,83,703,115,728,153,744,191,754,226,760,225,765,190,760,151,749,113,732,79,707,63,687,56,668,53,621,53,214,60,174,78,147,106,130,141,122,226,116,273,113,320,105,423,88,559,74,890,52,1231,40,1501,33"/>
+<area shape="rect" href="component__base_8hpp.html" title=" " alt="" coords="2032,196,2237,236"/>
+<area shape="poly" title=" " alt="" coords="1739,37,1804,45,1875,59,1946,78,2015,106,2043,122,2069,143,2112,184,2108,188,2066,147,2040,127,2012,110,1945,83,1873,64,1803,51,1738,43"/>
+<area shape="rect" href="elements_8hpp.html" title=" " alt="" coords="1365,284,1542,309"/>
+<area shape="poly" title=" " alt="" coords="1564,62,1533,83,1507,110,1485,150,1470,194,1462,236,1457,270,1452,269,1456,235,1465,192,1480,148,1503,106,1530,79,1561,58"/>
+<area shape="rect" href="ref_8hpp.html" title=" " alt="" coords="1827,453,1952,478"/>
+<area shape="poly" title=" " alt="" coords="1740,40,1826,57,1869,71,1909,89,1944,111,1972,140,1991,174,1997,214,1997,298,1995,321,1989,343,1968,384,1941,418,1916,445,1912,441,1937,415,1964,381,1984,341,1990,320,1992,298,1992,215,1986,176,1968,143,1941,116,1907,93,1867,76,1825,62,1739,45"/>
+<area shape="rect" href="component__options_8hpp.html" title=" " alt="" coords="1517,108,1723,148"/>
+<area shape="poly" title=" " alt="" coords="1623,60,1623,94,1617,94,1617,60"/>
+<area shape="poly" title=" " alt="" coords="2122,237,2091,285,2060,350,2050,385,2047,420,2052,453,2067,483,2126,503,2228,529,2226,534,2124,508,2064,487,2047,455,2041,420,2045,384,2055,348,2086,282,2118,235"/>
+<area shape="rect" title=" " alt="" coords="1562,753,1625,779"/>
+<area shape="poly" title=" " alt="" coords="2206,234,2257,254,2306,284,2326,303,2343,324,2353,349,2357,376,2357,467,2355,500,2350,529,2340,555,2328,577,2294,613,2250,639,2197,659,2139,675,2009,708,1906,732,1803,749,1638,765,1638,760,1802,744,1905,727,2007,703,2137,670,2196,653,2247,634,2291,608,2324,574,2336,553,2345,528,2350,499,2352,467,2352,376,2348,350,2338,327,2322,306,2303,288,2255,259,2204,239"/>
+<area shape="rect" href="captured__mouse_8hpp.html" title=" " alt="" coords="2077,445,2267,485"/>
+<area shape="poly" title=" " alt="" coords="2140,236,2170,432,2165,432,2135,237"/>
+<area shape="poly" title=" " alt="" coords="2032,232,1556,286,1555,281,2032,226"/>
+<area shape="poly" title=" " alt="" coords="2199,483,2253,523,2250,527,2196,488"/>
+<area shape="poly" title=" " alt="" coords="1365,310,1339,312,1167,314,881,316,732,320,599,327,496,340,462,349,440,359,420,381,411,404,409,431,409,464,409,547,402,613,387,668,382,666,396,612,404,547,404,464,404,431,405,403,415,379,437,355,460,344,495,335,598,322,732,314,881,310,1167,309,1339,307,1364,305"/>
+<area shape="poly" title=" " alt="" coords="1514,307,1588,326,1665,355,1682,365,1694,376,1706,386,1722,395,1757,407,1788,414,1843,419,1898,423,1929,430,1965,443,1983,453,1994,463,2006,473,2022,483,2227,530,2226,536,2020,488,2003,478,1991,467,1979,457,1963,448,1928,435,1897,428,1842,424,1787,420,1756,413,1720,400,1703,390,1691,380,1679,370,1663,360,1586,331,1513,312"/>
+<area shape="rect" href="canvas_8hpp.html" title=" " alt="" coords="1632,607,1795,632"/>
+<area shape="poly" title=" " alt="" coords="1486,307,1525,327,1564,355,1615,416,1656,483,1687,545,1707,593,1702,595,1682,547,1652,485,1611,419,1561,359,1523,331,1483,312"/>
+<area shape="rect" href="color_8hpp.html" title=" " alt="" coords="855,827,1017,852"/>
+<area shape="poly" title=" " alt="" coords="1365,310,1339,312,925,321,669,334,576,345,543,352,523,360,493,380,474,402,463,429,460,464,460,694,463,707,470,720,499,744,543,765,598,783,723,810,842,826,841,832,722,815,596,788,541,770,496,749,466,724,458,709,455,694,455,464,458,427,469,399,490,376,520,355,542,347,575,339,669,328,925,316,1339,307,1364,304"/>
+<area shape="rect" href="box_8hpp.html" title=" " alt="" coords="863,753,1017,779"/>
+<area shape="poly" title=" " alt="" coords="1364,310,886,360,820,367,754,366,633,360,583,365,562,371,544,381,530,394,520,412,513,435,511,464,511,620,515,650,527,670,547,686,575,703,623,721,694,736,849,755,849,760,693,741,622,726,572,708,544,691,523,673,510,651,505,621,505,464,508,434,515,410,526,391,541,376,560,366,582,360,632,355,754,361,820,362,885,355,1364,304"/>
+<area shape="rect" href="direction_8hpp.html" title=" " alt="" coords="1733,365,1907,390"/>
+<area shape="poly" title=" " alt="" coords="1507,307,1754,359,1753,364,1506,312"/>
+<area shape="rect" href="flexbox__config_8hpp.html" title=" " alt="" coords="1083,365,1293,390"/>
+<area shape="poly" title=" " alt="" coords="1416,312,1240,363,1239,358,1414,307"/>
+<area shape="rect" href="linear__gradient_8hpp.html" title=" " alt="" coords="94,680,309,705"/>
+<area shape="poly" title=" " alt="" coords="1365,310,1339,312,1162,315,867,319,713,324,574,331,467,343,430,351,407,360,365,391,328,429,297,472,270,516,232,603,210,668,205,666,227,601,266,514,292,469,324,425,361,387,404,355,429,346,466,338,574,326,712,318,867,314,1162,310,1339,307,1364,305"/>
+<area shape="rect" href="node_8hpp.html" title=" " alt="" coords="1015,453,1163,478"/>
+<area shape="poly" title=" " alt="" coords="1365,309,1076,339,901,360,893,374,893,388,902,400,917,412,962,432,1015,447,1013,452,960,437,914,417,898,404,888,389,888,373,899,355,1075,334,1364,304"/>
+<area shape="rect" href="terminal_8hpp.html" title=" " alt="" coords="1194,680,1379,705"/>
+<area shape="poly" title=" " alt="" coords="1473,307,1498,328,1521,356,1536,384,1543,408,1547,464,1547,548,1543,575,1531,599,1514,619,1492,637,1440,663,1384,680,1383,674,1438,658,1490,632,1511,616,1527,596,1538,573,1541,547,1541,464,1538,409,1531,386,1516,359,1494,332,1469,312"/>
+<area shape="poly" title=" " alt="" coords="1491,307,1550,327,1615,355,1647,375,1679,395,1756,425,1829,447,1827,452,1754,430,1676,400,1644,380,1612,360,1548,332,1490,312"/>
+<area shape="rect" href="take__any__args_8hpp.html" title=" " alt="" coords="912,357,1059,397"/>
+<area shape="poly" title=" " alt="" coords="1371,312,1072,360,1072,355,1370,307"/>
+<area shape="rect" href="dom_2deprecated_8hpp.html" title=" " alt="" coords="1317,365,1507,390"/>
+<area shape="poly" title=" " alt="" coords="1450,311,1427,354,1422,351,1445,308"/>
+<area shape="poly" title=" " alt="" coords="1632,628,584,683,433,691,433,686,584,677,1632,622"/>
+<area shape="rect" title=" " alt="" coords="1751,680,1822,705"/>
+<area shape="poly" title=" " alt="" coords="1727,630,1767,668,1763,672,1724,634"/>
+<area shape="rect" title=" " alt="" coords="1684,900,1743,925"/>
+<area shape="poly" title=" " alt="" coords="1716,632,1716,886,1711,886,1711,632"/>
+<area shape="rect" title=" " alt="" coords="1846,680,1970,705"/>
+<area shape="poly" title=" " alt="" coords="1746,630,1864,673,1863,678,1744,635"/>
+<area shape="poly" title=" " alt="" coords="1712,633,1681,712,1659,754,1638,781,1604,793,1546,803,1383,820,1194,831,1031,838,1031,832,1194,826,1382,814,1546,798,1603,788,1634,776,1655,751,1676,710,1707,631"/>
+<area shape="rect" href="image_8hpp.html" title=" " alt="" coords="1404,680,1575,705"/>
+<area shape="poly" title=" " alt="" coords="1678,635,1539,678,1538,673,1677,629"/>
+<area shape="poly" title=" " alt="" coords="1017,845,1671,905,1670,910,1017,851"/>
+<area shape="rect" title=" " alt="" coords="1021,900,1088,925"/>
+<area shape="poly" title=" " alt="" coords="956,850,1025,890,1022,895,954,854"/>
+<area shape="poly" title=" " alt="" coords="1508,703,1566,743,1563,747,1505,708"/>
+<area shape="poly" title=" " alt="" coords="1498,704,1520,738,1551,777,1622,841,1687,890,1684,894,1619,846,1547,780,1516,741,1494,707"/>
+<area shape="poly" title=" " alt="" coords="1404,708,1032,756,1031,750,1403,702"/>
+<area shape="rect" href="pixel_8hpp.html" title=" " alt="" coords="1093,753,1254,779"/>
+<area shape="poly" title=" " alt="" coords="1439,708,1238,753,1237,748,1438,703"/>
+<area shape="poly" title=" " alt="" coords="1185,777,1222,814,1247,834,1274,850,1307,861,1352,871,1462,887,1670,906,1670,911,1461,892,1351,876,1306,866,1272,854,1244,838,1218,818,1181,781"/>
+<area shape="poly" title=" " alt="" coords="1136,781,988,825,987,820,1134,776"/>
+<area shape="poly" title=" " alt="" coords="1166,781,1075,891,1071,888,1162,777"/>
+<area shape="poly" title=" " alt="" coords="309,702,320,703,953,735,1548,760,1548,766,952,740,320,708,308,707"/>
+<area shape="poly" title=" " alt="" coords="204,705,208,742,216,761,228,777,260,789,317,800,483,817,675,828,842,833,841,839,675,833,483,822,316,806,258,794,225,781,211,764,203,743,198,706"/>
+<area shape="rect" title=" " alt="" coords="324,753,399,779"/>
+<area shape="poly" title=" " alt="" coords="228,703,324,745,322,750,226,708"/>
+<area shape="poly" title=" " alt="" coords="1163,464,1348,467,1610,477,1914,497,2071,512,2227,531,2226,536,2071,517,1913,502,1609,482,1348,473,1163,470"/>
+<area shape="poly" title=" " alt="" coords="1164,472,1264,492,1321,508,1381,529,1440,556,1496,589,1546,630,1589,679,1596,693,1600,709,1600,739,1595,739,1595,710,1591,695,1584,681,1543,634,1493,594,1437,561,1379,534,1320,513,1262,497,1163,477"/>
+<area shape="poly" title=" " alt="" coords="1057,480,1016,502,997,517,981,535,967,560,956,587,944,643,939,697,940,739,935,739,934,697,938,643,951,585,962,557,976,532,993,513,1013,497,1055,476"/>
+<area shape="rect" href="requirement_8hpp.html" title=" " alt="" coords="991,533,1187,559"/>
+<area shape="poly" title=" " alt="" coords="1092,478,1092,519,1087,519,1087,478"/>
+<area shape="rect" href="screen_8hpp.html" title=" " alt="" coords="1041,607,1215,632"/>
+<area shape="poly" title=" " alt="" coords="1127,476,1167,497,1186,513,1201,532,1205,552,1197,571,1182,588,1163,601,1160,597,1178,584,1192,568,1200,552,1196,534,1182,516,1165,501,1125,481"/>
+<area shape="rect" href="selection_8hpp.html" title=" " alt="" coords="546,607,721,632"/>
+<area shape="poly" title=" " alt="" coords="1056,481,682,605,680,600,1054,476"/>
+<area shape="poly" title=" " alt="" coords="1078,561,1055,582,1032,608,955,743,950,740,1027,605,1051,578,1074,557"/>
+<area shape="poly" title=" " alt="" coords="1098,558,1118,593,1113,596,1093,560"/>
+<area shape="poly" title=" " alt="" coords="1041,631,433,689,433,683,1041,626"/>
+<area shape="poly" title=" " alt="" coords="1134,631,1151,668,1165,687,1183,703,1211,716,1251,728,1353,744,1460,755,1549,760,1548,766,1460,760,1352,750,1250,733,1210,721,1180,708,1161,691,1147,671,1129,633"/>
+<area shape="poly" title=" " alt="" coords="1131,632,1136,667,1143,687,1154,703,1220,731,1368,785,1672,894,1670,899,1366,790,1218,736,1150,707,1138,689,1131,668,1125,632"/>
+<area shape="poly" title=" " alt="" coords="1119,634,1103,655,1089,681,1073,737,1063,794,1057,886,1052,886,1058,793,1067,735,1084,679,1099,652,1115,631"/>
+<area shape="poly" title=" " alt="" coords="1187,629,1418,675,1417,680,1186,635"/>
+<area shape="poly" title=" " alt="" coords="1155,630,1249,672,1247,677,1152,634"/>
+<area shape="rect" href="autoreset_8hpp.html" title=" " alt="" coords="695,680,865,705"/>
+<area shape="poly" title=" " alt="" coords="1073,635,850,680,849,675,1072,629"/>
+<area shape="poly" title=" " alt="" coords="695,707,313,756,312,751,694,702"/>
+<area shape="poly" title=" " alt="" coords="593,635,431,679,430,674,591,629"/>
+<area shape="poly" title=" " alt="" coords="722,625,801,642,841,657,879,678,909,707,931,739,926,742,905,711,876,682,839,662,800,647,720,630"/>
+<area shape="poly" title=" " alt="" coords="620,634,603,649,588,668,580,687,581,695,586,703,642,713,773,727,1079,754,1078,759,772,732,641,718,582,708,576,697,575,686,583,665,599,646,616,630"/>
+<area shape="rect" title=" " alt="" coords="596,680,671,705"/>
+<area shape="poly" title=" " alt="" coords="636,632,636,666,631,666,631,632"/>
+<area shape="poly" title=" " alt="" coords="1938,475,1971,483,2227,531,2226,536,1970,488,1937,481"/>
+<area shape="poly" title=" " alt="" coords="1904,477,1941,518,1982,578,1996,611,2004,645,2001,677,1985,707,1960,725,1924,739,1879,749,1829,757,1725,765,1638,767,1638,762,1725,760,1828,751,1878,744,1923,734,1958,720,1981,704,1996,676,1999,645,1991,613,1977,580,1937,521,1900,480"/>
+<area shape="poly" title=" " alt="" coords="1909,476,1942,500,1978,531,2051,611,2081,650,2104,689,2117,729,2119,770,2107,811,2079,854,2057,871,2023,884,1935,901,1838,910,1757,914,1756,908,1838,905,1934,896,2022,879,2054,866,2075,850,2102,809,2114,769,2112,730,2099,692,2076,653,2047,614,1974,535,1939,504,1906,480"/>
+<area shape="rect" href="string_8hpp.html" title=" " alt="" coords="2198,680,2365,705"/>
+<area shape="poly" title=" " alt="" coords="1934,475,2004,498,2079,531,2133,565,2184,602,2261,669,2258,673,2181,607,2130,569,2076,536,2002,503,1933,481"/>
+<area shape="rect" title=" " alt="" coords="2147,533,2215,559"/>
+<area shape="poly" title=" " alt="" coords="1932,475,2135,529,2133,535,1931,481"/>
+<area shape="poly" title=" " alt="" coords="2198,705,1639,763,1638,757,2197,700"/>
+<area shape="poly" title=" " alt="" coords="2280,707,2268,737,2248,778,2219,820,2201,839,2180,854,2146,869,2098,882,1980,899,1856,909,1757,913,1756,908,1855,904,1979,894,2097,877,2144,864,2177,850,2197,835,2215,817,2243,775,2263,735,2275,705"/>
+<area shape="poly" title=" " alt="" coords="1010,396,1066,441,1062,445,1007,400"/>
+<area shape="poly" title=" " alt="" coords="1476,387,1591,418,1661,442,1734,472,1806,511,1875,557,1936,613,1962,645,1985,679,1994,699,1998,718,1996,737,1989,755,1965,789,1929,819,1886,846,1840,868,1757,900,1755,896,1837,863,1883,841,1926,815,1961,785,1984,753,1991,736,1992,718,1989,700,1980,681,1958,648,1932,617,1872,562,1804,515,1732,477,1659,447,1590,423,1474,393"/>
+<area shape="poly" title=" " alt="" coords="1370,393,1146,452,1145,447,1368,388"/>
+<area shape="poly" title=" " alt="" coords="1517,134,1186,144,978,155,767,171,571,192,408,220,345,236,297,254,267,275,260,285,257,296,257,547,260,567,266,586,288,620,317,649,346,670,343,675,314,653,284,624,261,588,254,568,252,547,252,295,255,283,263,271,295,250,343,231,407,214,570,187,766,165,978,150,1185,139,1517,128"/>
+<area shape="poly" title=" " alt="" coords="1723,144,2019,193,2018,198,1722,149"/>
+<area shape="poly" title=" " alt="" coords="1603,150,1476,276,1472,273,1599,146"/>
+<area shape="poly" title=" " alt="" coords="1723,127,1919,135,2033,145,2144,160,2246,181,2330,209,2362,227,2387,247,2402,270,2408,295,2408,768,2402,792,2386,814,2360,832,2326,848,2241,874,2138,892,2029,904,1922,910,1757,914,1757,909,1922,905,2028,898,2137,887,2239,869,2324,844,2357,828,2382,810,2397,790,2403,767,2403,296,2398,272,2383,251,2359,231,2328,214,2245,186,2143,165,2032,150,1919,140,1723,132"/>
+<area shape="poly" title=" " alt="" coords="1517,132,1131,136,883,144,628,158,390,178,285,192,192,208,115,226,57,247,20,270,11,283,8,296,8,694,13,723,25,743,45,755,71,761,135,767,206,776,331,796,504,812,842,831,841,837,504,817,330,801,205,781,134,772,70,767,43,760,22,747,8,725,3,694,3,295,6,280,17,266,55,242,114,221,191,202,284,187,390,173,628,152,882,139,1131,131,1517,126"/>
+<area shape="poly" title=" " alt="" coords="1637,147,1804,352,1800,356,1633,150"/>
+<area shape="poly" title=" " alt="" coords="1667,146,1728,177,1800,222,1835,250,1869,282,1898,317,1921,356,1927,378,1924,401,1908,442,1903,440,1919,400,1921,379,1916,358,1893,320,1865,286,1832,254,1797,226,1726,181,1664,150"/>
+<area shape="rect" title=" " alt="" coords="1260,284,1327,309"/>
+<area shape="poly" title=" " alt="" coords="1584,150,1329,280,1327,275,1582,146"/>
+<area shape="rect" href="animation_8hpp.html" title=" " alt="" coords="1165,203,1392,229"/>
+<area shape="poly" title=" " alt="" coords="1546,151,1338,203,1337,197,1544,145"/>
+<area shape="poly" title=" " alt="" coords="1165,222,971,230,859,239,744,252,635,270,538,293,460,323,430,340,407,359,382,394,366,434,357,477,354,521,359,604,372,666,366,667,354,605,348,521,351,477,361,433,377,392,403,356,427,336,457,318,536,288,634,265,743,247,858,234,971,225,1165,216"/>
+<area shape="poly" title=" " alt="" coords="1283,228,1291,270,1286,271,1278,229"/>
+</map>
+</div>
+</div>
+<p><a href="component_8hpp_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespaceftxui" id="r_namespaceftxui"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html">ftxui</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceftxui_1_1Container" id="r_namespaceftxui_1_1Container"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui_1_1Container.html">ftxui::Container</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr class="memitem:a94f80baaae76697875fff8c3538625e1" id="r_a94f80baaae76697875fff8c3538625e1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ftxui::ComponentDecorator</a> = std::function&lt; <a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>(<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>)&gt;</td></tr>
+<tr class="separator:a94f80baaae76697875fff8c3538625e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e7698dddcbb122d6188a6da3d8053e" id="r_a68e7698dddcbb122d6188a6da3d8053e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a68e7698dddcbb122d6188a6da3d8053e">ftxui::ElementDecorator</a> = std::function&lt; <a class="el" href="namespaceftxui.html#ad05b5ed68c029c3ea189eedea904e88b">Element</a>(<a class="el" href="namespaceftxui.html#ad05b5ed68c029c3ea189eedea904e88b">Element</a>)&gt;</td></tr>
+<tr class="separator:a68e7698dddcbb122d6188a6da3d8053e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a65770ef82db5b27a691065206132111e" id="r_a65770ef82db5b27a691065206132111e"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:a65770ef82db5b27a691065206132111e"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a65770ef82db5b27a691065206132111e">ftxui::Make</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a65770ef82db5b27a691065206132111e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e04be1848f869679270f6364c004f9" id="r_ac7e04be1848f869679270f6364c004f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ac7e04be1848f869679270f6364c004f9">ftxui::operator|</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> component, <a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a> decorator)</td></tr>
+<tr class="separator:ac7e04be1848f869679270f6364c004f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c27b8cf37db68be32cd69852f62577" id="r_ac5c27b8cf37db68be32cd69852f62577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ac5c27b8cf37db68be32cd69852f62577">ftxui::operator|</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> component, <a class="el" href="namespaceftxui.html#a68e7698dddcbb122d6188a6da3d8053e">ElementDecorator</a> decorator)</td></tr>
+<tr class="separator:ac5c27b8cf37db68be32cd69852f62577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff204e9a501d110ccb06c482f824d9b" id="r_aaff204e9a501d110ccb06c482f824d9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#aaff204e9a501d110ccb06c482f824d9b">ftxui::operator|=</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> &amp;component, <a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a> decorator)</td></tr>
+<tr class="separator:aaff204e9a501d110ccb06c482f824d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78a9101043c8504d6810e45fdda4caa" id="r_ac78a9101043c8504d6810e45fdda4caa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ac78a9101043c8504d6810e45fdda4caa">ftxui::operator|=</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> &amp;component, <a class="el" href="namespaceftxui.html#a68e7698dddcbb122d6188a6da3d8053e">ElementDecorator</a> decorator)</td></tr>
+<tr class="separator:ac78a9101043c8504d6810e45fdda4caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a117282d0db159ddfdfaf0bc3bea8e647" id="r_a117282d0db159ddfdfaf0bc3bea8e647"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui_1_1Container.html#a117282d0db159ddfdfaf0bc3bea8e647">ftxui::Container::Vertical</a> (<a class="el" href="namespaceftxui.html#ae52be3f58ecec92bb8a16c6a51e4cad6">Components</a> children)</td></tr>
+<tr class="memdesc:a117282d0db159ddfdfaf0bc3bea8e647"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of components, drawn one by one vertically and navigated vertically using up/down arrow key or 'j'/'k' keys.  <br /></td></tr>
+<tr class="separator:a117282d0db159ddfdfaf0bc3bea8e647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7161eb342da04ef2d6e44ac209917d3" id="r_ac7161eb342da04ef2d6e44ac209917d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui_1_1Container.html#ac7161eb342da04ef2d6e44ac209917d3">ftxui::Container::Vertical</a> (<a class="el" href="namespaceftxui.html#ae52be3f58ecec92bb8a16c6a51e4cad6">Components</a> children, int *selector)</td></tr>
+<tr class="memdesc:ac7161eb342da04ef2d6e44ac209917d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of components, drawn one by one vertically and navigated vertically using up/down arrow key or 'j'/'k' keys. This is useful for implementing a Menu for instance.  <br /></td></tr>
+<tr class="separator:ac7161eb342da04ef2d6e44ac209917d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f25600942f011b9ae1e0191e75b813" id="r_af1f25600942f011b9ae1e0191e75b813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui_1_1Container.html#af1f25600942f011b9ae1e0191e75b813">ftxui::Container::Horizontal</a> (<a class="el" href="namespaceftxui.html#ae52be3f58ecec92bb8a16c6a51e4cad6">Components</a> children)</td></tr>
+<tr class="memdesc:af1f25600942f011b9ae1e0191e75b813"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of components, drawn one by one horizontally and navigated horizontally using left/right arrow key or 'h'/'l' keys.  <br /></td></tr>
+<tr class="separator:af1f25600942f011b9ae1e0191e75b813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9212a4a5190fddf71052f1fd1ff30108" id="r_a9212a4a5190fddf71052f1fd1ff30108"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui_1_1Container.html#a9212a4a5190fddf71052f1fd1ff30108">ftxui::Container::Horizontal</a> (<a class="el" href="namespaceftxui.html#ae52be3f58ecec92bb8a16c6a51e4cad6">Components</a> children, int *selector)</td></tr>
+<tr class="memdesc:a9212a4a5190fddf71052f1fd1ff30108"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of components, drawn one by one horizontally and navigated horizontally using left/right arrow key or 'h'/'l' keys.  <br /></td></tr>
+<tr class="separator:a9212a4a5190fddf71052f1fd1ff30108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c14cd1f9a92a593639f0ff9308b396" id="r_a58c14cd1f9a92a593639f0ff9308b396"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui_1_1Container.html#a58c14cd1f9a92a593639f0ff9308b396">ftxui::Container::Tab</a> (<a class="el" href="namespaceftxui.html#ae52be3f58ecec92bb8a16c6a51e4cad6">Components</a> children, int *selector)</td></tr>
+<tr class="memdesc:a58c14cd1f9a92a593639f0ff9308b396"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of components, where only one is drawn and interacted with at a time. The |selector| gives the index of the selected component. This is useful to implement tabs.  <br /></td></tr>
+<tr class="separator:a58c14cd1f9a92a593639f0ff9308b396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adec42fec621f97b844e59c1a3a10ccf0" id="r_adec42fec621f97b844e59c1a3a10ccf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui_1_1Container.html#adec42fec621f97b844e59c1a3a10ccf0">ftxui::Container::Stacked</a> (<a class="el" href="namespaceftxui.html#ae52be3f58ecec92bb8a16c6a51e4cad6">Components</a> children)</td></tr>
+<tr class="memdesc:adec42fec621f97b844e59c1a3a10ccf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of components to be stacked on top of each other. Events are propagated to the first component, then the second if not handled, etc. The components are drawn in the reverse order they are given. When a component take focus, it is put at the front, without changing the relative order of the other elements.  <br /></td></tr>
+<tr class="separator:adec42fec621f97b844e59c1a3a10ccf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e26131c89668c9c9776000b2e8a135a" id="r_a3e26131c89668c9c9776000b2e8a135a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a3e26131c89668c9c9776000b2e8a135a">ftxui::Button</a> (<a class="el" href="structftxui_1_1ButtonOption.html">ButtonOption</a> option)</td></tr>
+<tr class="memdesc:a3e26131c89668c9c9776000b2e8a135a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a button. Execute a function when clicked.  <br /></td></tr>
+<tr class="separator:a3e26131c89668c9c9776000b2e8a135a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f7a00cb79b6e1b64402d39fde5e37a" id="r_a71f7a00cb79b6e1b64402d39fde5e37a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a71f7a00cb79b6e1b64402d39fde5e37a">ftxui::Button</a> (<a class="el" href="classftxui_1_1ConstStringRef.html">ConstStringRef</a> label, std::function&lt; void()&gt; on_click, <a class="el" href="structftxui_1_1ButtonOption.html">ButtonOption</a> option)</td></tr>
+<tr class="memdesc:a71f7a00cb79b6e1b64402d39fde5e37a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a button. Execute a function when clicked.  <br /></td></tr>
+<tr class="separator:a71f7a00cb79b6e1b64402d39fde5e37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a18c79a29562a4280d83178075b4d8" id="r_a60a18c79a29562a4280d83178075b4d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a60a18c79a29562a4280d83178075b4d8">ftxui::Checkbox</a> (<a class="el" href="structftxui_1_1CheckboxOption.html">CheckboxOption</a> option)</td></tr>
+<tr class="memdesc:a60a18c79a29562a4280d83178075b4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw checkable element.  <br /></td></tr>
+<tr class="separator:a60a18c79a29562a4280d83178075b4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0153b30a1305925f8ceab00e5349cfb6" id="r_a0153b30a1305925f8ceab00e5349cfb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a0153b30a1305925f8ceab00e5349cfb6">ftxui::Checkbox</a> (<a class="el" href="classftxui_1_1ConstStringRef.html">ConstStringRef</a> label, bool *checked, <a class="el" href="structftxui_1_1CheckboxOption.html">CheckboxOption</a> option)</td></tr>
+<tr class="memdesc:a0153b30a1305925f8ceab00e5349cfb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw checkable element.  <br /></td></tr>
+<tr class="separator:a0153b30a1305925f8ceab00e5349cfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9126a990867d3036dc623753e5008e53" id="r_a9126a990867d3036dc623753e5008e53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a9126a990867d3036dc623753e5008e53">ftxui::Input</a> (<a class="el" href="structftxui_1_1InputOption.html">InputOption</a> option)</td></tr>
+<tr class="memdesc:a9126a990867d3036dc623753e5008e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">An input box for editing text.  <br /></td></tr>
+<tr class="separator:a9126a990867d3036dc623753e5008e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a049390388a9116fbdfd766c8e864af77" id="r_a049390388a9116fbdfd766c8e864af77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a049390388a9116fbdfd766c8e864af77">ftxui::Input</a> (<a class="el" href="classftxui_1_1StringRef.html">StringRef</a> content, <a class="el" href="structftxui_1_1InputOption.html">InputOption</a> option)</td></tr>
+<tr class="memdesc:a049390388a9116fbdfd766c8e864af77"><td class="mdescLeft">&#160;</td><td class="mdescRight">An input box for editing text.  <br /></td></tr>
+<tr class="separator:a049390388a9116fbdfd766c8e864af77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3871822be9559a4eb3aad15f21be90" id="r_a0c3871822be9559a4eb3aad15f21be90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a0c3871822be9559a4eb3aad15f21be90">ftxui::Input</a> (<a class="el" href="classftxui_1_1StringRef.html">StringRef</a> content, <a class="el" href="classftxui_1_1StringRef.html">StringRef</a> placeholder, <a class="el" href="structftxui_1_1InputOption.html">InputOption</a> option)</td></tr>
+<tr class="memdesc:a0c3871822be9559a4eb3aad15f21be90"><td class="mdescLeft">&#160;</td><td class="mdescRight">An input box for editing text.  <br /></td></tr>
+<tr class="separator:a0c3871822be9559a4eb3aad15f21be90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58bafb83d5dbe42d819fea1c1ff5fbbc" id="r_a58bafb83d5dbe42d819fea1c1ff5fbbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a58bafb83d5dbe42d819fea1c1ff5fbbc">ftxui::Menu</a> (<a class="el" href="structftxui_1_1MenuOption.html">MenuOption</a> option)</td></tr>
+<tr class="memdesc:a58bafb83d5dbe42d819fea1c1ff5fbbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of text. The focused element is selected.  <br /></td></tr>
+<tr class="separator:a58bafb83d5dbe42d819fea1c1ff5fbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8463c22f7630ba4c21a52c7f961cb7" id="r_a9c8463c22f7630ba4c21a52c7f961cb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a9c8463c22f7630ba4c21a52c7f961cb7">ftxui::Menu</a> (<a class="el" href="classftxui_1_1ConstStringListRef.html">ConstStringListRef</a> <a class="el" href="ref__test_8cpp.html#acbd67c730f697e72b483e12cbf16b0c7">entries</a>, int *selected, <a class="el" href="structftxui_1_1MenuOption.html">MenuOption</a> option)</td></tr>
+<tr class="memdesc:a9c8463c22f7630ba4c21a52c7f961cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of text. The focused element is selected.  <br /></td></tr>
+<tr class="separator:a9c8463c22f7630ba4c21a52c7f961cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d6153c5e6f7fa98a73c63ab0cb4e4bd" id="r_a0d6153c5e6f7fa98a73c63ab0cb4e4bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a0d6153c5e6f7fa98a73c63ab0cb4e4bd">ftxui::MenuEntry</a> (<a class="el" href="structftxui_1_1MenuEntryOption.html">MenuEntryOption</a> option)</td></tr>
+<tr class="memdesc:a0d6153c5e6f7fa98a73c63ab0cb4e4bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">A specific menu entry. They can be put into a <a class="el" href="namespaceftxui_1_1Container.html#a117282d0db159ddfdfaf0bc3bea8e647" title="A list of components, drawn one by one vertically and navigated vertically using up/down arrow key or...">Container::Vertical</a> to form a menu.  <br /></td></tr>
+<tr class="separator:a0d6153c5e6f7fa98a73c63ab0cb4e4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468a0f0f6c11ee2ed4910d9cc79518f5" id="r_a468a0f0f6c11ee2ed4910d9cc79518f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a468a0f0f6c11ee2ed4910d9cc79518f5">ftxui::MenuEntry</a> (<a class="el" href="classftxui_1_1ConstStringRef.html">ConstStringRef</a> label, <a class="el" href="structftxui_1_1MenuEntryOption.html">MenuEntryOption</a> option)</td></tr>
+<tr class="memdesc:a468a0f0f6c11ee2ed4910d9cc79518f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">A specific menu entry. They can be put into a <a class="el" href="namespaceftxui_1_1Container.html#a117282d0db159ddfdfaf0bc3bea8e647" title="A list of components, drawn one by one vertically and navigated vertically using up/down arrow key or...">Container::Vertical</a> to form a menu.  <br /></td></tr>
+<tr class="separator:a468a0f0f6c11ee2ed4910d9cc79518f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa98bee48cf834851ed9461876a4143" id="r_a6aa98bee48cf834851ed9461876a4143"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a6aa98bee48cf834851ed9461876a4143">ftxui::Radiobox</a> (<a class="el" href="structftxui_1_1RadioboxOption.html">RadioboxOption</a> option)</td></tr>
+<tr class="memdesc:a6aa98bee48cf834851ed9461876a4143"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of element, where only one can be selected.  <br /></td></tr>
+<tr class="separator:a6aa98bee48cf834851ed9461876a4143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace6956bb09dd2d2013c539f2dbb97cec" id="r_ace6956bb09dd2d2013c539f2dbb97cec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ace6956bb09dd2d2013c539f2dbb97cec">ftxui::Radiobox</a> (<a class="el" href="classftxui_1_1ConstStringListRef.html">ConstStringListRef</a> <a class="el" href="ref__test_8cpp.html#acbd67c730f697e72b483e12cbf16b0c7">entries</a>, int *selected, <a class="el" href="structftxui_1_1RadioboxOption.html">RadioboxOption</a> option)</td></tr>
+<tr class="memdesc:ace6956bb09dd2d2013c539f2dbb97cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of element, where only one can be selected.  <br /></td></tr>
+<tr class="separator:ace6956bb09dd2d2013c539f2dbb97cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebdc0ff8249b1a92b4b8bcd128e9dd9" id="r_adebdc0ff8249b1a92b4b8bcd128e9dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#adebdc0ff8249b1a92b4b8bcd128e9dd9">ftxui::Dropdown</a> (<a class="el" href="classftxui_1_1ConstStringListRef.html">ConstStringListRef</a> <a class="el" href="ref__test_8cpp.html#acbd67c730f697e72b483e12cbf16b0c7">entries</a>, int *selected)</td></tr>
+<tr class="memdesc:adebdc0ff8249b1a92b4b8bcd128e9dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dropdown menu.  <br /></td></tr>
+<tr class="separator:adebdc0ff8249b1a92b4b8bcd128e9dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1d3055c0a00bfd944cf63247ae8016" id="r_a9b1d3055c0a00bfd944cf63247ae8016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a9b1d3055c0a00bfd944cf63247ae8016">ftxui::Dropdown</a> (<a class="el" href="structftxui_1_1DropdownOption.html">DropdownOption</a> option)</td></tr>
+<tr class="memdesc:a9b1d3055c0a00bfd944cf63247ae8016"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dropdown menu.  <br /></td></tr>
+<tr class="separator:a9b1d3055c0a00bfd944cf63247ae8016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35a9271322328a004b7b8cc428471df0" id="r_a35a9271322328a004b7b8cc428471df0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a35a9271322328a004b7b8cc428471df0">ftxui::Toggle</a> (<a class="el" href="classftxui_1_1ConstStringListRef.html">ConstStringListRef</a> <a class="el" href="ref__test_8cpp.html#acbd67c730f697e72b483e12cbf16b0c7">entries</a>, int *selected)</td></tr>
+<tr class="memdesc:a35a9271322328a004b7b8cc428471df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">An horizontal list of elements. The user can navigate through them.  <br /></td></tr>
+<tr class="separator:a35a9271322328a004b7b8cc428471df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe09ff69b3c3ddc3b7272d2d55d6054" id="r_acbe09ff69b3c3ddc3b7272d2d55d6054"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:acbe09ff69b3c3ddc3b7272d2d55d6054"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#acbe09ff69b3c3ddc3b7272d2d55d6054">ftxui::Slider</a> (<a class="el" href="structftxui_1_1SliderOption.html">SliderOption</a>&lt; T &gt; options)</td></tr>
+<tr class="memdesc:acbe09ff69b3c3ddc3b7272d2d55d6054"><td class="mdescLeft">&#160;</td><td class="mdescRight">A slider in any direction.  <br /></td></tr>
+<tr class="separator:acbe09ff69b3c3ddc3b7272d2d55d6054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade8e6de45ab5e29c9fbde464df57eb37" id="r_ade8e6de45ab5e29c9fbde464df57eb37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ade8e6de45ab5e29c9fbde464df57eb37">ftxui::Slider</a> (<a class="el" href="classftxui_1_1ConstStringRef.html">ConstStringRef</a> label, <a class="el" href="classftxui_1_1Ref.html">Ref</a>&lt; int &gt; value, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; int &gt; min, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; int &gt; max, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; int &gt; increment)</td></tr>
+<tr class="memdesc:ade8e6de45ab5e29c9fbde464df57eb37"><td class="mdescLeft">&#160;</td><td class="mdescRight">An horizontal slider.  <br /></td></tr>
+<tr class="separator:ade8e6de45ab5e29c9fbde464df57eb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ae0d2726c2ff11890f2ff9ec0b40366" id="r_a3ae0d2726c2ff11890f2ff9ec0b40366"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a3ae0d2726c2ff11890f2ff9ec0b40366">ftxui::Slider</a> (<a class="el" href="classftxui_1_1ConstStringRef.html">ConstStringRef</a> label, <a class="el" href="classftxui_1_1Ref.html">Ref</a>&lt; float &gt; value, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; float &gt; min=0.f, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; float &gt; max=100.f, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; float &gt; increment=5.f)</td></tr>
+<tr class="separator:a3ae0d2726c2ff11890f2ff9ec0b40366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f689b77482e37c43cb19e2014105d43" id="r_a1f689b77482e37c43cb19e2014105d43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a1f689b77482e37c43cb19e2014105d43">ftxui::Slider</a> (<a class="el" href="classftxui_1_1ConstStringRef.html">ConstStringRef</a> label, <a class="el" href="classftxui_1_1Ref.html">Ref</a>&lt; long &gt; value, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; long &gt; min=0L, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; long &gt; max=100L, <a class="el" href="classftxui_1_1ConstRef.html">ConstRef</a>&lt; long &gt; increment=5L)</td></tr>
+<tr class="separator:a1f689b77482e37c43cb19e2014105d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacf2a12081ed9fe52e2f7c6e17e2efd" id="r_adacf2a12081ed9fe52e2f7c6e17e2efd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#adacf2a12081ed9fe52e2f7c6e17e2efd">ftxui::ResizableSplit</a> (<a class="el" href="structftxui_1_1ResizableSplitOption.html">ResizableSplitOption</a> options)</td></tr>
+<tr class="memdesc:adacf2a12081ed9fe52e2f7c6e17e2efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">A split in between two components.  <br /></td></tr>
+<tr class="separator:adacf2a12081ed9fe52e2f7c6e17e2efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a017bef288d903b7afd87c1fa2c41980f" id="r_a017bef288d903b7afd87c1fa2c41980f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a017bef288d903b7afd87c1fa2c41980f">ftxui::ResizableSplitLeft</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> <a class="el" href="examples_2component_2button_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>, <a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> back, int *main_size)</td></tr>
+<tr class="memdesc:a017bef288d903b7afd87c1fa2c41980f"><td class="mdescLeft">&#160;</td><td class="mdescRight">An horizontal split in between two components, configurable using the mouse.  <br /></td></tr>
+<tr class="separator:a017bef288d903b7afd87c1fa2c41980f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15fe60a07a9d2d86dc0df9ff4c2e38c" id="r_aa15fe60a07a9d2d86dc0df9ff4c2e38c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#aa15fe60a07a9d2d86dc0df9ff4c2e38c">ftxui::ResizableSplitRight</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> <a class="el" href="examples_2component_2button_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>, <a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> back, int *main_size)</td></tr>
+<tr class="memdesc:aa15fe60a07a9d2d86dc0df9ff4c2e38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">An horizontal split in between two components, configurable using the mouse.  <br /></td></tr>
+<tr class="separator:aa15fe60a07a9d2d86dc0df9ff4c2e38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a597f6efb5d14f8cf86ae5e771b7b7437" id="r_a597f6efb5d14f8cf86ae5e771b7b7437"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a597f6efb5d14f8cf86ae5e771b7b7437">ftxui::ResizableSplitTop</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> <a class="el" href="examples_2component_2button_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>, <a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> back, int *main_size)</td></tr>
+<tr class="memdesc:a597f6efb5d14f8cf86ae5e771b7b7437"><td class="mdescLeft">&#160;</td><td class="mdescRight">An vertical split in between two components, configurable using the mouse.  <br /></td></tr>
+<tr class="separator:a597f6efb5d14f8cf86ae5e771b7b7437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3efcacea05866b0f2641a73ab1df0e8e" id="r_a3efcacea05866b0f2641a73ab1df0e8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a3efcacea05866b0f2641a73ab1df0e8e">ftxui::ResizableSplitBottom</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> <a class="el" href="examples_2component_2button_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>, <a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> back, int *main_size)</td></tr>
+<tr class="memdesc:a3efcacea05866b0f2641a73ab1df0e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">An vertical split in between two components, configurable using the mouse.  <br /></td></tr>
+<tr class="separator:a3efcacea05866b0f2641a73ab1df0e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0700eb3c08c20227648e772b73ed6f4" id="r_ae0700eb3c08c20227648e772b73ed6f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ae0700eb3c08c20227648e772b73ed6f4">ftxui::Renderer</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> child, std::function&lt; <a class="el" href="namespaceftxui.html#ad05b5ed68c029c3ea189eedea904e88b">Element</a>()&gt; render)</td></tr>
+<tr class="memdesc:ae0700eb3c08c20227648e772b73ed6f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a new Component, similar to |child|, but using |render| as the Component::Render() event.  <br /></td></tr>
+<tr class="separator:ae0700eb3c08c20227648e772b73ed6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a3b89a957ac10b020f1926ac0b27f17" id="r_a2a3b89a957ac10b020f1926ac0b27f17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a2a3b89a957ac10b020f1926ac0b27f17">ftxui::Renderer</a> (std::function&lt; <a class="el" href="namespaceftxui.html#ad05b5ed68c029c3ea189eedea904e88b">Element</a>()&gt; render)</td></tr>
+<tr class="memdesc:a2a3b89a957ac10b020f1926ac0b27f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a component, using |render| to render its interface.  <br /></td></tr>
+<tr class="separator:a2a3b89a957ac10b020f1926ac0b27f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00503f17a3db237419725b9482ee20b3" id="r_a00503f17a3db237419725b9482ee20b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a00503f17a3db237419725b9482ee20b3">ftxui::Renderer</a> (std::function&lt; <a class="el" href="namespaceftxui.html#ad05b5ed68c029c3ea189eedea904e88b">Element</a>(bool)&gt; render)</td></tr>
+<tr class="memdesc:a00503f17a3db237419725b9482ee20b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a focusable component, using |render| to render its interface.  <br /></td></tr>
+<tr class="separator:a00503f17a3db237419725b9482ee20b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab14dd11004e3821c3119aa4dacddefbb" id="r_ab14dd11004e3821c3119aa4dacddefbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ab14dd11004e3821c3119aa4dacddefbb">ftxui::Renderer</a> (<a class="el" href="namespaceftxui.html#a68e7698dddcbb122d6188a6da3d8053e">ElementDecorator</a> decorator)</td></tr>
+<tr class="memdesc:ab14dd11004e3821c3119aa4dacddefbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate a component, by decorating what it renders.  <br /></td></tr>
+<tr class="separator:ab14dd11004e3821c3119aa4dacddefbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca5f7a5be476f63960c07171897ffd7" id="r_a9ca5f7a5be476f63960c07171897ffd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a9ca5f7a5be476f63960c07171897ffd7">ftxui::CatchEvent</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> child, std::function&lt; bool(<a class="el" href="structftxui_1_1Event.html">Event</a>)&gt;)</td></tr>
+<tr class="separator:a9ca5f7a5be476f63960c07171897ffd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a723451dce8d9a2a6c38938340b13902e" id="r_a723451dce8d9a2a6c38938340b13902e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a723451dce8d9a2a6c38938340b13902e">ftxui::CatchEvent</a> (std::function&lt; bool(<a class="el" href="structftxui_1_1Event.html">Event</a>)&gt; on_event)</td></tr>
+<tr class="memdesc:a723451dce8d9a2a6c38938340b13902e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate a component, using |on_event| to catch events. This function must returns true when the event has been handled, false otherwise.  <br /></td></tr>
+<tr class="separator:a723451dce8d9a2a6c38938340b13902e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a927cdef154b2abd177977fa2dbe89bca" id="r_a927cdef154b2abd177977fa2dbe89bca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a927cdef154b2abd177977fa2dbe89bca">ftxui::Maybe</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> child, const bool *show)</td></tr>
+<tr class="memdesc:a927cdef154b2abd177977fa2dbe89bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate a component |child|. It is shown only when |show| is true.  <br /></td></tr>
+<tr class="separator:a927cdef154b2abd177977fa2dbe89bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95fb610d93efb0fbdea7ba85e53605e7" id="r_a95fb610d93efb0fbdea7ba85e53605e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a95fb610d93efb0fbdea7ba85e53605e7">ftxui::Maybe</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> child, std::function&lt; bool()&gt; show)</td></tr>
+<tr class="memdesc:a95fb610d93efb0fbdea7ba85e53605e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate a component |child|. It is shown only when |show| returns true.  <br /></td></tr>
+<tr class="separator:a95fb610d93efb0fbdea7ba85e53605e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051c0665b3818de7682fd90aa7f79ed5" id="r_a051c0665b3818de7682fd90aa7f79ed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a051c0665b3818de7682fd90aa7f79ed5">ftxui::Maybe</a> (const bool *show)</td></tr>
+<tr class="memdesc:a051c0665b3818de7682fd90aa7f79ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate a component. It is shown only when |show| is true.  <br /></td></tr>
+<tr class="separator:a051c0665b3818de7682fd90aa7f79ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85ded43a5a839f8028a030130615b0bf" id="r_a85ded43a5a839f8028a030130615b0bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a85ded43a5a839f8028a030130615b0bf">ftxui::Maybe</a> (std::function&lt; bool()&gt; show)</td></tr>
+<tr class="memdesc:a85ded43a5a839f8028a030130615b0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decorate a component. It is shown only when the |show| function returns true.  <br /></td></tr>
+<tr class="separator:a85ded43a5a839f8028a030130615b0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91acd3508fb320ad3d8189e1e45cfe34" id="r_a91acd3508fb320ad3d8189e1e45cfe34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a91acd3508fb320ad3d8189e1e45cfe34">ftxui::Modal</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> <a class="el" href="examples_2component_2button_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>, <a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> modal, const bool *show_modal)</td></tr>
+<tr class="separator:a91acd3508fb320ad3d8189e1e45cfe34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85cbe07a21c11cdfab18d643ff64efef" id="r_a85cbe07a21c11cdfab18d643ff64efef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a85cbe07a21c11cdfab18d643ff64efef">ftxui::Modal</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> modal, const bool *show_modal)</td></tr>
+<tr class="separator:a85cbe07a21c11cdfab18d643ff64efef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4663df089e4b7ab3c486a1c11993533a" id="r_a4663df089e4b7ab3c486a1c11993533a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a4663df089e4b7ab3c486a1c11993533a">ftxui::Collapsible</a> (<a class="el" href="classftxui_1_1ConstStringRef.html">ConstStringRef</a> label, <a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> child, <a class="el" href="classftxui_1_1Ref.html">Ref</a>&lt; bool &gt; show=false)</td></tr>
+<tr class="separator:a4663df089e4b7ab3c486a1c11993533a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055f62d62718e7b5d02556cc56779fea" id="r_a055f62d62718e7b5d02556cc56779fea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a055f62d62718e7b5d02556cc56779fea">ftxui::Hoverable</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> component, bool *hover)</td></tr>
+<tr class="memdesc:a055f62d62718e7b5d02556cc56779fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap a component. Gives the ability to know if it is hovered by the mouse.  <br /></td></tr>
+<tr class="separator:a055f62d62718e7b5d02556cc56779fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533934cca03984f39e968eee5d30b4aa" id="r_a533934cca03984f39e968eee5d30b4aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a533934cca03984f39e968eee5d30b4aa">ftxui::Hoverable</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> component, std::function&lt; void()&gt; on_enter, std::function&lt; void()&gt; on_leave)</td></tr>
+<tr class="memdesc:a533934cca03984f39e968eee5d30b4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap a component. Uses callbacks.  <br /></td></tr>
+<tr class="separator:a533934cca03984f39e968eee5d30b4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21ea793c3eac6ffe3681f03bd47a1756" id="r_a21ea793c3eac6ffe3681f03bd47a1756"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a21ea793c3eac6ffe3681f03bd47a1756">ftxui::Hoverable</a> (<a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a> component, std::function&lt; void(bool)&gt; on_change)</td></tr>
+<tr class="memdesc:a21ea793c3eac6ffe3681f03bd47a1756"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap a component. Gives the ability to know if it is hovered by the mouse.  <br /></td></tr>
+<tr class="separator:a21ea793c3eac6ffe3681f03bd47a1756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a078b1784a11a7e44606cea83b102960a" id="r_a078b1784a11a7e44606cea83b102960a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a078b1784a11a7e44606cea83b102960a">ftxui::Hoverable</a> (bool *hover)</td></tr>
+<tr class="memdesc:a078b1784a11a7e44606cea83b102960a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap a component. Gives the ability to know if it is hovered by the mouse.  <br /></td></tr>
+<tr class="separator:a078b1784a11a7e44606cea83b102960a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a574c86b2973314b3874fa731ad46d2da" id="r_a574c86b2973314b3874fa731ad46d2da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a574c86b2973314b3874fa731ad46d2da">ftxui::Hoverable</a> (std::function&lt; void()&gt; on_enter, std::function&lt; void()&gt; on_leave)</td></tr>
+<tr class="separator:a574c86b2973314b3874fa731ad46d2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3c5f5547f4e9de17718846b3534629" id="r_a3c3c5f5547f4e9de17718846b3534629"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a94f80baaae76697875fff8c3538625e1">ComponentDecorator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#a3c3c5f5547f4e9de17718846b3534629">ftxui::Hoverable</a> (std::function&lt; void(bool)&gt; on_change)</td></tr>
+<tr class="memdesc:a3c3c5f5547f4e9de17718846b3534629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap a component. Gives the ability to know if it is hovered by the mouse.  <br /></td></tr>
+<tr class="separator:a3c3c5f5547f4e9de17718846b3534629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad72e2acbe576e60d4fb1d6931a0026e8" id="r_ad72e2acbe576e60d4fb1d6931a0026e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">Component</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceftxui.html#ad72e2acbe576e60d4fb1d6931a0026e8">ftxui::Window</a> (<a class="el" href="structftxui_1_1WindowOptions.html">WindowOptions</a> option)</td></tr>
+<tr class="memdesc:ad72e2acbe576e60d4fb1d6931a0026e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A draggeable / resizeable window. To use multiple of them, they must be stacked using <code><a class="el" href="namespaceftxui_1_1Container.html#adec42fec621f97b844e59c1a3a10ccf0" title="A list of components to be stacked on top of each other. Events are propagated to the first component...">Container::Stacked</a>({...})</code> component;  <br /></td></tr>
+<tr class="separator:ad72e2acbe576e60d4fb1d6931a0026e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_95e29a8b8ee7c54052c171a88bb95675.html">cmake-build-debug</a></li><li class="navelem"><a class="el" href="dir_5ed36b38ab1e0b9b742fc01309e4e757.html">_deps</a></li><li class="navelem"><a class="el" href="dir_9406ff1c430c07fdd8bea52d605c6102.html">ftxui-src</a></li><li class="navelem"><a class="el" href="dir_ad974519e082061f7ab922a39291161e.html">include</a></li><li class="navelem"><a class="el" href="dir_e6168a6337a0bc81ec4cf5d8bfd4e9b3.html">ftxui</a></li><li class="navelem"><a class="el" href="dir_5d00fc3b6dba838aa011cd8a54bea50f.html">component</a></li><li class="navelem"><a class="el" href="component_8hpp.html">component.hpp</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

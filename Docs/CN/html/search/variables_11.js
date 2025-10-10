@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['r_0',['r',['../structftxui_1_1Event.html#aef361fd5a043137cc42824a9dde65444',1,'ftxui::Event::R'],['../structftxui_1_1Event.html#aa3eb4c7c683a8ff17f755ed0476db559',1,'ftxui::Event::r']]],
+  ['radiobox_1',['radiobox',['../structftxui_1_1DropdownOption.html#ac0ba95782c3fc3e42c904f837a3a56b0',1,'ftxui::DropdownOption']]],
+  ['red_2',['red',['../structftxui_1_1ColorInfo.html#aaee037560b0fff8de20e4829706472bd',1,'ftxui::ColorInfo']]],
+  ['render_3',['render',['../structftxui_1_1WindowOptions.html#ad23768009b1c55556dd7d8249ec0e734',1,'ftxui::WindowOptions']]],
+  ['requirement_5f_4',['requirement_',['../classftxui_1_1Node.html#ac53c09c34f66d45c5e330e8d7a650ca8',1,'ftxui::Node']]],
+  ['resize_5',['resize',['../structftxui_1_1WindowRenderState.html#aed50630ef5306a0f6bc58cf9de706d2c',1,'ftxui::WindowRenderState']]],
+  ['resize_5fdown_6',['resize_down',['../structftxui_1_1WindowOptions.html#adca5224b545c6befeb31b7e30bb90b7c',1,'ftxui::WindowOptions']]],
+  ['resize_5fdown_5f_7',['resize_down_',['../src_2ftxui_2component_2window_8cpp.html#abb5820730ee5ac08f5623d866a8b6777',1,'window.cpp']]],
+  ['resize_5fleft_8',['resize_left',['../structftxui_1_1WindowOptions.html#a2da551fdde8997bd4a260fc8f1a454cf',1,'ftxui::WindowOptions']]],
+  ['resize_5fleft_5f_9',['resize_left_',['../src_2ftxui_2component_2window_8cpp.html#a11cd63ba8957337034d3351d3b416030',1,'window.cpp']]],
+  ['resize_5fright_10',['resize_right',['../structftxui_1_1WindowOptions.html#a0a8521a95d87ccfbfed4c6faefbf8d9d',1,'ftxui::WindowOptions']]],
+  ['resize_5fright_5f_11',['resize_right_',['../src_2ftxui_2component_2window_8cpp.html#a435bdeaeaea854a80f574fbfda91032f',1,'window.cpp']]],
+  ['resize_5ftop_12',['resize_top',['../structftxui_1_1WindowOptions.html#a4276af81b251032f51f0b87ce5b55bc0',1,'ftxui::WindowOptions']]],
+  ['resize_5ftop_5f_13',['resize_top_',['../src_2ftxui_2component_2window_8cpp.html#a12f0c5cd8f00f860d8fb47550f0af746',1,'window.cpp']]],
+  ['return_14',['Return',['../structftxui_1_1Event.html#ab7e761df7f7cdccff95556474f252bc2',1,'ftxui::Event']]],
+  ['right_15',['right',['../screen_8cpp.html#aa4b74e56e675912bbc06504407fc7a46',1,'screen.cpp']]],
+  ['round_16',['round',['../screen_8cpp.html#ad20ff2177c37ddb2e308815c71d4be81',1,'screen.cpp']]]
+];

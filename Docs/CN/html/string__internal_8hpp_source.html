@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: cmake-build-debug/_deps/ftxui-src/src/ftxui/screen/string_internal.hpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('string__internal_8hpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">string_internal.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="string__internal_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Copyright 2023 Arthur Sonzogni. All rights reserved.</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// Use of this source code is governed by the MIT license that can be found in</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">// the LICENSE file.</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifndef FTXUI_SCREEN_STRING_INTERNAL_HPP</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#define FTXUI_SCREEN_STRING_INTERNAL_HPP</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceftxui.html">ftxui</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceftxui.html#a78addc26e4a8953696d0ea4952a19230">EatCodePoint</a>(<span class="keyword">const</span> std::string&amp; input,</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>                  <span class="keywordtype">size_t</span> start,</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                  <span class="keywordtype">size_t</span>* end,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                  uint32_t* ucs);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceftxui.html#a78addc26e4a8953696d0ea4952a19230">EatCodePoint</a>(<span class="keyword">const</span> std::wstring&amp; input,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                  <span class="keywordtype">size_t</span> start,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                  <span class="keywordtype">size_t</span>* end,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                  uint32_t* ucs);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceftxui.html#a0544c5439092ee405350e1472ac10265">IsCombining</a>(uint32_t ucs);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceftxui.html#a094e4ebe9287fa0da89bf32253b18d2e">IsFullWidth</a>(uint32_t ucs);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceftxui.html#a0a050c2c934fd9158f14a8f0d1b8f9e6">IsControl</a>(uint32_t ucs);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordtype">size_t</span> <a class="code hl_function" href="namespaceftxui.html#a3e03d8a20a81bba1b159668d0208982b">GlyphPrevious</a>(<span class="keyword">const</span> std::string&amp; input, <span class="keywordtype">size_t</span> start);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">size_t</span> <a class="code hl_function" href="namespaceftxui.html#a42a8aac059a66602f95a1d08b73b3edc">GlyphNext</a>(<span class="keyword">const</span> std::string&amp; input, <span class="keywordtype">size_t</span> start);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">// Return the index in the |input| string of the glyph at |glyph_offset|,</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">// starting at |start|</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">size_t</span> <a class="code hl_function" href="namespaceftxui.html#a1d4f5487c8802ee8d55e56776766e8ab">GlyphIterate</a>(<span class="keyword">const</span> std::string&amp; input,</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                    <span class="keywordtype">int</span> glyph_offset,</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                    <span class="keywordtype">size_t</span> start = 0);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">// Returns the number of glyphs in |input|.</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keywordtype">int</span> <a class="code hl_function" href="namespaceftxui.html#a824afae899be0cd6cee69d85b01752a7">GlyphCount</a>(<span class="keyword">const</span> std::string&amp; input);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">// Properties from:</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">// https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/WordBreakProperty.txt</span></div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55">   40</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55">WordBreakProperty</a> : int8_t {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55ab1bb481a6d76de94d35e1d67cb85d966">ALetter</a>,</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a1d7b33fc26ca22c2011aaa97fecc43d8">CR</a>,</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3a1f5142815614aa554e376af7047de3">Double_Quote</a>,</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3bc026b815790a05493fa56fc4b8d8bd">Extend</a>,</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55adcba983044c9eb2afae2e2eaef5fe818">ExtendNumLet</a>,</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a520d0db389f362bf79ef56ca0af3dcab">Format</a>,</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3b076a28de949c89c8443aa0cd42ef17">Hebrew_Letter</a>,</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55aedb097c9a1cb7aed483367f825211f75">Katakana</a>,</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a618441d41cce47dbcfd9bed6e5ff64e6">LF</a>,</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55ab681d24011467edf425478fed96fbcde">MidLetter</a>,</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a876e36e8a85514e9c141b2aa3a7bfb5c">MidNum</a>,</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a4d4a2ec3c1ff2c647ff25b61136aabff">MidNumLet</a>,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a755fee300780823fcf4df98383331745">Newline</a>,</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a87322391cc6e8948ce9fd5d6cb84fced">Numeric</a>,</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a7f219844b91c2bb3bdb5fb7ffbdfca72">Regional_Indicator</a>,</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55ab6f9a00a0255e4da280686c4640c7671">Single_Quote</a>,</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3ddc36a0c4e381a754fb00548d567d09">WSegSpace</a>,</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <a class="code hl_enumvalue" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55acb4adf7b93435bdfbae8f32d5bcda514">ZWJ</a>,</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
+</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><a class="code hl_enumeration" href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55">WordBreakProperty</a> <a class="code hl_function" href="namespaceftxui.html#a2ba5ec3cf06f79cf9dba2502a5dda583">CodepointToWordBreakProperty</a>(uint32_t codepoint);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>std::vector&lt;WordBreakProperty&gt; <a class="code hl_function" href="namespaceftxui.html#a6dd3614213f34c35a8e78aa518115084">Utf8ToWordBreakProperty</a>(</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">const</span> std::string&amp; input);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="namespaceftxui.html#aae5684c348d3ef85c1b6ab9b6b08e0cf">   64</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceftxui.html#aae5684c348d3ef85c1b6ab9b6b08e0cf">IsWordBreakingCharacter</a>(<span class="keyword">const</span> std::string&amp; input, <span class="keywordtype">size_t</span> glyph_index);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}  <span class="comment">// namespace ftxui</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#endif </span><span class="comment">/* end of include guard: FTXUI_SCREEN_STRING_INTERNAL_HPP */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="anamespaceftxui_html"><div class="ttname"><a href="namespaceftxui.html">ftxui</a></div><div class="ttdef"><b>Definition</b> animation.hpp:10</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0544c5439092ee405350e1472ac10265"><div class="ttname"><a href="namespaceftxui.html#a0544c5439092ee405350e1472ac10265">ftxui::IsCombining</a></div><div class="ttdeci">bool IsCombining(uint32_t ucs)</div><div class="ttdef"><b>Definition</b> string.cpp:1282</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55">ftxui::WordBreakProperty</a></div><div class="ttdeci">WordBreakProperty</div><div class="ttdef"><b>Definition</b> string_internal.hpp:40</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a1d7b33fc26ca22c2011aaa97fecc43d8"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a1d7b33fc26ca22c2011aaa97fecc43d8">ftxui::WordBreakProperty::CR</a></div><div class="ttdeci">@ CR</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a3a1f5142815614aa554e376af7047de3"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3a1f5142815614aa554e376af7047de3">ftxui::WordBreakProperty::Double_Quote</a></div><div class="ttdeci">@ Double_Quote</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a3b076a28de949c89c8443aa0cd42ef17"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3b076a28de949c89c8443aa0cd42ef17">ftxui::WordBreakProperty::Hebrew_Letter</a></div><div class="ttdeci">@ Hebrew_Letter</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a3bc026b815790a05493fa56fc4b8d8bd"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3bc026b815790a05493fa56fc4b8d8bd">ftxui::WordBreakProperty::Extend</a></div><div class="ttdeci">@ Extend</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a3ddc36a0c4e381a754fb00548d567d09"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a3ddc36a0c4e381a754fb00548d567d09">ftxui::WordBreakProperty::WSegSpace</a></div><div class="ttdeci">@ WSegSpace</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a4d4a2ec3c1ff2c647ff25b61136aabff"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a4d4a2ec3c1ff2c647ff25b61136aabff">ftxui::WordBreakProperty::MidNumLet</a></div><div class="ttdeci">@ MidNumLet</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a520d0db389f362bf79ef56ca0af3dcab"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a520d0db389f362bf79ef56ca0af3dcab">ftxui::WordBreakProperty::Format</a></div><div class="ttdeci">@ Format</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a618441d41cce47dbcfd9bed6e5ff64e6"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a618441d41cce47dbcfd9bed6e5ff64e6">ftxui::WordBreakProperty::LF</a></div><div class="ttdeci">@ LF</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a755fee300780823fcf4df98383331745"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a755fee300780823fcf4df98383331745">ftxui::WordBreakProperty::Newline</a></div><div class="ttdeci">@ Newline</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a7f219844b91c2bb3bdb5fb7ffbdfca72"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a7f219844b91c2bb3bdb5fb7ffbdfca72">ftxui::WordBreakProperty::Regional_Indicator</a></div><div class="ttdeci">@ Regional_Indicator</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a87322391cc6e8948ce9fd5d6cb84fced"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a87322391cc6e8948ce9fd5d6cb84fced">ftxui::WordBreakProperty::Numeric</a></div><div class="ttdeci">@ Numeric</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55a876e36e8a85514e9c141b2aa3a7bfb5c"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55a876e36e8a85514e9c141b2aa3a7bfb5c">ftxui::WordBreakProperty::MidNum</a></div><div class="ttdeci">@ MidNum</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55ab1bb481a6d76de94d35e1d67cb85d966"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55ab1bb481a6d76de94d35e1d67cb85d966">ftxui::WordBreakProperty::ALetter</a></div><div class="ttdeci">@ ALetter</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55ab681d24011467edf425478fed96fbcde"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55ab681d24011467edf425478fed96fbcde">ftxui::WordBreakProperty::MidLetter</a></div><div class="ttdeci">@ MidLetter</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55ab6f9a00a0255e4da280686c4640c7671"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55ab6f9a00a0255e4da280686c4640c7671">ftxui::WordBreakProperty::Single_Quote</a></div><div class="ttdeci">@ Single_Quote</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55acb4adf7b93435bdfbae8f32d5bcda514"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55acb4adf7b93435bdfbae8f32d5bcda514">ftxui::WordBreakProperty::ZWJ</a></div><div class="ttdeci">@ ZWJ</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55adcba983044c9eb2afae2e2eaef5fe818"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55adcba983044c9eb2afae2e2eaef5fe818">ftxui::WordBreakProperty::ExtendNumLet</a></div><div class="ttdeci">@ ExtendNumLet</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0787ca7dbf10569d707fbb46e1268e55aedb097c9a1cb7aed483367f825211f75"><div class="ttname"><a href="namespaceftxui.html#a0787ca7dbf10569d707fbb46e1268e55aedb097c9a1cb7aed483367f825211f75">ftxui::WordBreakProperty::Katakana</a></div><div class="ttdeci">@ Katakana</div></div>
+<div class="ttc" id="anamespaceftxui_html_a094e4ebe9287fa0da89bf32253b18d2e"><div class="ttname"><a href="namespaceftxui.html#a094e4ebe9287fa0da89bf32253b18d2e">ftxui::IsFullWidth</a></div><div class="ttdeci">bool IsFullWidth(uint32_t ucs)</div><div class="ttdef"><b>Definition</b> string.cpp:1286</div></div>
+<div class="ttc" id="anamespaceftxui_html_a0a050c2c934fd9158f14a8f0d1b8f9e6"><div class="ttname"><a href="namespaceftxui.html#a0a050c2c934fd9158f14a8f0d1b8f9e6">ftxui::IsControl</a></div><div class="ttdeci">bool IsControl(uint32_t ucs)</div><div class="ttdef"><b>Definition</b> string.cpp:1293</div></div>
+<div class="ttc" id="anamespaceftxui_html_a1d4f5487c8802ee8d55e56776766e8ab"><div class="ttname"><a href="namespaceftxui.html#a1d4f5487c8802ee8d55e56776766e8ab">ftxui::GlyphIterate</a></div><div class="ttdeci">size_t GlyphIterate(const std::string &amp;input, int glyph_offset, size_t start)</div><div class="ttdef"><b>Definition</b> string.cpp:1450</div></div>
+<div class="ttc" id="anamespaceftxui_html_a2ba5ec3cf06f79cf9dba2502a5dda583"><div class="ttname"><a href="namespaceftxui.html#a2ba5ec3cf06f79cf9dba2502a5dda583">ftxui::CodepointToWordBreakProperty</a></div><div class="ttdeci">WordBreakProperty CodepointToWordBreakProperty(uint32_t codepoint)</div><div class="ttdef"><b>Definition</b> string.cpp:1307</div></div>
+<div class="ttc" id="anamespaceftxui_html_a3e03d8a20a81bba1b159668d0208982b"><div class="ttname"><a href="namespaceftxui.html#a3e03d8a20a81bba1b159668d0208982b">ftxui::GlyphPrevious</a></div><div class="ttdeci">size_t GlyphPrevious(const std::string &amp;input, size_t start)</div><div class="ttdef"><b>Definition</b> string.cpp:1399</div></div>
+<div class="ttc" id="anamespaceftxui_html_a42a8aac059a66602f95a1d08b73b3edc"><div class="ttname"><a href="namespaceftxui.html#a42a8aac059a66602f95a1d08b73b3edc">ftxui::GlyphNext</a></div><div class="ttdeci">size_t GlyphNext(const std::string &amp;input, size_t start)</div><div class="ttdef"><b>Definition</b> string.cpp:1424</div></div>
+<div class="ttc" id="anamespaceftxui_html_a6dd3614213f34c35a8e78aa518115084"><div class="ttname"><a href="namespaceftxui.html#a6dd3614213f34c35a8e78aa518115084">ftxui::Utf8ToWordBreakProperty</a></div><div class="ttdeci">std::vector&lt; WordBreakProperty &gt; Utf8ToWordBreakProperty(const std::string &amp;input)</div><div class="ttdef"><b>Definition</b> string.cpp:1533</div></div>
+<div class="ttc" id="anamespaceftxui_html_a78addc26e4a8953696d0ea4952a19230"><div class="ttname"><a href="namespaceftxui.html#a78addc26e4a8953696d0ea4952a19230">ftxui::EatCodePoint</a></div><div class="ttdeci">bool EatCodePoint(const std::string &amp;input, size_t start, size_t *end, uint32_t *ucs)</div><div class="ttdef"><b>Definition</b> string.cpp:1174</div></div>
+<div class="ttc" id="anamespaceftxui_html_a824afae899be0cd6cee69d85b01752a7"><div class="ttname"><a href="namespaceftxui.html#a824afae899be0cd6cee69d85b01752a7">ftxui::GlyphCount</a></div><div class="ttdeci">int GlyphCount(const std::string &amp;input)</div><div class="ttdef"><b>Definition</b> string.cpp:1505</div></div>
+<div class="ttc" id="anamespaceftxui_html_aae5684c348d3ef85c1b6ab9b6b08e0cf"><div class="ttname"><a href="namespaceftxui.html#aae5684c348d3ef85c1b6ab9b6b08e0cf">ftxui::IsWordBreakingCharacter</a></div><div class="ttdeci">bool IsWordBreakingCharacter(const std::string &amp;input, size_t glyph_index)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_95e29a8b8ee7c54052c171a88bb95675.html">cmake-build-debug</a></li><li class="navelem"><a class="el" href="dir_5ed36b38ab1e0b9b742fc01309e4e757.html">_deps</a></li><li class="navelem"><a class="el" href="dir_9406ff1c430c07fdd8bea52d605c6102.html">ftxui-src</a></li><li class="navelem"><a class="el" href="dir_eb895073c2a3aad1052f6fcbce46c902.html">src</a></li><li class="navelem"><a class="el" href="dir_a9929cb9c637c27d86a75bcf17bdc80d.html">ftxui</a></li><li class="navelem"><a class="el" href="dir_e1934cef74b8634eee42b5115e482481.html">screen</a></li><li class="navelem"><a class="el" href="string__internal_8hpp.html">string_internal.hpp</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

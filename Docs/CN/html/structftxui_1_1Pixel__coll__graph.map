@@ -1,0 +1,5 @@
+<map id="ftxui::Pixel" name="ftxui::Pixel">
+<area shape="rect" id="Node000001" title="A Unicode character and its associated style." alt="" coords="7,108,97,133"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1Color.html" title="A class representing terminal colors." alt="" coords="5,5,99,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,45,55,108,49,108,49,45"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ftxui::CatchEventBase" name="ftxui::CatchEventBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,79,171,104"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1ComponentBase.html" title="It implement rendering itself as ftxui::Element. It implement keyboard navigation by responding to ft..." alt="" coords="5,5,172,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,44,91,79,86,79,86,44"/>
+</map>

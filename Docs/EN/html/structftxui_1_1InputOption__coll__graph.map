@@ -1,0 +1,11 @@
+<map id="ftxui::InputOption" name="ftxui::InputOption">
+<area shape="rect" id="Node000001" title="Option for the Input component." alt="" coords="179,197,314,223"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1StringRef.html" title="An adapter. Own or reference a constant string. For convenience, this class convert multiple mutable ..." alt="" coords="34,80,153,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,115,135,144,166,171,212,195,209,200,162,176,131,147,107,118"/>
+<area shape="rect" id="Node000003" href="$classftxui_1_1Ref.html" title=" " alt="" coords="5,5,181,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,45,96,80,91,80,91,45"/>
+<area shape="rect" id="Node000004" href="$classftxui_1_1Ref.html" title=" " alt="" coords="177,80,316,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="249,119,249,197,244,197,244,119"/>
+<area shape="rect" id="Node000005" href="$classftxui_1_1Ref.html" title=" " alt="" coords="340,80,468,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="385,117,354,146,316,176,273,200,271,195,313,171,350,142,381,113"/>
+</map>

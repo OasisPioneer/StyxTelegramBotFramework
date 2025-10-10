@@ -1,0 +1,24 @@
+<map id="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/src/ftxui/component/receiver_test.cpp" name="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/src/ftxui/component/receiver_test.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="130,5,319,75"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="53,123,117,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,77,115,117,112,113,173,73"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,196,65,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,77,169,113,130,150,70,191,67,187,127,146,165,110,197,73"/>
+<area shape="rect" id="Node000004" href="$receiver_8hpp.html" title=" " alt="" coords="191,123,403,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="253,73,281,110,277,113,249,76"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="427,123,531,148"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="318,72,436,115,434,120,316,77"/>
+<area shape="poly" id="edge10_Node000004_Node000003" title=" " alt="" coords="255,151,79,198,78,193,254,145"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="90,196,175,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="271,150,173,193,171,188,269,146"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="199,196,266,221"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="288,150,254,188,250,184,284,147"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="291,196,433,221"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="309,147,344,184,340,188,305,150"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="458,196,535,221"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="330,146,452,189,450,194,328,151"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="559,196,623,221"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="347,145,546,193,545,198,346,151"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="648,196,711,221"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="372,145,491,165,635,193,634,199,490,171,371,151"/>
+</map>

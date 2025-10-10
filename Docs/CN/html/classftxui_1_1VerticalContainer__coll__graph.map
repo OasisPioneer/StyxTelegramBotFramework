@@ -1,0 +1,9 @@
+<map id="ftxui::VerticalContainer" name="ftxui::VerticalContainer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="75,168,246,193"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1ContainerBase.html" title=" " alt="" coords="11,80,166,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,114,153,166,149,169,105,118"/>
+<area shape="rect" id="Node000003" href="$classftxui_1_1ComponentBase.html" title="It implement rendering itself as ftxui::Element. It implement keyboard navigation by responding to ft..." alt="" coords="5,5,172,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,45,91,80,86,80,86,45"/>
+<area shape="rect" id="Node000004" href="$structftxui_1_1Box.html" title=" " alt="" coords="191,80,275,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="216,118,173,169,169,166,212,114"/>
+</map>

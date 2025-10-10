@@ -1,0 +1,19 @@
+<map id="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/include/ftxui/dom/selection.hpp" name="cmake&#45;build&#45;debug/_deps/ftxui&#45;src/include/ftxui/dom/selection.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="134,5,313,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,92,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,62,85,104,83,100,169,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,108,191,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,62,174,99,170,95,200,58"/>
+<area shape="rect" id="Node000004" href="$box_8hpp.html" title=" " alt="" coords="215,108,370,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,58,277,95,272,99,242,62"/>
+<area shape="rect" id="Node000005" href="$pixel_8hpp.html" title=" " alt="" coords="395,108,556,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="301,58,429,101,428,106,299,63"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="390,255,457,280"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="444,136,410,154,396,167,384,182,381,198,384,213,403,243,399,246,379,215,375,198,380,180,392,164,407,150,441,131"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="497,255,555,280"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="509,131,542,150,558,164,570,180,574,198,570,215,550,246,546,243,565,213,569,198,565,182,554,167,539,154,507,136"/>
+<area shape="rect" id="Node000008" href="$color_8hpp.html" title=" " alt="" coords="395,181,556,207"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="478,134,478,168,473,168,473,134"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="469,209,442,245,438,242,465,205"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="486,205,512,242,508,245,482,209"/>
+</map>

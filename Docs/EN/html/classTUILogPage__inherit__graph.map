@@ -1,0 +1,5 @@
+<map id="TUILogPage" name="TUILogPage">
+<area shape="rect" id="Node000001" title="Log viewing page displaying framework logs in a tabular form." alt="" coords="11,79,110,104"/>
+<area shape="rect" id="Node000002" href="$classTUIBaseClass.html" title="Abstract base class for terminal UI pages defining the unified interface." alt="" coords="5,5,116,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,44,63,79,58,79,58,44"/>
+</map>

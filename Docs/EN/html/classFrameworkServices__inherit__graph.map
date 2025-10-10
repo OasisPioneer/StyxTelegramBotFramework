@@ -1,0 +1,5 @@
+<map id="FrameworkServices" name="FrameworkServices">
+<area shape="rect" id="Node000001" title="Entry point for framework services offering common capabilities such as logging to plugins." alt="" coords="31,79,181,104"/>
+<area shape="rect" id="Node000002" href="$classFrameworkServiceInterface.html" title=" " alt="" coords="5,5,207,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="TUIStatusPage" name="TUIStatusPage">
+<area shape="rect" id="Node000001" title="状态展示页面，动态呈现运行时间、插件数量等信息。" alt="" coords="5,79,121,104"/>
+<area shape="rect" id="Node000002" href="$classTUIBaseClass.html" title="终端界面页面的抽象基类，定义统一接口。" alt="" coords="8,5,119,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,44,66,79,61,79,61,44"/>
+</map>

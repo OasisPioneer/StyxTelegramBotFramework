@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: Include/TerminalUserInterface/TUIStatusPage.HPP 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('TUIStatusPage_8HPP_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">TUIStatusPage.HPP</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="TUIStatusPage_8HPP.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef STYXTELEGRAMBOTFRAMEWORK_TUISTATUSPAGE_HPP</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define STYXTELEGRAMBOTFRAMEWORK_TUISTATUSPAGE_HPP</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="TUIBaseClass_8HPP.html">TUIBaseClass.HPP</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;atomic&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;thread&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;boost/locale.hpp&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;<a class="code" href="component_8hpp.html">ftxui/component/component.hpp</a>&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;<a class="code" href="screen__interactive_8hpp.html">ftxui/component/screen_interactive.hpp</a>&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classTUIStatusPage.html">   22</a></span><span class="keyword">class </span><a class="code hl_class" href="classTUIStatusPage.html">TUIStatusPage</a> : <span class="keyword">public</span> <a class="code hl_class" href="classTUIBaseClass.html">TUIBaseClass</a> {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <a class="code hl_class" href="classTUIStatusPage.html">TUIStatusPage</a>(<a class="code hl_class" href="classftxui_1_1ScreenInteractive.html">ftxui::ScreenInteractive</a>&amp; Screen);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <a class="code hl_function" href="classTUIStatusPage.html#ad105f1505372fdec32e37c35961b3baa">~TUIStatusPage</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_typedef" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">ftxui::Component</a> <a class="code hl_function" href="classTUIStatusPage.html#abb35a0654c39c0fd4e65857d008d0faf">GetComponent</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <a class="code hl_typedef" href="namespaceftxui.html#ad05b5ed68c029c3ea189eedea904e88b">ftxui::Element</a> <a class="code hl_function" href="classTUIStatusPage.html#abb059aae9451356909f1689cf7b8a38e">Rendering</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        std::string <a class="code hl_function" href="classTUIStatusPage.html#a295bc4b02fc325da752a3de44ccce885">PageName</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keywordtype">void</span> AnimationThread();</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        std::chrono::steady_clock::time_point StartupTime_;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <a class="code hl_typedef" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">ftxui::Component</a> MainComponents_;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <a class="code hl_class" href="classftxui_1_1ScreenInteractive.html">ftxui::ScreenInteractive</a>&amp; Screen_;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        std::thread TimerThread_;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        std::atomic&lt;bool&gt; StopThread_;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
+</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#endif </span><span class="comment">//STYXTELEGRAMBOTFRAMEWORK_TUISTATUSPAGE_HPP</span></div>
+<div class="ttc" id="aTUIBaseClass_8HPP_html"><div class="ttname"><a href="TUIBaseClass_8HPP.html">TUIBaseClass.HPP</a></div></div>
+<div class="ttc" id="aclassTUIBaseClass_html"><div class="ttname"><a href="classTUIBaseClass.html">TUIBaseClass</a></div><div class="ttdoc">终端界面页面的抽象基类，定义统一接口。</div><div class="ttdef"><b>Definition</b> TUIBaseClass.HPP:16</div></div>
+<div class="ttc" id="aclassTUIStatusPage_html"><div class="ttname"><a href="classTUIStatusPage.html">TUIStatusPage</a></div><div class="ttdoc">状态展示页面，动态呈现运行时间、插件数量等信息。</div><div class="ttdef"><b>Definition</b> TUIStatusPage.HPP:22</div></div>
+<div class="ttc" id="aclassTUIStatusPage_html_a295bc4b02fc325da752a3de44ccce885"><div class="ttname"><a href="classTUIStatusPage.html#a295bc4b02fc325da752a3de44ccce885">TUIStatusPage::PageName</a></div><div class="ttdeci">std::string PageName() override</div><div class="ttdoc">返回页面在菜单中的显示名称。</div><div class="ttdef"><b>Definition</b> TUIStatusPage.CPP:71</div></div>
+<div class="ttc" id="aclassTUIStatusPage_html_abb059aae9451356909f1689cf7b8a38e"><div class="ttname"><a href="classTUIStatusPage.html#abb059aae9451356909f1689cf7b8a38e">TUIStatusPage::Rendering</a></div><div class="ttdeci">ftxui::Element Rendering() override</div><div class="ttdoc">渲染当前状态视图，包括运行时长与插件统计。</div><div class="ttdef"><b>Definition</b> TUIStatusPage.CPP:16</div></div>
+<div class="ttc" id="aclassTUIStatusPage_html_abb35a0654c39c0fd4e65857d008d0faf"><div class="ttname"><a href="classTUIStatusPage.html#abb35a0654c39c0fd4e65857d008d0faf">TUIStatusPage::GetComponent</a></div><div class="ttdeci">ftxui::Component GetComponent() override</div><div class="ttdoc">返回页面的主组件以嵌入到容器中。</div><div class="ttdef"><b>Definition</b> TUIStatusPage.CPP:75</div></div>
+<div class="ttc" id="aclassTUIStatusPage_html_ad105f1505372fdec32e37c35961b3baa"><div class="ttname"><a href="classTUIStatusPage.html#ad105f1505372fdec32e37c35961b3baa">TUIStatusPage::~TUIStatusPage</a></div><div class="ttdeci">~TUIStatusPage()</div><div class="ttdoc">析构函数，终止刷新线程并等待其结束。</div><div class="ttdef"><b>Definition</b> TUIStatusPage.CPP:88</div></div>
+<div class="ttc" id="aclassftxui_1_1ScreenInteractive_html"><div class="ttname"><a href="classftxui_1_1ScreenInteractive.html">ftxui::ScreenInteractive</a></div><div class="ttdef"><b>Definition</b> screen_interactive.hpp:30</div></div>
+<div class="ttc" id="acomponent_8hpp_html"><div class="ttname"><a href="component_8hpp.html">component.hpp</a></div></div>
+<div class="ttc" id="anamespaceftxui_html_a3aeff43a8147c225e5f6591cd435463e"><div class="ttname"><a href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">ftxui::Component</a></div><div class="ttdeci">std::shared_ptr&lt; ComponentBase &gt; Component</div><div class="ttdef"><b>Definition</b> component_base.hpp:24</div></div>
+<div class="ttc" id="anamespaceftxui_html_ad05b5ed68c029c3ea189eedea904e88b"><div class="ttname"><a href="namespaceftxui.html#ad05b5ed68c029c3ea189eedea904e88b">ftxui::Element</a></div><div class="ttdeci">std::shared_ptr&lt; Node &gt; Element</div><div class="ttdef"><b>Definition</b> elements.hpp:22</div></div>
+<div class="ttc" id="ascreen__interactive_8hpp_html"><div class="ttname"><a href="screen__interactive_8hpp.html">screen_interactive.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_856524284ebe840938865dc061f982fb.html">Include</a></li><li class="navelem"><a class="el" href="dir_d65f1eb064133c610db2b9659fb53230.html">TerminalUserInterface</a></li><li class="navelem"><a class="el" href="TUIStatusPage_8HPP.html">TUIStatusPage.HPP</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

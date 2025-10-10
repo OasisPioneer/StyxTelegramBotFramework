@@ -1,0 +1,35 @@
+<map id="Include/TerminalUserInterface/TUIBaseClass.HPP" name="Include/TerminalUserInterface/TUIBaseClass.HPP">
+<area shape="rect" id="Node000001" title=" " alt="" coords="501,5,719,45"/>
+<area shape="rect" id="Node000002" href="$TUILogPage_8HPP.html" title=" " alt="" coords="19,93,236,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="491,50,233,96,233,91,490,45"/>
+<area shape="rect" id="Node000005" href="$TUIManage_8HPP.html" title=" " alt="" coords="260,93,477,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="545,52,422,96,421,91,543,47"/>
+<area shape="rect" id="Node000010" href="$TUIPluginPage_8HPP.html" title=" " alt="" coords="501,93,719,133"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="613,59,613,93,607,93,607,59"/>
+<area shape="rect" id="Node000012" href="$TUISettingsPage_8HPP.html" title=" " alt="" coords="984,93,1201,133"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="730,45,987,91,987,96,729,50"/>
+<area shape="rect" id="Node000014" href="$TUIStatusPage_8HPP.html" title=" " alt="" coords="743,93,960,133"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="677,47,799,91,798,96,675,52"/>
+<area shape="rect" id="Node000003" href="$TUILogPage_8CPP.html" title=" " alt="" coords="5,181,196,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,147,109,182,104,180,115,146"/>
+<area shape="rect" id="Node000004" href="$TUIManage_8CPP.html" title=" " alt="" coords="721,181,912,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="250,131,380,145,481,154,582,163,709,179,722,181,721,186,708,184,581,169,481,160,379,151,250,136"/>
+<area shape="poly" id="edge10_Node000005_Node000004" title=" " alt="" coords="481,133,722,179,721,184,480,139"/>
+<area shape="rect" id="Node000006" href="$Application_8HPP.html" title=" " alt="" coords="271,189,482,214"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="374,147,378,188,373,188,369,147"/>
+<area shape="rect" id="Node000007" href="$Application_8CPP.html" title=" " alt="" coords="143,277,325,302"/>
+<area shape="poly" id="edge9_Node000005_Node000007" title=" " alt="" coords="311,142,284,160,261,183,249,207,241,233,237,277,231,276,236,232,244,205,257,180,280,156,308,138"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="347,223,255,279,252,274,345,219"/>
+<area shape="rect" id="Node000008" href="$Main_8CPP.html" title=" " alt="" coords="350,277,457,302"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="387,226,402,275,397,277,382,228"/>
+<area shape="rect" id="Node000009" href="$TUIStatusPage_8CPP.html" title=" " alt="" coords="668,269,859,309"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="442,214,679,267,678,272,441,220"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="669,136,772,179,770,184,667,141"/>
+<area shape="rect" id="Node000011" href="$TUIPluginPage_8CPP.html" title=" " alt="" coords="507,181,697,221"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="610,147,606,181,601,181,604,147"/>
+<area shape="poly" id="edge15_Node000012_Node000004" title=" " alt="" coords="1020,140,878,184,876,179,1019,135"/>
+<area shape="rect" id="Node000013" href="$TUISettingsPage_8CPP.html" title=" " alt="" coords="997,181,1188,221"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="1095,147,1095,181,1090,181,1090,147"/>
+<area shape="poly" id="edge18_Node000014_Node000004" title=" " alt="" coords="841,147,827,182,822,180,836,145"/>
+<area shape="poly" id="edge19_Node000014_Node000009" title=" " alt="" coords="892,140,911,158,927,178,933,200,927,223,913,239,897,252,860,272,858,267,894,248,910,235,922,220,928,200,922,181,907,161,889,144"/>
+</map>

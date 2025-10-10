@@ -1,0 +1,7 @@
+<map id="ftxui::MenuBase" name="ftxui::MenuBase">
+<area shape="rect" id="Node000001" title="A list of items. The user can navigate through them." alt="" coords="113,79,240,104"/>
+<area shape="rect" id="Node000002" href="$classftxui_1_1ComponentBase.html" title="It implement rendering itself as ftxui::Element. It implement keyboard navigation by responding to ft..." alt="" coords="5,5,172,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,37,164,76,161,81,112,41"/>
+<area shape="rect" id="Node000003" href="$structftxui_1_1MenuOption.html" title="Option for the Menu component." alt="" coords="197,5,335,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,41,193,81,190,76,239,37"/>
+</map>

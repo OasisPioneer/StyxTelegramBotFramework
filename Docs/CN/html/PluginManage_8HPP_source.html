@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: Include/Plugins/PluginManage.HPP 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('PluginManage_8HPP_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PluginManage.HPP</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="PluginManage_8HPP.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef STYXTELEGRAMBOTFRAMEWORK_PLUGINMANAGE_HPP</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define STYXTELEGRAMBOTFRAMEWORK_PLUGINMANAGE_HPP</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="PluginInterface_8HPP.html">PluginInterface.HPP</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="classPluginInterface.html">PluginInterface</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span><a class="code hl_class" href="classFrameworkServiceInterface.html">FrameworkServiceInterface</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="};">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structPluginInfo.html">   32</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structPluginInfo.html">PluginInfo</a> {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structPluginInfo.html#a95a93bdeee48e8bab0492d577390ef3e">   33</a></span>    std::shared_ptr&lt;PluginInterface&gt; <a class="code hl_variable" href="structPluginInfo.html#a95a93bdeee48e8bab0492d577390ef3e">Instance</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structPluginInfo.html#a3fc5df25e8b7e3b63bd0e92f270364f2">   34</a></span>    <span class="keywordtype">void</span>* <a class="code hl_variable" href="structPluginInfo.html#a3fc5df25e8b7e3b63bd0e92f270364f2">Handle</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structPluginInfo.html#a1e55d20ebb93507f87b60066c123eb81">   35</a></span>    std::string <a class="code hl_variable" href="structPluginInfo.html#a1e55d20ebb93507f87b60066c123eb81">Path</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structPluginInfo.html#a796afb2d5579c282efeaed8b2077bc34">   36</a></span>    std::unique_ptr&lt;FrameworkServiceInterface&gt; <a class="code hl_variable" href="structPluginInfo.html#a796afb2d5579c282efeaed8b2077bc34">Service</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
+</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="};">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classPluginManage.html">   46</a></span><span class="keyword">class </span><a class="code hl_class" href="classPluginManage.html">PluginManage</a> {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <a class="code hl_function" href="classPluginManage.html#a73e00c48b0ee4c669bd103367b21c94a">PluginManage</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <a class="code hl_function" href="classPluginManage.html#a9fe852fc4b302f9a18ce4d8ba62c9619">~PluginManage</a>();</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classPluginManage.html#a8bfec4a9d723b710df2e475ea38edb0f">LoadingPlugins</a>(<span class="keyword">const</span> std::string&amp; DirectoryPath);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keyword">const</span> std::vector&lt;PluginInfo&gt;&amp; <a class="code hl_function" href="classPluginManage.html#a7c6604f34b283699bb25b8dcca6c65fc">GetLoadedPlugins</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        std::vector&lt;PluginInfo&gt; LoadedPlugins_;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>};</div>
+</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="preprocessor">#endif </span><span class="comment">//STYXTELEGRAMBOTFRAMEWORK_PLUGINMANAGE_HPP</span></div>
+<div class="ttc" id="aPluginInterface_8HPP_html"><div class="ttname"><a href="PluginInterface_8HPP.html">PluginInterface.HPP</a></div></div>
+<div class="ttc" id="aclassFrameworkServiceInterface_html"><div class="ttname"><a href="classFrameworkServiceInterface.html">FrameworkServiceInterface</a></div><div class="ttdef"><b>Definition</b> FrameworkServiceInterface.HPP:6</div></div>
+<div class="ttc" id="aclassPluginInterface_html"><div class="ttname"><a href="classPluginInterface.html">PluginInterface</a></div><div class="ttdef"><b>Definition</b> PluginInterface.HPP:6</div></div>
+<div class="ttc" id="aclassPluginManage_html"><div class="ttname"><a href="classPluginManage.html">PluginManage</a></div><div class="ttdoc">插件管理器，负责扫描、加载并维护插件生命周期。</div><div class="ttdef"><b>Definition</b> PluginManage.HPP:46</div></div>
+<div class="ttc" id="aclassPluginManage_html_a73e00c48b0ee4c669bd103367b21c94a"><div class="ttname"><a href="classPluginManage.html#a73e00c48b0ee4c669bd103367b21c94a">PluginManage::PluginManage</a></div><div class="ttdeci">PluginManage()</div><div class="ttdoc">构造函数，在创建时记录管理器初始化流程。</div><div class="ttdef"><b>Definition</b> PluginManage.CPP:11</div></div>
+<div class="ttc" id="aclassPluginManage_html_a7c6604f34b283699bb25b8dcca6c65fc"><div class="ttname"><a href="classPluginManage.html#a7c6604f34b283699bb25b8dcca6c65fc">PluginManage::GetLoadedPlugins</a></div><div class="ttdeci">const std::vector&lt; PluginInfo &gt; &amp; GetLoadedPlugins() const</div><div class="ttdoc">获取当前已加载插件的信息集合。</div><div class="ttdef"><b>Definition</b> PluginManage.CPP:79</div></div>
+<div class="ttc" id="aclassPluginManage_html_a8bfec4a9d723b710df2e475ea38edb0f"><div class="ttname"><a href="classPluginManage.html#a8bfec4a9d723b710df2e475ea38edb0f">PluginManage::LoadingPlugins</a></div><div class="ttdeci">void LoadingPlugins(const std::string &amp;DirectoryPath)</div><div class="ttdoc">扫描指定目录中的动态库并尝试加载符合接口的插件。</div><div class="ttdef"><b>Definition</b> PluginManage.CPP:15</div></div>
+<div class="ttc" id="aclassPluginManage_html_a9fe852fc4b302f9a18ce4d8ba62c9619"><div class="ttname"><a href="classPluginManage.html#a9fe852fc4b302f9a18ce4d8ba62c9619">PluginManage::~PluginManage</a></div><div class="ttdeci">~PluginManage()</div><div class="ttdoc">析构函数，在销毁时卸载已加载插件。</div><div class="ttdef"><b>Definition</b> PluginManage.CPP:83</div></div>
+<div class="ttc" id="astructPluginInfo_html"><div class="ttname"><a href="structPluginInfo.html">PluginInfo</a></div><div class="ttdoc">描述单个插件实例及其运行时资源的结构体。</div><div class="ttdef"><b>Definition</b> PluginManage.HPP:32</div></div>
+<div class="ttc" id="astructPluginInfo_html_a1e55d20ebb93507f87b60066c123eb81"><div class="ttname"><a href="structPluginInfo.html#a1e55d20ebb93507f87b60066c123eb81">PluginInfo::Path</a></div><div class="ttdeci">std::string Path</div><div class="ttdef"><b>Definition</b> PluginManage.HPP:35</div></div>
+<div class="ttc" id="astructPluginInfo_html_a3fc5df25e8b7e3b63bd0e92f270364f2"><div class="ttname"><a href="structPluginInfo.html#a3fc5df25e8b7e3b63bd0e92f270364f2">PluginInfo::Handle</a></div><div class="ttdeci">void * Handle</div><div class="ttdef"><b>Definition</b> PluginManage.HPP:34</div></div>
+<div class="ttc" id="astructPluginInfo_html_a796afb2d5579c282efeaed8b2077bc34"><div class="ttname"><a href="structPluginInfo.html#a796afb2d5579c282efeaed8b2077bc34">PluginInfo::Service</a></div><div class="ttdeci">std::unique_ptr&lt; FrameworkServiceInterface &gt; Service</div><div class="ttdef"><b>Definition</b> PluginManage.HPP:36</div></div>
+<div class="ttc" id="astructPluginInfo_html_a95a93bdeee48e8bab0492d577390ef3e"><div class="ttname"><a href="structPluginInfo.html#a95a93bdeee48e8bab0492d577390ef3e">PluginInfo::Instance</a></div><div class="ttdeci">std::shared_ptr&lt; PluginInterface &gt; Instance</div><div class="ttdef"><b>Definition</b> PluginManage.HPP:33</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_856524284ebe840938865dc061f982fb.html">Include</a></li><li class="navelem"><a class="el" href="dir_20de91d11825d11b2e1937a8e14f06d7.html">Plugins</a></li><li class="navelem"><a class="el" href="PluginManage_8HPP.html">PluginManage.HPP</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

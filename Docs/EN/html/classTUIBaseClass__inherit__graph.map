@@ -1,0 +1,11 @@
+<map id="TUIBaseClass" name="TUIBaseClass">
+<area shape="rect" id="Node000001" title="Abstract base class for terminal UI pages defining the unified interface." alt="" coords="202,5,313,31"/>
+<area shape="rect" id="Node000002" href="$classTUILogPage.html" title="Log viewing page displaying framework logs in a tabular form." alt="" coords="5,79,104,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,38,88,81,87,76,211,33"/>
+<area shape="rect" id="Node000003" href="$classTUIPluginPage.html" title=" " alt="" coords="128,79,243,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,43,199,80,195,77,234,39"/>
+<area shape="rect" id="Node000004" href="$classTUISettingsPage.html" title=" " alt="" coords="267,79,395,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="281,38,321,77,317,80,277,42"/>
+<area shape="rect" id="Node000005" href="$classTUIStatusPage.html" title="Status display page showing runtime duration, plugin count, and more." alt="" coords="419,79,535,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="307,32,443,76,441,81,305,37"/>
+</map>

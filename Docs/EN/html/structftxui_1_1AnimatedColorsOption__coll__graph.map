@@ -1,0 +1,7 @@
+<map id="ftxui::AnimatedColorsOption" name="ftxui::AnimatedColorsOption">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,211,212,236"/>
+<area shape="rect" id="Node000002" href="$structftxui_1_1AnimatedColorOption.html" title="Option about a potentially animated color." alt="" coords="9,108,208,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,147,111,211,106,211,106,147"/>
+<area shape="rect" id="Node000003" href="$classftxui_1_1Color.html" title="A class representing terminal colors." alt="" coords="62,5,155,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,45,111,108,106,108,106,45"/>
+</map>

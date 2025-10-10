@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Styx Telegram Bot Framework: README</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Styx-Telegram-Bot-Framework.svg"/></td>
+  <td id="projectalign">
+   <div id="projectname">Styx Telegram Bot Framework<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">A modular Telegram bot framework for C++ developers.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('md_cmake-build-debug_2__deps_2ftxui-src_2README.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">README</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p align="center"></p>
+<p><img src="https://github.com/ArthurSonzogni/FTXUI/assets/4759106/6925b6da-0a7e-49d9-883c-c890e1f36007" alt="Demo image" class="inline"/> <br  />
+ <a href="#"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=flat&amp;logo=c%2B%2B&amp;logoColor=white" alt="" style="pointer-events: none;" class="inline"/></a> <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/arthursonzogni/FTXUI?color=black" alt="" class="inline"/></a> <a href="#"><img src="https://img.shields.io/github/stars/ArthurSonzogni/FTXUI" alt="" class="inline"/></a> <a href="#"><img src="https://img.shields.io/github/forks/ArthurSonzogni/FTXUI" alt="" class="inline"/></a> <a href="#"><img src="https://img.shields.io/github/repo-size/ArthurSonzogni/FTXUI" alt="" class="inline"/></a> <a href="https://github.com/ArthurSonzogni/FTXUI/graphs/contributors"><img src="https://img.shields.io/github/contributors/arthursonzogni/FTXUI?color=blue" alt="" class="inline"/></a> <br  />
+ <a href="https://github.com/ArthurSonzogni/FTXUI/issues"><img src="https://img.shields.io/github/issues/ArthurSonzogni/FTXUI" alt="" class="inline"/></a> <a href="https://repology.org/project/ftxui/versions"><img src="https://repology.org/badge/latest-versions/ftxui.svg" alt="latest packaged version(s)" style="pointer-events: none;" class="inline"/></a> <a href="https://codecov.io/gh/ArthurSonzogni/FTXUI"><img src="https://codecov.io/gh/ArthurSonzogni/FTXUI/branch/master/graph/badge.svg?token=C41FdRpNVA" alt="" style="pointer-events: none;" class="inline"/> </a></p>
+<p><br  />
+ <a href="https://arthursonzogni.github.io/FTXUI/">Documentation</a> · <a href="https://github.com/ArthurSonzogni/FTXUI/issues">Report a Bug</a> · <a href="https://arthursonzogni.github.io/FTXUI/examples.html">Examples</a> . <a href="https://github.com/ArthurSonzogni/FTXUI/issues">Request Feature</a> · <a href="https://github.com/ArthurSonzogni/FTXUI/pulls">Send a Pull Request</a></p>
+<h1><a class="anchor" id="autotoc_md63"></a>
+FTXUI</h1>
+<p><em>Functional Terminal (X) User interface</em></p>
+<p>A simple cross-platform C++ library for terminal based user interfaces!</p>
+<h2><a class="anchor" id="autotoc_md64"></a>
+Feature</h2>
+<ul>
+<li>Functional style. Inspired by <a href="https://hackernoon.com/building-reactive-terminal-interfaces-in-c-d392ce34e649?gi=d9fb9ce35901">1</a> and <a href="https://reactjs.org/">React</a></li>
+<li>Simple and elegant syntax (in my opinion)</li>
+<li>Keyboard &amp; mouse navigation.</li>
+<li>Support for <a href="https://en.wikipedia.org/wiki/UTF-8">UTF8</a> and <a href="https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms">fullwidth chars</a> (→ 测试)</li>
+<li>Support for animations. <a href="https://arthursonzogni.github.io/FTXUI/examples/?file=component/menu_underline_animated_gallery">Demo 1</a>, <a href="https://arthursonzogni.github.io/FTXUI/examples/?file=component/button_style">Demo 2</a></li>
+<li>Support for drawing. <a href="https://arthursonzogni.github.io/FTXUI/examples/?file=component/canvas_animated">Demo</a></li>
+<li>No dependencies</li>
+<li><b>Cross platform</b>: Linux/MacOS (main target), WebAssembly, Windows (Thanks to contributors!).</li>
+<li>Learn by examples, and tutorials</li>
+<li>Multiple packages: CMake <a href="[https://bewagner.net/programming/2020/05/02/cmake-fetchcontent/](https://cmake.org/cmake/help/latest/module/FetchContent.html)">FetchContent</a> (preferred),Bazel, vcpkg, pkgbuild, conan.</li>
+<li>Good practices: documentation, tests, fuzzers, performance tests, automated CI, automated packaging, etc...</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md65"></a>
+Documentation</h2>
+<ul>
+<li><a href="https://github.com/ArthurSonzogni/ftxui-starter">Starter example project</a></li>
+<li><a href="https://arthursonzogni.github.io/FTXUI/">Documentation</a></li>
+<li><a href="https://arthursonzogni.github.io/FTXUI/examples/">Examples (WebAssembly)</a></li>
+<li><a href="https://arthursonzogni.github.io/FTXUI/#build-cmake">Build using CMake</a></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md66"></a>
+Example</h2>
+<div class="fragment"><div class="line">vbox({</div>
+<div class="line">  hbox({</div>
+<div class="line">    text(<span class="stringliteral">&quot;one&quot;</span>) | border,</div>
+<div class="line">    text(<span class="stringliteral">&quot;two&quot;</span>) | border | flex,</div>
+<div class="line">    text(<span class="stringliteral">&quot;three&quot;</span>) | border | flex,</div>
+<div class="line">  }),</div>
+<div class="line"> </div>
+<div class="line">  gauge(0.25) | color(Color::Red),</div>
+<div class="line">  gauge(0.50) | color(Color::White),</div>
+<div class="line">  gauge(0.75) | color(Color::Blue),</div>
+<div class="line">});</div>
+</div><!-- fragment --><p><img src="https://github.com/ArthurSonzogni/FTXUI/assets/4759106/569bf043-4e85-4245-aad5-2324572135c4" alt="image" class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md67"></a>
+Short gallery</h2>
+<h4><a class="anchor" id="autotoc_md68"></a>
+DOM</h4>
+<p>This module defines a hierarchical set of Element. An Element manages layout and can be responsive to the terminal dimensions.</p>
+<p>They are declared in <a href="https://arthursonzogni.github.io/FTXUI/elements_8hpp_source.html">&lt;ftxui/dom/elements.hpp&gt;</a></p>
+<details >
+<summary >
+Layout</summary>
+<p></p>
+<p>Element can be arranged together:</p><ul>
+<li>horizontally with <code>hbox</code></li>
+<li>vertically with <code>vbox</code></li>
+<li>inside a grid with <code>gridbox</code></li>
+<li>wrap along one direction using the <code>flexbox</code>.</li>
+</ul>
+<p>Element can become flexible using the the <code>flex</code> decorator.</p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2dom_2vbox_hbox_8cpp-example.html">Example</a> using <code>hbox</code>, <code>vbox</code> and <code>filler</code>.</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147242524-7103b5d9-1a92-4e2d-ac70-b3d6740061e3.png" alt="image" class="inline"/></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2dom_2gridbox_8cpp-example.html">Example</a> using gridbox:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147242972-0db1f2e9-0790-496f-86e6-ed2c604f7a73.png" alt="image" class="inline"/></p>
+<p><a href="https://github.com/ArthurSonzogni/FTXUI/blob/master/examples/dom/hflow.cpp">Example</a> using flexbox:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147243064-780ac7cc-605b-475f-94b8-cf7c4aed03a5.png" alt="image" class="inline"/></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2dom_2hflow_8cpp-example.html">See</a> also this <a href="https://arthursonzogni.github.io/FTXUI/examples/?file=component/flexbox">demo</a>.</p>
+<p></p>
+</details>
+<details >
+<summary >
+Style</summary>
+<p></p>
+<p>An element can be decorated using the functions:</p><ul>
+<li><code>bold</code></li>
+<li><code>italic</code></li>
+<li><code>dim</code></li>
+<li><code>inverted</code></li>
+<li><code>underlined</code></li>
+<li><code>underlinedDouble</code></li>
+<li><code>blink</code></li>
+<li><code>strikethrough</code></li>
+<li><code>color</code></li>
+<li><code>bgcolor</code></li>
+<li><code>hyperlink</code></li>
+</ul>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2dom_2style_gallery_8cpp-example.html">Example</a></p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147244118-380bf834-9e33-40df-9ff0-07c10f2598ef.png" alt="image" class="inline"/></p>
+<p>FTXUI supports the pipe operator. It means: <code>decorator1(decorator2(element))</code> and <code>element | decorator1 | decorator2</code> can be used.</p>
+<p></p>
+</details>
+<details >
+<summary >
+Colors</summary>
+<p></p>
+<p>FTXUI support every color palette:</p>
+<p>Color <a href="https://arthursonzogni.github.io/FTXUI/examples_2dom_2color_gallery_8cpp-example.html">gallery</a>: <img src="https://user-images.githubusercontent.com/4759106/147248595-04c7245a-5b85-4544-809d-a5984fc6f9e7.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Border and separator</summary>
+<p></p>
+<p>Use decorator border and element separator() to subdivide your UI:</p>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> document = vbox({</div>
+<div class="line">    text(<span class="stringliteral">&quot;top&quot;</span>),</div>
+<div class="line">    separator(),</div>
+<div class="line">    text(<span class="stringliteral">&quot;bottom&quot;</span>),</div>
+<div class="line">}) | border;</div>
+</div><!-- fragment --><p><a href="https://arthursonzogni.github.io/FTXUI/examples_2dom_2separator_8cpp-example.html">Demo</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147244514-4135f24b-fb8e-4067-8896-bc53545583f7.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Text and paragraph</summary>
+<p></p>
+<p>A simple piece of text is represented using <code>text("content")</code>.</p>
+<p>To support text wrapping following spaces the following functions are provided: </p><div class="fragment"><div class="line">Element paragraph(std::string text);</div>
+<div class="line">Element paragraphAlignLeft(std::string text);</div>
+<div class="line">Element paragraphAlignRight(std::string text);</div>
+<div class="line">Element paragraphAlignCenter(std::string text);</div>
+<div class="line">Element paragraphAlignJustify(std::string text);</div>
+</div><!-- fragment --><p><a href="https://arthursonzogni.github.io/FTXUI/examples_2dom_2paragraph_8cpp-example.html">Paragraph example</a></p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147251370-983a06e7-6f41-4113-92b8-942f43d34d06.gif" alt="ezgif com-gif-maker (4)" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Table</summary>
+<p></p>
+<p>A class to easily style a table of data.</p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2dom_2table_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147250766-77d8ec9e-cf2b-486d-9866-1fd9f1bd2e6b.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Canvas</summary>
+<p></p>
+<p>Drawing can be made on a Canvas, using braille, block, or simple characters:</p>
+<p>Simple <a href="https://github.com/ArthurSonzogni/FTXUI/blob/master/examples/dom/canvas.cpp">example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147245843-76cc62fb-ccb4-421b-aacf-939f9afb42fe.png" alt="image" class="inline"/></p>
+<p>Complex <a href="https://github.com/ArthurSonzogni/FTXUI/blob/master/examples/component/canvas_animated.cpp">examples</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147250538-783a8246-98e0-4a25-b032-3bd3710549d1.gif" alt="ezgif com-gif-maker (3)" class="inline"/> <br  />
+ </p>
+</details>
+<h4><a class="anchor" id="autotoc_md69"></a>
+Component</h4>
+<p>ftxui/component produces dynamic UI, reactive to the user's input. It defines a set of <a class="el" href="namespaceftxui.html#a3aeff43a8147c225e5f6591cd435463e">ftxui::Component</a>. A component reacts to Events (keyboard, mouse, resize, ...) and Renders as an Element (see previous section).</p>
+<p>Prebuilt components are declared in <a href="https://arthursonzogni.github.io/FTXUI/component_8hpp_source.html">&lt;ftxui/component/component.hpp&gt;</a></p>
+<details >
+<summary >
+Gallery</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2gallery_8cpp-example.html">Gallery</a> of multiple components. (<a href="https://arthursonzogni.github.io/FTXUI/examples/?file=component/gallery">demo</a>)</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147247330-b60beb9f-e665-48b4-81c0-4b01ee95bc66.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Radiobox</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2radiobox_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147246401-809d14a5-6621-4e36-8dd9-a2d75ef2a94e.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Checkbox</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2checkbox_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147246646-b86926a9-1ef9-4efb-af98-48a9b62acd81.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Input</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2input_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147247671-f1d6f606-1845-4e94-a4a0-d4273e9ae6bd.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Toggle</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2toggle_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147249383-e2201cf1-b7b8-4a5a-916f-d761e3e7ae40.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Slider</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2slider_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147249265-7e2cad75-082c-436e-affe-44a550c480ab.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Menu</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2menu_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147247822-0035fd6f-bb13-4b3a-b057-77eb9291582f.png" alt="image" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+ResizableSplit</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2resizable_split_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147248372-c55512fe-9b96-4b08-a1df-d05cf2cae431.gif" alt="ezgif com-gif-maker" class="inline"/> <br  />
+ </p>
+</details>
+<details >
+<summary >
+Dropdown</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2dropdown_8cpp-example.html">Example</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147246982-1e821751-531c-4e1f-bc37-2fa290e143cd.gif" alt="youtube-video-gif (3)" class="inline"/></p>
+<p></p>
+</details>
+<details >
+<summary >
+Tab</summary>
+<p></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2tab_vertical_8cpp-example.html">Vertical</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147250144-22ff044a-4773-4ff7-a49c-12ba4034acb4.gif" alt="ezgif com-gif-maker (1)" class="inline"/></p>
+<p><a href="https://arthursonzogni.github.io/FTXUI/examples_2component_2tab_horizontal_8cpp-example.html">Horizontal</a>:</p>
+<p><img src="https://user-images.githubusercontent.com/4759106/147250217-fe447e0f-7a99-4e08-948a-995087d9b40e.gif" alt="ezgif com-gif-maker (2)" class="inline"/></p>
+<p></p>
+</details>
+<h2><a class="anchor" id="autotoc_md70"></a>
+Libraries for FTXUI</h2>
+<ul>
+<li><em>Want to share a useful Component for FTXUI? Feel free to add yours here</em></li>
+<li><a href="https://github.com/mingsheng13/grid-container-ftxui">ftxui-grid-container</a></li>
+<li><a href="https://github.com/mingsheng13/ip-input-ftxui">ftxui-ip-input</a></li>
+<li><a href="https://github.com/ljrrjl/ftxui-image-view.git">ftxui-image-view</a>: For Image Display.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md71"></a>
+Project using FTXUI</h2>
+<p>Feel free to add your projects here:</p><ul>
+<li><a href="https://github.com/ArthurSonzogni/json-tui">json-tui</a></li>
+<li><a href="https://github.com/ArthurSonzogni/git-tui">git-tui</a></li>
+<li><a href="https://github.com/AP-Sensing/ostree-tui">ostree-tui</a></li>
+<li><a href="https://github.com/ArthurSonzogni/rgb-tui">rgb-tui</a></li>
+<li><a href="https://github.com/ArthurSonzogni/chrome-log-beautifier">chrome-log-beautifier</a></li>
+<li><a href="https://github.com/AnisBdz/CPU">x86-64 CPU Architecture Simulation</a></li>
+<li><a href="https://github.com/adrianoviana87/ltuiny">ltuiny</a></li>
+<li><a href="https://github.com/mibli/i3-termdialogs">i3-termdialogs</a></li>
+<li><a href="https://github.com/VedantParanjape/simpPRU">simpPRU</a></li>
+<li><a href="https://github.com/PigeonSensei/Pigeon_ros_tui">Pigeon ROS TUI</a></li>
+<li><a href="https://github.com/robinlinden/hastur">hastur</a></li>
+<li><a href="https://github.com/brevis/CryptoCalculator">CryptoCalculator</a></li>
+<li><a href="https://github.com/aaleino/todoman">todoman</a></li>
+<li><a href="https://github.com/asari555/TimeAccumulator">TimeAccumulator</a></li>
+<li><a href="https://github.com/gokulmaxi/vantage">vantage</a></li>
+<li><a href="https://github.com/typon/tabdeeli">tabdeeli</a></li>
+<li><a href="https://github.com/tusharpm/tiles">tiles</a></li>
+<li><a href="https://github.com/cachyos/new-cli-installer">cachyos-cli-installer</a></li>
+<li><a href="https://github.com/SAtacker/beagle-config">beagle-config</a></li>
+<li><a href="https://github.com/DanArmor/turing_cmd">turing_cmd</a></li>
+<li><a href="https://github.com/StubbornVegeta/StartUp">StartUp</a></li>
+<li><a href="https://github.com/eclipse-ecal/ecal">eCAL monitor</a></li>
+<li><a href="https://github.com/Ruebled/Path_Finder">Path Finder</a></li>
+<li><a href="https://github.com/LeeKyuHyuk/rw-tui">rw-tui</a></li>
+<li><a href="https://github.com/catalincd/resource-monitor">resource-monitor</a></li>
+<li><a href="https://github.com/J0sephDavis/ftxuiFileReader">ftxuiFileReader</a></li>
+<li><a href="https://github.com/tzzzzzzzx/ftxui_CPUMeter">ftxui_CPUMeter</a></li>
+<li><a href="https://github.com/nikoladucak/caps-log">Captain's log</a></li>
+<li><a href="https://github.com/MhmRhm/FTowerX">FTowerX</a></li>
+<li><a href="https://github.com/r3w0p/caravan">Caravan</a></li>
+<li><a href="https://github.com/BrianAnakPintar/step-writer">Step-Writer</a></li>
+<li><a href="https://github.com/xjmusic/xjmusic">XJ music</a></li>
+<li><a href="https://github.com/Sergeydigl3/udp-chat-tui">UDP chat</a></li>
+<li><a href="https://github.com/Chessom/2048-cpp">2048-cpp</a></li>
+<li><a href="https://github.com/mikolajlubiak/memory">Memory game</a></li>
+<li><a href="https://github.com/mikolajlubiak/terminal_animation">Terminal Animation</a></li>
+<li><a href="https://github.com/s0nx/pciex">pciex</a></li>
+<li><a href="https://github.com/gshigin/yet-another-fallout-terminal-hacking-game">Fallout terminal hacking</a></li>
+<li><a href="https://github.com/zhuyongqi9/lazylist">Lazylist</a></li>
+<li><a href="https://github.com/Dark-Kernel/tuisic">TUISIC</a></li>
+<li><a href="https://github.com/nots1dd/inLimbo">inLimbo</a></li>
+<li><a href="https://github.com/Xacone/BestEdrOfTheMarket">BestEdrOfTheMarket</a></li>
+<li><a href="https://github.com/Oakamoore/terminal-rain">terminal-rain</a></li>
+<li><a href="https://github.com/Oakamoore/keywords">keywords</a> (<a href="https://oakamoore.itch.io/keywords">Play web version :heart:</a>)</li>
+<li><a href="https://github.com/Cyxuan0311/FTB">FTB - tertminal file browser</a></li>
+<li><a href="https://github.com/ShingZhanho/ENGG1340-Project-25Spring">SHOOT!</a></li>
+</ul>
+<h3><a class="anchor" id="autotoc_md72"></a>
+&lt;a href="https://github.com/cpp-best-practices/game_jam" &gt;cpp-best-practices/game_jam&lt;/a&gt;</h3>
+<p>Several games using the FTXUI have been made during the Game Jam:</p><ul>
+<li><a href="https://github.com/ArthurSonzogni/termBreaker">TermBreaker</a> <a href="https://arthursonzogni.com/TermBreaker/"><b>[Play web version]</b></a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/minesweeper_marathon.md">Minesweeper Marathon</a> <a href="https://barlasgarden.com/minesweeper/index.html"><b>[Play web version]</b></a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/grandrounds.md">Grand Rounds</a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/LightsRound.v.0.1.0.md">LightsRound</a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/danteo.md">DanteO</a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/sumo.md">Sumo</a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/drag_me_around.md">Drag Me aROUND</a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/DisarmSelfDestruct.md">DisarmSelfDestruct</a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/TheWorld.md">TheWorld</a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/smoothlife.md">smoothlife</a></li>
+<li><a href="https://github.com/cpp-best-practices/game_jam/blob/main/Jam1_April_2022/consu.md">Consu</a></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md73"></a>
+Utilization</h2>
+<p>It is <b>highly</b> recommended to use CMake FetchContent to depend on FTXUI so you may specify which commit you would like to depend on. </p><div class="fragment"><div class="line">include(FetchContent)</div>
+<div class="line"> </div>
+<div class="line">FetchContent_Declare(ftxui</div>
+<div class="line">  GIT_REPOSITORY https://github.com/ArthurSonzogni/ftxui</div>
+<div class="line">  GIT_TAG v6.1.9</div>
+<div class="line">)</div>
+<div class="line"> </div>
+<div class="line">FetchContent_GetProperties(ftxui)</div>
+<div class="line">if(NOT ftxui_POPULATED)</div>
+<div class="line">  FetchContent_Populate(ftxui)</div>
+<div class="line">  add_subdirectory(${ftxui_SOURCE_DIR} ${ftxui_BINARY_DIR} EXCLUDE_FROM_ALL)</div>
+<div class="line">endif()</div>
+</div><!-- fragment --><p>If you don't, FTXUI may be used from the following packages:</p><ul>
+<li><a href="...">bazel</a></li>
+<li><a href="https://vcpkgx.com/details.html?package=ftxui">vcpkg</a></li>
+<li><a href="https://aur.archlinux.org/packages/ftxui-git/">Arch Linux PKGBUILD</a>.</li>
+<li><a href="https://conan.io/center/ftxui">conan.io</a></li>
+<li><a href="https://build.opensuse.org/package/show/devel:libraries:c_c++/ftxui">openSUSE</a></li>
+<li><a href="https://repology.org/project/libftxui/versions"><img src="https://repology.org/badge/vertical-allrepos/libftxui.svg" alt="Packaging status" style="pointer-events: none;" class="inline"/></a></li>
+</ul>
+<p>If you choose to build and link FTXUI yourself, <code>ftxui-component</code> must be first in the linking order relative to the other FTXUI libraries, i.e. </p><div class="fragment"><div class="line">g++ . . . -lftxui-component -lftxui-dom -lftxui-screen . . .</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md74"></a>
+Contributors</h2>
+<p><a href="https://github.com/ArthurSonzogni/FTXUI/graphs/contributors"><img src="https://contrib.rocks/image?repo=ArthurSonzogni/FTXUI" alt="" class="inline"/> </a> </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>
