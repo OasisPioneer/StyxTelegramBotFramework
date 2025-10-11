@@ -56,6 +56,76 @@
 * [ ] 网络通信
 * [ ] 插件系统
 
+---
+
+## 🌍 国际化与本地化
+
+本项目使用 `gettext` 工具集进行国际化 (i18n) 和本地化 (l10n)。以下是相关操作指南。
+
+#### 1. 提取文本生成模板文件 (.pot)
+
+此步骤会扫描源代码，将所有待翻译的文本提取到一个 `.pot` 模板文件中。
+
+*   **方法一：手动指定文件**
+    ```bash
+    xgettext --language=C++ --from-code=UTF-8 -o [输出.pot文件路径] --keyword=translate [源文件1] [源文件2] ...
+    ```
+    *   **示例：**
+        ```bash
+        xgettext --language=C++ --from-code=UTF-8 -o Language/StyxTelegramBotFramework.pot --keyword=translate Src/Main.CPP Src/Core/System/SingletonInstanceControl.CPP
+        ```
+
+*   **方法二：自动查找所有源文件 (推荐)**
+    此命令会自动查找 `Src` 和 `Include` 目录下的所有 `.CPP` 和 `.HPP` 文件。
+    ```bash
+    find Src Include -name "*.CPP" -o -name "*.HPP" | xargs xgettext --language=C++ --from-code=UTF-8 -o Language/StyxTelegramBotFramework.pot --keyword=translate
+    ```
+
+#### 2. 为新语言创建翻译文件 (.po)
+
+基于 `.pot` 模板文件，为目标语言（例如：简体中文 `zh_CN`）创建一个新的 `.po` 文件。此文件用于存放实际的译文。
+
+*   **命令格式：**
+    ```bash
+    msginit --input=[模板.pot文件] --locale=[语言代码] -o [输出.po文件路径]
+    ```
+*   **示例：**
+    ```bash
+    msginit --input=Language/StyxTelegramBotFramework.pot --locale=zh_CN -o Language/zh_CN/LC_MESSAGES/StyxTelegramBotFramework.po
+    ```
+    创建文件后，您需要手动编辑此 `.po` 文件，在 `msgstr` 字段中填入翻译。同时，请确保将文件头部的 `charset` 修改为 `UTF-8`：
+    ```po
+    "Content-Type: text/plain; charset=UTF-8\n"
+    ```
+
+#### 3. 更新现有的翻译文件
+
+当源代码中的文本发生变化后，您需要先重新执行第 1 步生成最新的 `.pot` 文件，然后使用以下命令将变更合并到现有的 `.po` 文件中，而不会丢失已有的翻译。
+
+*   **命令格式：**
+    ```bash
+    msgmerge --update [要更新的.po文件] [模板.pot文件]
+    ```
+*   **示例：**
+    ```bash
+    msgmerge --update Language/zh_CN/LC_MESSAGES/StyxTelegramBotFramework.po Language/StyxTelegramBotFramework.pot
+    ```
+
+#### 4. 编译翻译文件为二进制格式 (.mo)
+
+将编辑好的 `.po` 文件编译成程序可直接读取的二进制 `.mo` 文件。
+
+*   **命令格式：**
+    ```bash
+    msgfmt [输入的.po文件] -o [输出的.mo文件]
+    ```
+*   **示例：**
+    ```bash
+    msgfmt Language/zh_CN/LC_MESSAGES/StyxTelegramBotFramework.po -o Language/zh_CN/LC_MESSAGES/StyxTelegramBotFramework.mo
+    ```
+
+---
+
 ## 🔧 安装指南
 
 ## 🚀 快速开始

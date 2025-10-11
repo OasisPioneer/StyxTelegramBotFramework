@@ -58,6 +58,76 @@ Styx Telegram Bot Framework
 * [ ] Network Communication
 * [ ] Plugin system
 
+---
+
+## 🌍 Internationalization & Localization
+
+This project uses the `gettext` toolchain for internationalization (i18n) and localization (l10n).
+
+#### 1. Extract Strings to a Template File (.pot)
+
+This step scans the source code and extracts all translatable strings into a `.pot` (Portable Object Template) file.
+
+*   **Option 1: Specify files manually**
+    ```bash
+    xgettext --language=C++ --from-code=UTF-8 -o [path/to/output.pot] --keyword=translate [source_file_1] [source_file_2] ...
+    ```
+    *   **Example:**
+        ```bash
+        xgettext --language=C++ --from-code=UTF-8 -o Language/StyxTelegramBotFramework.pot --keyword=translate Src/Main.CPP Src/Core/System/SingletonInstanceControl.CPP
+        ```
+
+*   **Option 2: Find all source files automatically (Recommended)**
+    This command automatically finds all `.CPP` and `.HPP` files within the `Src` and `Include` directories.
+    ```bash
+    find Src Include -name "*.CPP" -o -name "*.HPP" | xargs xgettext --language=C++ --from-code=UTF-8 -o Language/StyxTelegramBotFramework.pot --keyword=translate
+    ```
+
+#### 2. Create a Translation File (.po) for a New Language
+
+Based on the `.pot` template, create a new `.po` file for a target language (e.g., Simplified Chinese `zh_CN`). This file will contain the actual translations.
+
+*   **Command:**
+    ```bash
+    msginit --input=[path/to/template.pot] --locale=[language_code] -o [path/to/output.po]
+    ```
+*   **Example:**
+    ```bash
+    msginit --input=Language/StyxTelegramBotFramework.pot --locale=zh_CN -o Language/zh_CN/LC_MESSAGES/StyxTelegramBotFramework.po
+    ```
+    After creating the file, you need to edit this `.po` file and fill in the translations in the `msgstr` fields. Also, ensure the `charset` in the file's header is set to `UTF-8`:
+    ```po
+    "Content-Type: text/plain; charset=UTF-8\n"
+    ```
+
+#### 3. Update an Existing Translation File
+
+When the source code strings change, you first need to regenerate the `.pot` file (Step 1), and then use the following command to merge the changes into your existing `.po` files without losing previous translations.
+
+*   **Command:**
+    ```bash
+    msgmerge --update [path/to/existing.po] [path/to/template.pot]
+    ```
+*   **Example:**
+    ```bash
+    msgmerge --update Language/zh_CN/LC_MESSAGES/StyxTelegramBotFramework.po Language/StyxTelegramBotFramework.pot
+    ```
+
+#### 4. Compile the Translation File to Binary Format (.mo)
+
+Compile the edited `.po` file into a binary `.mo` file, which is optimized for the program to read at runtime.
+
+*   **Command:**
+    ```bash
+    msgfmt [path/to/input.po] -o [path/to/output.mo]
+    ```
+*   **Example:**
+    ```bash
+    msgfmt Language/zh_CN/LC_MESSAGES/StyxTelegramBotFramework.po -o Language/zh_CN/LC_MESSAGES/StyxTelegramBotFramework.mo
+    ```
+
+---
+
 ## 🔧 Installation
 
 ## 🚀 Quick Start
