@@ -91,6 +91,8 @@ a smooth process.
 * [BTC] `1C9L21Y4VTbeVeTnccyhZb6ziJfdpyQswz`
 * [USDT-TRC20] `TGMPjDRU92JYjidTu6tRuqZezqrNhWZcYS`
 
+<img alt="Sponsor" align="center" src="/Docs/Sponsor.png"/>
+
 ## 💬 Communication and Feedback
 [![Telegram Channel](https://img.shields.io/badge/Telegram-JoinChannel-blue?style=for-the-badge&logo=telegram)](https://t.me/StyxTelegramBotFramework)
 
