@@ -1,8 +1,11 @@
 #ifndef STYXTELEGRAMBOTFRAMEWORK_TELEGRAMHTTPCLIENT_HPP
 #define STYXTELEGRAMBOTFRAMEWORK_TELEGRAMHTTPCLIENT_HPP
 
+#include "TelegramDataStructure.HPP"
+
 #include <string>
 #include <chrono>
+#include <optional>
 
 #include <boost/json/object.hpp>
 #include <boost/system/error_code.hpp>
@@ -91,6 +94,67 @@ class TelegramHTTPClient {
             boost::system::error_code& OutPutError,
             std::chrono::seconds TimeOut = std::chrono::seconds(30)
             );
+    
+    /**
+     * @brief
+     *   @if LANG_CN 发送文本消息。
+     *   @endif
+     *   @if LANG_EN Sends a text message.
+     *   @endif
+     */
+    bool SendMessage(
+        const std::string& Token,
+        const Telegram::ChatId& ChatId,
+        const std::string& Text,
+        const std::optional<Telegram::InlineKeyboardMarkup>& ReplyMarkup = std::nullopt,
+        const std::optional<std::int32_t>& ReplyToMessageId = std::nullopt,
+        boost::system::error_code* OutPutError = nullptr
+    );
+    
+    /**
+     * @brief
+     *   @if LANG_CN 编辑消息。
+     *   @endif
+     *   @if LANG_EN Edits a message.
+     *   @endif
+     */
+    bool EditMessage(
+        const std::string& Token,
+        const Telegram::ChatId& ChatId,
+        std::int32_t MessageId,
+        const std::string& Text,
+        const std::optional<Telegram::InlineKeyboardMarkup>& ReplyMarkup = std::nullopt,
+        boost::system::error_code* OutPutError = nullptr
+    );
+    
+    /**
+     * @brief
+     *   @if LANG_CN 删除消息。
+     *   @endif
+     *   @if LANG_EN Deletes a message.
+     *   @endif
+     */
+    bool DeleteMessage(
+        const std::string& Token,
+        const Telegram::ChatId& ChatId,
+        std::int32_t MessageId,
+        boost::system::error_code* OutPutError = nullptr
+    );
+    
+    /**
+     * @brief
+     *   @if LANG_CN 回答回调查询。
+     *   @endif
+     *   @if LANG_EN Answers a callback query.
+     *   @endif
+     */
+    bool AnswerCallbackQuery(
+        const std::string& Token,
+        const std::string& CallbackQueryId,
+        const std::optional<std::string>& Text = std::nullopt,
+        bool ShowAlert = false,
+        boost::system::error_code* OutPutError = nullptr
+    );
     private:
         TelegramHTTPClientIMPL* IMPL_;
 };

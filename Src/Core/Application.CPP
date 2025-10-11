@@ -3,7 +3,7 @@
 #include "Core/System/EnvironmentSetup.HPP"
 #include "Core/System/LogCollector.HPP"
 #include "TerminalUserInterface/TUIManage.HPP"
-
+#include "Core/System/FrameworkServices.HPP"
 #include "NetWork/TelegramHTTPClient.HPP"
 #include "Plugins/PluginManage.HPP"
 #include "Plugins/BotManage.HPP"
@@ -63,6 +63,14 @@ void Application::Start() {
     Plugin.LoadingPlugins("Plugins");
 
     for (const auto& plugin_info : Plugin.GetLoadedPlugins()) {
+        // 为每个插件的服务设置 HTTP 客户端
+        if (plugin_info.Service) {
+            if (auto* framework_service = dynamic_cast<FrameworkServices*>(plugin_info.Service.get())) {
+                framework_service->SetHttpClient(&HTTPClient);
+                // Token 已经在 PluginManage 中设置
+            }
+        }
+        
         BotManager.RegisterBot(plugin_info.Instance);
     }
 

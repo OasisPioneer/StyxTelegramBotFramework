@@ -47,8 +47,14 @@ void PluginManage::LoadingPlugins(const std::string& DirectoryPath) {
                 dlclose(Handle);
                 continue;
             }
+            // 创建增强的框架服务
             auto Serve = std::make_unique<FrameworkServices>();
             const char* Token = PluginsInstance->Initialize(Serve.get());
+            
+            // 如果插件返回了 Token，设置到服务中
+            if (Token && strlen(Token) > 0) {
+                Serve->SetToken(Token);
+            }
 
             if (Token && strlen(Token) > 0) {
                 LOG_INFO(boost::locale::translate("Successfully loaded ").str() + PluginsInstance->Name() + boost::locale::translate(" Token").str());

@@ -6,8 +6,7 @@
 #include <boost/asio/connect.hpp>
 #include <boost/asio/ip/tcp.hpp>
 #include <boost/asio/ssl.hpp>
-#include <boost/asio/steady_timer.hpp>
-#include <boost/json/serialize.hpp>
+#include <boost/json.hpp>
 
 class TelegramHTTPClientIMPL {
     public:
@@ -86,7 +85,7 @@ bool TelegramHTTPClientIMPL::PerformRequest(
         if(OutPutError) return false;
 
         // 接收响应
-        boost::beast::flat_buffer Buffer;
+        boost::beast::multi_buffer Buffer;
         boost::beast::http::response<boost::beast::http::string_body> Response;
         boost::beast::http::read(Stream, Buffer, Response, OutPutError );
         if(OutPutError) return false;
@@ -117,4 +116,194 @@ bool TelegramHTTPClient::PerformRequest(
 
 TelegramHTTPClient::~TelegramHTTPClient() {
     delete IMPL_;
+}
+
+// 辅助函数：将 ChatId 转换为字符串
+static std::string ChatIdToString(const Telegram::ChatId& chat_id) {
+    if (std::holds_alternative<std::int64_t>(chat_id)) {
+        return std::to_string(std::get<std::int64_t>(chat_id));
+    } else {
+        return std::get<std::string>(chat_id);
+    }
+}
+
+// 辅助函数：将 InlineKeyboardMarkup 转换为 JSON
+static boost::json::value InlineKeyboardToJson(const Telegram::InlineKeyboardMarkup& markup) {
+    boost::json::array keyboard_array;
+    for (const auto& row : markup.InlineKeyboard) {
+        boost::json::array row_array;
+        for (const auto& button : row) {
+            boost::json::object button_obj;
+            button_obj["text"] = button.Text;
+            
+            if (button.Url.has_value()) {
+                button_obj["url"] = button.Url.value();
+            }
+            if (button.CallbackData.has_value()) {
+                button_obj["callback_data"] = button.CallbackData.value();
+            }
+            if (button.SwitchInlineQuery.has_value()) {
+                button_obj["switch_inline_query"] = button.SwitchInlineQuery.value();
+            }
+            if (button.SwitchInlineQueryCurrentChat.has_value()) {
+                button_obj["switch_inline_query_current_chat"] = button.SwitchInlineQueryCurrentChat.value();
+            }
+            
+            row_array.push_back(button_obj);
+        }
+        keyboard_array.push_back(row_array);
+    }
+    
+    boost::json::object markup_obj;
+    markup_obj["inline_keyboard"] = keyboard_array;
+    return markup_obj;
+}
+
+bool TelegramHTTPClient::SendMessage(
+    const std::string& Token,
+    const Telegram::ChatId& ChatId,
+    const std::string& Text,
+    const std::optional<Telegram::InlineKeyboardMarkup>& ReplyMarkup,
+    const std::optional<std::int32_t>& ReplyToMessageId,
+    boost::system::error_code* OutPutError)
+{
+    boost::json::object params;
+    params["chat_id"] = ChatIdToString(ChatId);
+    params["text"] = Text;
+    
+    if (ReplyToMessageId.has_value()) {
+        params["reply_to_message_id"] = ReplyToMessageId.value();
+    }
+    
+    if (ReplyMarkup.has_value()) {
+        params["reply_markup"] = boost::json::serialize(InlineKeyboardToJson(ReplyMarkup.value()));
+    }
+    
+    std::string response;
+    boost::system::error_code error;
+    bool result = PerformRequest(Token, "sendMessage", params, response, error);
+    
+    if (OutPutError) {
+        *OutPutError = error;
+    }
+    
+    if (result) {
+        try {
+            auto parsed_value = boost::json::parse(response);
+            auto json_response = parsed_value.as_object();
+            return json_response.contains("ok") && json_response.at("ok").as_bool();
+        } catch (...) {
+            return false;
+        }
+    }
+    
+    return false;
+}
+
+bool TelegramHTTPClient::EditMessage(
+    const std::string& Token,
+    const Telegram::ChatId& ChatId,
+    std::int32_t MessageId,
+    const std::string& Text,
+    const std::optional<Telegram::InlineKeyboardMarkup>& ReplyMarkup,
+    boost::system::error_code* OutPutError)
+{
+    boost::json::object params;
+    params["chat_id"] = ChatIdToString(ChatId);
+    params["message_id"] = MessageId;
+    params["text"] = Text;
+    
+    if (ReplyMarkup.has_value()) {
+        params["reply_markup"] = boost::json::serialize(InlineKeyboardToJson(ReplyMarkup.value()));
+    }
+    
+    std::string response;
+    boost::system::error_code error;
+    bool result = PerformRequest(Token, "editMessageText", params, response, error);
+    
+    if (OutPutError) {
+        *OutPutError = error;
+    }
+    
+    if (result) {
+        try {
+            auto parsed_value = boost::json::parse(response);
+            auto json_response = parsed_value.as_object();
+            return json_response.contains("ok") && json_response.at("ok").as_bool();
+        } catch (...) {
+            return false;
+        }
+    }
+    
+    return false;
+}
+
+bool TelegramHTTPClient::DeleteMessage(
+    const std::string& Token,
+    const Telegram::ChatId& ChatId,
+    std::int32_t MessageId,
+    boost::system::error_code* OutPutError)
+{
+    boost::json::object params;
+    params["chat_id"] = ChatIdToString(ChatId);
+    params["message_id"] = MessageId;
+    
+    std::string response;
+    boost::system::error_code error;
+    bool result = PerformRequest(Token, "deleteMessage", params, response, error);
+    
+    if (OutPutError) {
+        *OutPutError = error;
+    }
+    
+    if (result) {
+        try {
+            auto parsed_value = boost::json::parse(response);
+            auto json_response = parsed_value.as_object();
+            return json_response.contains("ok") && json_response.at("ok").as_bool();
+        } catch (...) {
+            return false;
+        }
+    }
+    
+    return false;
+}
+
+bool TelegramHTTPClient::AnswerCallbackQuery(
+    const std::string& Token,
+    const std::string& CallbackQueryId,
+    const std::optional<std::string>& Text,
+    bool ShowAlert,
+    boost::system::error_code* OutPutError)
+{
+    boost::json::object params;
+    params["callback_query_id"] = CallbackQueryId;
+    
+    if (Text.has_value()) {
+        params["text"] = Text.value();
+    }
+    
+    if (ShowAlert) {
+        params["show_alert"] = true;
+    }
+    
+    std::string response;
+    boost::system::error_code error;
+    bool result = PerformRequest(Token, "answerCallbackQuery", params, response, error);
+    
+    if (OutPutError) {
+        *OutPutError = error;
+    }
+    
+    if (result) {
+        try {
+            auto parsed_value = boost::json::parse(response);
+            auto json_response = parsed_value.as_object();
+            return json_response.contains("ok") && json_response.at("ok").as_bool();
+        } catch (...) {
+            return false;
+        }
+    }
+    
+    return false;
 }
