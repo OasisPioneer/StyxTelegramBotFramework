@@ -160,7 +160,7 @@
 <img alt="Sponsor" align="center" src="/Docs/Sponsor.png"/>
 
 ## 💬 交流反馈
-[![Telegram Channel](https://img.shields.io/badge/Telegram-加入频道-blue?style=for-the-badge&logo=telegram)](https://t.me/StyxTelegramBotFramework)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-加入频道-blue?style=for-the-badge&logo=telegram)](https://t.me/StyxCommunity)
 
 <p align="right"><a href="#README-TOP"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

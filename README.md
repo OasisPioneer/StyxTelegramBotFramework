@@ -164,7 +164,7 @@ a smooth process.
 <img alt="Sponsor" align="center" src="/Docs/Sponsor.png"/>
 
 ## 💬 Communication and Feedback
-[![Telegram Channel](https://img.shields.io/badge/Telegram-JoinChannel-blue?style=for-the-badge&logo=telegram)](https://t.me/StyxTelegramBotFramework)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-JoinChannel-blue?style=for-the-badge&logo=telegram)](https://t.me/StyxCommunity)
 
 <p align="right"><a href="#README-TOP"><img src="https://img.shields.io/badge/Back to top-555555?style=for-the-badge"></a></p>
 
