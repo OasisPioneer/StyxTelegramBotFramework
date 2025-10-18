@@ -2,3 +2,5 @@
 Examples/MyFirstPlugin/Build/
 cmake-build-debug/
 cmake-build-release/
+Docs/CN/
+Docs/EN/
